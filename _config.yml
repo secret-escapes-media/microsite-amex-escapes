@@ -1,0 +1,10 @@
+# Site settings
+title: Summer Escapes
+description: >
+  American Express and Secret Escapes have brought you a collection of summer escapes set to kick-start your wanderlust. Browse city breaks, long-haul luxury, staycations and more, with a host of luxurious offers made for superlative getaways.
+baseurl: "/summer-escapes" # the subpath of your site, e.g. /blog/
+url: "http://mp.secretescapes.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+exclude: [node_modules, gulpfile.js, package.json, bower_components, bower.json, README.md]

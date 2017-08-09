@@ -1,0 +1,19 @@
+<footer>
+  {% include microsite-nav-footer.html %}
+  <div class="footer">
+    <div class="row row--padding">
+      <div class="footer__logos align-center">
+        <a class="logo logo--secret-escapes" href="https://www.secretescapes.com/"><img class="js-svg-swap" src="{{ site.baseurl }}/img/logo/secret-escapes.png" alt="Secret Escapes logo"></a>
+        {% include partner-logo.html %}
+        <p class="p--center">© Copyright <span class="js-year">2016</span> Secret Escapes</p>
+        {% if page.id == 'amex' %}
+          <p class="p--center"><a href="#" class="js-open-modal">* See Terms & Conditions</a></p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</footer>
+
+{% if page.id == 'amex' %}
+  {% include modal-terms.html %}
+{% endif %}

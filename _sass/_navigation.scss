@@ -1,0 +1,410 @@
+// site header and navigation styles
+
+
+$core-nav-height: 70px;
+$site-nav-height: 70px;
+// $site-header-height: ($core-nav-height + $site-nav-height);
+.site-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: $z-nav-upper;
+  height: $core-nav-height;
+  &__offset:before {
+    // corrects header overlapping content. must
+    content: '';
+    display: block;
+    height: $core-nav-height;
+  }
+}
+
+
+// ---------- NAV FOR CORE SE SITE ----------
+
+.core-nav {
+  font-family: $core-font-family;
+  color: $white;
+  text-align: center;
+  background-color: $black-75;
+  * { vertical-align: middle; }
+  &__wrap {
+    position: relative;
+    display: table;
+    height: $core-nav-height;
+    width: 100%;
+  }
+  &__column {
+    position: absolute;
+    &--left {
+      padding-top: 1em;
+      .csstransforms.csstransforms3d & {
+        top: 50%;
+        padding-top: 0;
+        transform: translateY(-50%);
+      }
+    }
+    &--center {
+      width: 60%;
+      padding-top: 1em;
+      .csstransforms.csstransforms3d & {
+        top: 50%;
+        left: 50%;
+        padding-top: 0;
+        transform: translate(-50%, -50%);
+      }
+    }
+    &--right {
+      display: none;
+    }
+    @include bp(small){
+      &--center{ width: auto; }
+    };
+    @include bp( medium ){
+      &--right {
+        right: 0;
+        display: block;
+        padding-top: 1em;
+        .csstransforms.csstransforms3d & {
+          top: 50%;
+          right: 0;
+          width: auto;
+          padding-top: 0;
+          transform: translateY(-50%);
+        }
+      }
+    }
+    @include bp( xlarge ){
+      &--left {
+        display: none;
+      }
+      &--center {
+        left: 0;
+        width: auto;
+        .csstransforms.csstransforms3d & {
+          top: 50%;
+          left: 0;
+          width: auto;
+          padding-top: 0;
+          transform: translateY(-50%);
+        }
+      }
+    };
+  }
+  &__divider {
+    display: none;
+    height: ($core-nav-height / 1.5);
+    width: 1em;
+    @include bp( xlarge ){
+      display: inline-block;
+    }
+  }
+  &__list {
+    display: none;
+    text-transform: uppercase;
+    font-size: .833em;
+    font-weight: 700;
+    @include bp( xlarge ){
+      display: inline-block;
+    }
+  }
+  &__item {
+    display: inline-block;
+    & + & {
+      margin-left: 1em;
+    }
+  }
+  &__link {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    @include transition;
+    &:hover,
+    &--current {
+      color: $se-orange;
+      text-decoration: none;
+    }
+  }
+}
+
+
+// ---------- NAV FOR MICROSITE ----------
+
+$nav-arrow-width: 66px;
+.site-nav {
+  height: $site-nav-height;
+  font-family: $core-font-family;
+  text-align: center;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: .15em;
+  line-height: ($site-nav-height+1);
+  text-transform: uppercase;
+  color: $amex-blue-dark;
+  background-color: rgba($white,.87);
+  overflow: hidden;
+  &__list {
+    padding-right: $nav-arrow-width;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    &:before {
+      // prompt for horizontal scroll on phone
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      z-index: $z-nav-upper;
+      display: block;
+      width: $nav-arrow-width;
+      height: $site-nav-height;
+      background-image: url("../img/icons/nav-arrow-light.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: $nav-arrow-width auto;
+    }
+    @include bp(large){
+      // remove the prompt for sideways scroll
+      padding-right: 0;
+      overflow: visible;
+      &:before { display: none; }
+    }
+  }
+  &__item {
+    display: inline-block;
+    white-space: nowrap;
+    border-left: 1px solid $amex-cyan-light;
+    @include transition;
+    &:last-of-type { border-right: 1px solid $amex-cyan-light; }
+    &.is-current {
+      background-color: $white;
+      border-color: $white;
+      + .site-nav__item { border-left-color: $white; }
+    }
+    &:hover {
+      background-color: $amex-cyan-lighter;
+      border-color: $amex-cyan-lighter;
+    }
+    // changes neighbour item border
+    &:hover + & { border-color: $amex-cyan-lighter; }
+  }
+  &__link {
+    display: inline-block;
+    padding-left: 2em;
+    padding-right: 2em;
+    &:hover,
+    &--current { text-decoration: none; }
+  }
+  @include bp(large){
+    overflow: visible;
+    height: auto;
+    .flexbox & {
+      &__list {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+      }
+      &__item { flex-grow: 1; }
+      &__link {
+        padding: 0;
+        width: 100%;
+      }
+    }
+  }
+}
+
+// ---------- DROP DOWN LIST NAV ----------
+
+.category-nav {
+  display: none;
+  @include bp(large){
+    position: absolute;
+    top: ($site-nav-height)+1;
+    left: 0;
+    right: 0;
+    z-index: $z-nav;
+    display: none;
+    width: 100%;
+    margin-left: -1px;
+    margin-right: -1px;
+    text-align: center;
+    table-layout: fixed; // weird even columns table cell hack
+    transition: all ($transition-time*2) ease;
+    .csstransforms.csstransforms3d & {
+      display: table;
+      transform: scaleY(0);
+      transform-origin: top center;
+    }
+    .site-nav__item:hover &{
+      display: table;
+      .csstransforms.csstransforms3d & {
+      transform: scaleY(1);
+      }
+    }
+  }
+  &__item {
+    display: table-cell;
+    width: 2%;  // weird even columns table cell hack
+    height: ($site-nav-height*4);
+    background-color: $white;
+    color: $amex-blue-dark;
+    vertical-align: top;
+    @include background-attributes;
+  }
+  &__link {
+    display: table;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($white,.5);
+    &-wrap {
+      display: table-cell;
+      vertical-align: middle;
+      white-space: normal;
+      font-size: 1.2em;
+      line-height: 1.33;
+      padding-left: $margin;
+      padding-right: $margin;
+    }
+    @include transition;
+    &:hover {
+      text-decoration: none;
+      letter-spacing: .225em
+    }
+  }
+}
+
+
+
+// ---------- MOBILE NAV OFF CANVAS ----------
+
+$mobile-nav-width: 75%;
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: $z-overlay;
+  width: $mobile-nav-width;
+  color: $white;
+  font-family: $core-font-family;
+  background-color: $se-dark-grey-85;
+  overflow-y: auto;
+  @include transition;
+  &.is-closed {
+    left: -$mobile-nav-width;
+    visibility: hidden;
+    opacity: 0;
+  }
+  &.is-open {
+    left: 0;
+    visibility: visible;
+    opacity: 1;
+  }
+  &__list {
+    border-top: 1px solid $black-33;
+    border-bottom: 1px solid $black-33;
+  }
+  &__item {
+    list-style: none;
+    & + & { border-top: 1px solid $black-33; }
+  }
+  &__link {
+      @include transition;
+      display: block;
+      padding-top: .694em;
+      padding-bottom: .694em;
+      font-size: 1em;
+      font-weight: 700;
+      text-transform: uppercase;
+      &:hover {
+        color: $se-orange;
+        background-color: $se-dark-grey-33;
+        text-decoration: none;
+      }
+      &--current { color: $se-orange; }
+  }
+  &__bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1em;
+    background: $se-dark-grey-85;
+    text-align: center;
+     > * {
+       vertical-align: middle;
+     }
+    @include bp-vertical {
+      position: static;
+    }
+    @include bp(medium){
+      display: none;
+    }
+  }
+  @include bp(xlarge){
+    display: none;
+  }
+}
+
+
+// ---------- SITE FOOTER ----------
+footer { background-color: rgba($white,.5); }
+.footer {
+  background-color: $black-85;
+  &__logos {
+    font-size: .9em;
+    border-top: 1px solid $white-15;
+    padding-top: $margin;
+    padding-bottom: $margin;
+  }
+  .logo {
+    vertical-align: middle;
+    margin-left: ($margin/4);
+    margin-right: ($margin/4);
+  }
+  p { margin-top: .5em; }
+  .logo--secret-escapes { max-width: 110px; }
+}
+
+
+// ---------- ICONS ----------
+
+$icon-size: 27px;
+.icon {
+  display: inline-block;
+  height: $icon-size;
+  width: $icon-size;
+  cursor: pointer;
+  vertical-align: middle;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: $icon-size;
+  &--menu {
+    background-image: url("../img/icons/menu.png");
+    svg & { background-image: url("../img/icons/menu.svg"); }
+  }
+  &--close {
+    background-image: url("../img/icons/close.png");
+    svg & { background-image: url("../img/icons/close.svg"); }
+  }
+}
+
+
+// ---------- LOGOS ----------
+
+.logo {
+  display: inline-block;
+  &--secret-escapes {
+    max-width: 170px;
+    padding-top: 4px;
+    .footer__logos & {
+      padding-top: 0;
+    }
+  }
+  &--partner {
+    max-width: 45px;
+    & + & {
+      padding-left: 1em;
+    }
+  }
+}

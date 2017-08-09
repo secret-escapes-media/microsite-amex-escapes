@@ -1,0 +1,82 @@
+---
+layout: standard
+id: amex
+title: American Express
+title-long: Wherever your travels take you, enjoy special benefits and rewards to make every moment unforgettable.
+nav-order: 3
+
+amex-link: "#amex-link"
+amex-content:
+
+  - title: Car rental benefits
+    image: car.jpg
+    copy: >
+      Get 10% off Hertz base car rental rates, plus a one car class upgrade on bookings of five consecutive days or more, and additional driver fee waived. (Upgrades are subject to availability).<sup>1</sup>
+
+  - title: Hotel credits and upgrades
+    image: upgrades.jpg
+    copy: >
+      Enjoy $75 USD hotel credit and a room upgrade where available at over 500 hotels globally.<sup>2</sup>
+
+  - title: Protection
+    image: protection.jpg
+    copy: >
+      Enjoy peace of mind with inclusive travel accident and inconvenience cover for you and your family.<sup>3</sup>
+
+  - title: >
+      20,000 Membership Rewards<sup>®</sup> points welcome bonus
+    image: rewards.jpg
+    copy: >
+      Earn 20,000 Membership Rewards® points when you spend £2,000 in your first three months of Cardmembership. That’s enough for a return flight from London to over 100 destinations.<sup>4</sup>
+
+  - title: Complimentary lounge pass
+    image: lounge.jpg
+    copy: >
+      Enjoy two complimentary lounge visits per year to use at over 500 airport lounges globally.<sup>5</sup>
+
+
+---
+
+<div class="section bg--amex-blue-dark invert-text">
+  <div class="row row--xl row--padding">
+    <div class="row">
+      <h1 class="title title--small title--color">{{page.title-long}}</h1>
+      <p class="p--large">Make the American Express Gold Card your new travel companion. Designed for intrepid travels, you’ll have all you need to make each moment a special one. With hotel credits and upgrades, car rental benefits and protection to ensure you needn’t worry when abroad, the Gold Card is set to complement your adventures and ensure luxury wherever you may find yourself…</p>
+    </div>
+    <div class="row row--columns-4-8-gutters row--columns-vertical-align">
+      <div class="row__column">
+        <a href="{{page.amex-link}}"><img src="{{site.baseurl}}/img/content/amex/gold-card.png" alt="American Express Gold Card"></a>
+      </div>
+      <div class="row__column text--gold">
+        <h1 class="title title--smallest title--color title--bold">Preferred Rewards Gold Card</h1>
+        <p class="text--bold"></p>
+        <p class="text--bold">Annual Fee £140 (£0 in the first year). <br>If you'd prefer a Card without any rewards, other features or a Cardmembership fee, an alternative Card is available – The Basic Card</p>
+      </div>
+    </div>
+    <div class="row align-center">
+      <a href="{{page.amex-link}}" class="btn btn--cyan">Find Out More</a>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="row row--padding">
+    {% for copy in page.amex-content %}
+      <div class="bob{% cycle '', ' bob--swap' %}">
+        <div class="bob__image">
+          <a href="{{page.amex-link}}"><div class="bg-image-ratio bg-image-ratio--3-2" style="background-image: url('{{site.baseurl}}/img/content/amex/{{copy.image}}');"></div></a>
+        </div>
+        <div class="bob__text">
+          <h2 class="title title--medium">{{copy.title}}</h2>
+          <p>{{copy.copy}}</p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="section section--equal-padding">
+  <div class="row row--padding align-center">
+    <a href="{{page.amex-link}}" class="btn btn--cyan">Find Out More</a>
+  </div>
+</div>

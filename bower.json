@@ -1,0 +1,18 @@
+{
+  "name": "amex-summer-escapes",
+  "version": "0.0.0",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "1.11.1",
+    "susy": "~2.2.6",
+    "reset-css": "^2.2.0",
+    "jquery.countdown": "^2.2.0"
+  }
+}

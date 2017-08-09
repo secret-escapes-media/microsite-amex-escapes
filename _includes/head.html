@@ -1,0 +1,43 @@
+<head>
+
+  <!-- this mess gets the correct meta description for the page & sets variable  -->
+  {% if page.layout == 'destination' %}
+    {% assign page-class = page.title | slugify %}
+    {% assign destinations = site.data.[page.category] %}
+    {% for destination in destinations %}
+      {% if destination.title == page.title %}
+        {% assign page-description = destination.intro | strip_html | truncate: 155 %}
+      {% endif %}
+    {% endfor %}
+  {% elsif page.intro %}
+    {% assign page-description = page.intro | strip_html | strip_newlines | truncate: 155 %}
+  {% else %}
+    {% assign page-description = site.description %}
+  {% endif %}
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title }} | {{ site.title}}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{page-description}}">
+
+  <!-- START Social Data -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.title}}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+  <meta property="og:description" content="{{page-description}}">
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/img/social/social.jpg">
+  <meta name="twitter:card" value="summary_large_image">
+  <meta name="twitter:site" content="@secret_escapes">
+  <meta name="twitter:title" content="{{ page.title }} | {{ site.title}}">
+  <meta name="twitter:description" content="{{page-description}}">
+  <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/img/social/social.jpg">
+  <!-- END Social Data -->
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700italic,700,600italic,600,400italic,300italic,300" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+  <script src="{{ site.baseurl }}/js/scripts.min.js"></script>
+
+</head>

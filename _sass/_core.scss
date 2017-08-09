@@ -1,0 +1,220 @@
+// global variables & useful tools
+
+
+// -------- colors --------
+
+$white:      #fff;
+$black:      #000;
+$light-grey: #e1e1e1;
+$grey:       #74787d;
+$dark-grey:  #1a1a1a;
+
+$white-15:    rgba(255,255,255,.15);
+$white-25:    rgba(255,255,255,.25);
+$white-33:    rgba(255,255,255,.33);
+$white-5:     rgba(255,255,255,.5);
+$white-66:    rgba(255,255,255,.66);
+$white-75:    rgba(255,255,255,.75);
+$white-85:    rgba(255,255,255,.85);
+$black-15:    rgba(0,0,0,.15);
+$black-25:    rgba(0,0,0,.25);
+$black-33:    rgba(0,0,0,.33);
+$black-5:     rgba(0,0,0,.5);
+$black-66:    rgba(0,0,0,.66);
+$black-75:    rgba(0,0,0,.75);
+$black-85:    rgba(0,0,0,.85);
+
+$se-orange:       #ff8c00;
+$se-orange-20:    rgba(255,140,0,.20);
+$se-orange-66:    rgba(255,140,0,.66);
+$se-orange-85:    rgba(255,140,0,.85);
+$se-light-grey:   #dadada;
+$se-dark-grey:    #292728;
+$se-dark-grey-33: rgba(41,39,40,.33);
+$se-dark-grey-5:  rgba(41,39,40,.5);
+$se-dark-grey-66: rgba(41,39,40,.66);
+$se-dark-grey-85: rgba(41,39,40,.85);
+
+$norway-red:          #b92f29;
+$norway-red-light:    #f6eae9;
+$norway-blue:         #2578b2;
+$norway-grey:         #dadcdf;
+$norway-dark-grey:    #4f5762;
+$norway-dark-grey-5:  rgba(79,87,98,.5);
+$norway-dark-grey-66: rgba(79,87,98,.66);
+$norway-light-grey:   #f6f6f7;
+
+$amex-cyan:         #009bbb;
+$amex-cyan-light:   #bee1e7;
+$amex-cyan-lighter: #ddf0f3;
+$amex-blue:         #002663;
+$amex-blue-dark:    #0b2241;
+$amex-grey:         #b6c5c9;
+
+
+$text-black:      #4d4d4d;
+$text-grey:       #808080;
+$title-black:     #47484a;
+$paragraph-black: #666666;
+
+
+// -------- breakpoints --------
+
+$xxxlarge:  1200px;
+$xxlarge:   970px;
+$xlarge:    800px;
+$large:     650px;
+$medium:    520px;
+$small:     400px;
+
+@mixin bp($width){
+  @if $width == xxxlarge {
+    @media (min-width:$xxxlarge) {@content;}
+  }
+  @if $width == xxlarge {
+    @media (min-width:$xxlarge) {@content;}
+  }
+  @if $width == xlarge {
+    @media (min-width:$xlarge) {@content;}
+  }
+  @if $width == large {
+    @media (min-width:$large) {@content;}
+  }
+  @if $width == medium {
+    @media (min-width:$medium) {@content;}
+  }
+  @if $width == small {
+    @media (min-width:$small) {@content;}
+  }
+}
+
+// vertical breakpoint for small screen mobile
+@mixin bp-vertical {
+  @media (max-height:$medium) and (max-width:$large) { @content; }
+}
+
+
+// -------- global box-sizing & font smoothing --------
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+     -moz-font-smoothing: antialiased;
+          font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+
+// -------- responsive images --------
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: bottom;
+}
+.js-svg-swap {
+  max-width: 100%;
+  width: 100%;
+}
+
+
+// -------- text link style --------
+
+a {
+  color: inherit;
+  text-decoration:none;
+  &:hover { text-decoration: underline; }
+  &.a--plain:hover { text-decoration: none; }
+}
+
+
+// -------- enable 100% height --------
+
+body, html { height: 100%; }
+
+
+// -------- general transition --------
+
+$transition-time: .25s;
+@mixin transition() { transition: all $transition-time ease; }
+
+
+// -------- clearfix --------
+
+@mixin clearfix() {
+  &:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
+
+.clearfix {
+  @include clearfix();
+}
+
+
+// -------- accessible hiding --------
+
+.hidden {
+  position: absolute;
+  left: -9999em;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+
+// -------- z-index values --------
+
+$z-overlay-upper:   25;
+$z-overlay:         20;
+$z-nav-upper:       15;
+$z-nav:             10;
+$z-content-overlay: 6;
+$z-content-upper:   5;
+$z-content:         0;
+$z-background:      -1;
+
+
+// -------- background image ratios --------
+
+.bg-image-ratio {
+  display: block;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: $grey;
+  width: 100%;
+  &:before {
+    display: block;
+    content: "";
+    width: 100%;
+  }
+  &--circle {
+    border-radius: 9999999em;
+  }
+  &--1-1:before   { padding-top: 100%; }
+  &--4-3:before   { padding-top: 75%; }
+  &--3-2:before   { padding-top: 66.666666666667%; }
+  &--16-9:before  { padding-top: 56.25%; }
+  &--21-9:before  { padding-top: 42.8571429%; }
+}
+
+
+// -------- generic styles --------
+
+// standard bg position, repeat, etc
+@mixin background-attributes {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-size: cover;
+}

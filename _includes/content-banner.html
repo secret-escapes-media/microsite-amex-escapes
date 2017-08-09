@@ -1,0 +1,10 @@
+<section class="title-banner">
+  <div class="title-banner__wrap">
+    <div class="title-banner__title">
+      <div class="title-banner__title-wrap title-banner__title-wrap--narrow">
+        {% if page.content-banner.title %}<h1 class="title title--color title--larger title--light">{{page.content-banner.title}}</h1>{% endif %}
+        {{page.content-banner.content | liquify}}
+      </div>
+    </div>
+  </div>
+</section>

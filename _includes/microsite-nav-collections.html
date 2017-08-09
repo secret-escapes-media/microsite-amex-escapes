@@ -1,0 +1,3 @@
+<ul class="category-nav">
+  {% assign colllections = site.html_pages | where: 'layout', 'collection' | sort: 'collection-nav-order' %}{% for collection in colllections %}<li class="category-nav__item category-nav__item--{{collection.id}}" style="background-image: url('{{ site.baseurl }}/img/bg/{{collection.id}}-nav.jpg');"><a class="category-nav__link" href="{{ site.baseurl }}{{ collection.url }}"><span class="category-nav__link-wrap">{{collection.title}}</span></a></li>{% endfor %}
+</ul>

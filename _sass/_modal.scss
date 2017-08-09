@@ -1,0 +1,93 @@
+// modal specific
+
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: $z-overlay;
+  background-color: $black;
+  background-color: $black-66;
+  cursor: pointer;
+  overflow: hidden;
+  &--video {
+
+  }
+  &.is-open { display: block;}
+  &.is-closed { display: none; }
+  &__wrap {
+    position: absolute;
+    top: ($margin * 1.5);
+    left: ($margin / 2);
+    right: ($margin / 2);
+    bottom: ($margin * 1.5);
+    max-width: $xlarge;
+    cursor: auto;
+    overflow-y: auto;
+    margin-top: 0 !important;
+    margin-left: auto;
+    margin-right: auto;
+    @include bp(large){
+      left: $margin;
+      right: $margin;
+    }
+    .modal--video & {
+      max-width: $xxxlarge;
+      overflow-y: hidden;
+    }
+  }
+  &__content {
+    background-color: $white;
+    padding: ($margin/1.25) $margin;
+    @include bp(large){
+      padding: ($margin*1.5) ($margin*1.75);
+    };
+  }
+  &__close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 3em;
+    width: 3em;
+    background-color: $se-dark-grey-85;
+    background-image: url('../img/icons/close.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1em;
+    cursor: pointer;
+    z-index: $z-overlay-upper;
+    @include transition;
+    .svg & {
+      background-image: url('../img/icons/close.svg');
+    }
+  }
+}
+
+.disable-scroll {
+  overflow: hidden;
+}
+
+
+.video {
+  position: relative;
+  height: 0;
+  max-width: 100%;
+  padding-bottom: 56.25%;
+  background-color: #000;
+  overflow: hidden;
+  &__iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .csstransforms.csstransforms3d &__wrap {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+  }
+}

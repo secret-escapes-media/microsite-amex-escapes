@@ -1,0 +1,42 @@
+<div class="offer offer--lg">
+
+  <a class="offer__link" href="{{ offer.link }}"><span class="btn btn--orange">View Offer</span></a>
+
+  <div class="row row--columns-8-4 offer__images">
+    <div class="row__column">
+      <div class="bg-image-ratio bg-image-ratio--3-2" style="background-image: url('{{ site.baseurl }}/img/offers/{{offer.id}}.jpg')"></div>
+    </div>
+    <div class="row__column">
+      <div class="bg-image-ratio bg-image-ratio--3-2 offer__image-smaller" style="background-image: url('{{ site.baseurl }}/img/offers/{{offer.id}}-01.jpg')"></div><div class="bg-image-ratio bg-image-ratio--3-2 offer__image-smaller" style="background-image: url('{{ site.baseurl }}/img/offers/{{offer.id}}-02.jpg"></div>
+    </div>
+  </div>
+
+  <div class="offer__content">
+    <h3 class="offer__title">{{ offer.title }}</h3>
+    <h4 class="offer__location">{{ offer.location }}</h4>
+    <div class="row row--columns-6-6-gutters">
+      <div class="row__column">
+        <p>{{ offer.description-long}}</p>
+      </div>
+      <div class="row__column">
+        <ul>{{ offer.description-list}}</ul>
+      </div>
+    </div>
+
+    <div class="offer__bottom">
+      <div class="offer__bottom-item">
+        <div class="offer__saved">
+          <span class="p--small">Save up to</span> <span class="offer__saved-num">{{ offer.saved }}%</span>
+        </div>
+        <div class="offer__details">
+          <div class="p--small">From <span class="offer__price">£{{ offer.price }}</span></div>
+          <div class="p--small">{{ offer.price-description }}</div>
+          <div class="js-offer-expires p--small" data-expires="{{ offer.expires }}"></div>
+        </div>
+      </div>
+      <div class="offer__bottom-item offer__bottom-item--right"><div class="offer__arrow"></div></div>
+    </div>
+
+  </div>
+
+</div>

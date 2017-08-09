@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+{% assign page-class = page.title | slugify %}
+
+{% if page.content-banner %}
+  {% include content-banner.html %}
+{% elsif page.id == "amex" %}
+  {% include amex-banner.html %}
+{% else %}
+  {% include title-banner.html %}
+{% endif %}
+
+{% include microsite-nav.html %}
+
+<div class="page__content">
+{{content}}
+
+{% unless page.id == 'competition' %}
+  {% include competition-promo.html %}
+{% endunless %}
+
+{% unless page.id == 'competition' or page.id == 'amex'%}
+  {% include amex-promo.html %}
+{% endunless %}
+</div>

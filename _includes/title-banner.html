@@ -1,0 +1,13 @@
+<section class="title-banner">
+  <div class="title-banner__wrap">
+    <div class="title-banner__title">
+      <div class="title-banner__title-wrap">
+        {% if page.title-long %}
+          <h1 class="title title--color title--larger">{{page.title-long}}</h1>
+        {% else %}
+          <h1 class="title title--color title--largest">{{page.title}}</h1>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>

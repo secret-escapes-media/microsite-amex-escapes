@@ -1,0 +1,255 @@
+// layouts for all sections, using susy grid plugin
+
+
+// -------- general --------
+
+$susy:(
+  columns: 12,
+  container: 100%,
+  global-box-sizing: border-box,
+  gutters: 0,
+);
+$gutters:( gutters: 1/2, );
+$margin: 1.6em;
+
+
+// -------- grid sections --------
+
+.section {
+  padding-top: 5em;
+  padding-bottom: 5em;
+  & + &--equal-padding { padding-top: 0; }
+  &--lg {
+    padding-top: 10em;
+    padding-bottom: 10em;
+  }
+}
+
+.row {
+  @include container( $xxxlarge );
+  position: relative;
+  & + .row { margin-top: 2.986em; }
+  &--center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &--100 { @include container(100%);}
+  &--xxl { @include container($xxlarge);}
+  &--xl  { @include container($xlarge);}
+  &--lg  { @include container($large);}
+  &--md  { @include container($medium);}
+  &--sm  { @include container($small);}
+}
+
+.row--padding {
+  padding-left: $margin;
+  padding-right: $margin;
+}
+.row--margin {
+  margin-left: ( $margin / 2 );
+  margin-right: ( $margin / 2 );
+  @include bp(medium) {
+    margin-left: $margin;
+    margin-right: $margin;
+  }
+}
+
+.row__column + .row__column {
+  margin-top: $margin;
+  .row--extra-margin & { margin-top: $margin*2; }
+  @include bp(xlarge) {
+    margin-top: 0;
+    .row--extra-margin & { margin-top: 0; }
+  }
+}
+
+
+// -------- two col grid mixin --------
+// creates two columns in 12 column grid with optional gutters
+// column number scheme e.g.  6-6 = 50% 50%    4-8 = 33% x 66%
+@mixin two-column-grid( $col1, $col2, $has-gutters: null ) {
+  .row__column {
+    @if $has-gutters {
+      @include span( $gutters $col1 );
+    } @else {
+      @include span( $col1 );
+    }
+  }
+  .row__column:nth-child( even ) {
+    @if $has-gutters {
+      @include span( $gutters last $col2 );
+    } @else {
+       @include span( last $col2 );
+    }
+  }
+}
+
+
+// -------- grid columns --------
+
+// breakpoint for all columns
+@include bp(xlarge){
+
+  // two columns without gutter
+  .row--columns-4-8 { @include two-column-grid( 4, 8 ); }
+  .row--columns-5-7 { @include two-column-grid( 5, 7 ); }
+  .row--columns-6-6 { @include two-column-grid( 6, 6 ); }
+  .row--columns-7-5 { @include two-column-grid( 7, 5 ); }
+  .row--columns-8-4 { @include two-column-grid( 8, 4 ); }
+
+  // two columns with gutter
+  .row--columns-4-8-gutters { @include two-column-grid( 4, 8, gutters ); }
+  .row--columns-5-7-gutters { @include two-column-grid( 5, 7, gutters ); }
+  .row--columns-6-6-gutters { @include two-column-grid( 6, 6, gutters ); }
+  .row--columns-7-5-gutters { @include two-column-grid( 7, 5, gutters ); }
+  .row--columns-8-4-gutters { @include two-column-grid( 8, 4, gutters ); }
+
+  // three columns without gutter
+  .row--columns-4-4-4 .row__column { @include gallery(4); }
+
+  // three columns with gutter
+  .row--columns-4-4-4-gutters .row__column {
+    @include gallery($gutters 4);
+    margin-bottom: gutter();
+  }
+
+  // vertical align floated columns
+  .row--columns-vertical-align {
+    display: flex;
+    align-items: center;
+  }
+
+}
+
+// this is messy, need to improve the grids
+.row--columns-6-6-gutters-break-early {
+  .row__column + .row__column{
+    margin-top: $margin;
+  }
+}
+@include bp(xxlarge){
+  .row--columns-6-6-gutters-break-early {
+    @include two-column-grid( 6, 6, gutters );
+    .row__column + .row__column{
+      margin-top: 0;
+    }
+  }
+}
+
+// only used on the competiiton page, but of an outlier
+.row--columns-4-4-4-no-break .row__column { @include gallery(4); line-height: 0; }
+
+
+
+// Bob is a type of layout that we use frequently for featured content. We
+// couldn't think of an accurate and consise name so we called it Bob. Its
+// columns with a feature image and copy that swap columns in alternating order.
+// it needs a higher breakpoint than the rest of the grid amongst other things
+.bob {
+  @include container(100%);
+  @include layout(12 1/2);
+  text-align: center;
+  &__image {
+    max-width: $large;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &__text { padding-top: $margin; }
+  & + & { margin-top: ($margin*2); }
+  @include bp(xxlarge){
+    text-align: left;
+    &__text { padding-top: $margin; }
+    // GRID STUFF
+    & + & { margin-top: gutter(6); }
+    .flexbox & {
+      display: flex;
+      align-items: center;
+    }
+    &__image { @include span(7); }
+    &__text {
+      @include span(5 last);
+      padding-top: 0;
+    }
+    &--swap{
+      &__image { @include span(7 last); }
+      &__text { @include span(5); }
+      .flexbox & {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+      }
+    }  // END GRID STUFF
+  }
+}
+
+// Harvey is Bob's second cousin on his Mother's side. He was a troubled
+// youth and, after years of medical examination Harvey was diagnosed with
+// multipersonality disorder. It is this disorder which allows him to build
+// the following two sided image/text layouts.
+// Harvey is a 50/50 text image layout with no gutter. Use Harvey to make
+// an alternating full width section with centred text, and limited height
+// image sizing so the layout works across screens and sizes.
+.harvey {
+  @include container(100%);
+  @include layout(12 0);
+  &__text {
+    padding: $margin $margin ($margin*2.5);
+    text-align: center;
+  }
+  &__image {
+    position: relative;
+    width: 100%;
+    background-color: $grey;
+    @include background-attributes;
+    &:before {
+      display: block;
+      content: "";
+      width: 100%;
+      padding-top: 66.666666666667%;
+    }
+    &-link {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: $z-content;
+    }
+  }
+  @include bp(xlarge){
+    .flexbox & {
+      display: flex;
+      align-items: center;
+    }
+    &__image {
+      @include span(6);
+      min-height: 400px;
+      max-height: 500px;
+    }
+    &__text {
+      @include span(6 last);
+      max-width: 600px;
+      padding: ($margin*1.5);
+      margin-left: auto;
+      margin-right: auto;
+    }
+    &--swap{
+      &__image { @include span(6 last); }
+      &__text { @include span(6); }
+      .flexbox & {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+      }
+    }
+  }
+}
+
+// add in the occasional space for internal content
+.space {
+  &--xxxl { padding-top: 6em; }
+  &--xl   { padding-top: 4em; }
+  &--lg   { padding-top: 2.5em; }
+  &--md   { padding-top: 1.5em; }
+  &--sm   { padding-top: .5em; }
+}

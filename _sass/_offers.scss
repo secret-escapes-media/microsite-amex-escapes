@@ -1,0 +1,211 @@
+// Offer block styles
+
+section.offers { background-color: $norway-light-grey; }
+
+.offer {
+  position: relative;
+  // GRID SHIZZ
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: ($margin * 2);
+  @include bp(xlarge){
+    @include layout(12 1);
+    @include gallery(6);
+    margin-bottom: gutter(12);
+    // centers single offer
+    &:nth-child(odd):last-child{
+      margin-right: auto;
+      margin-left: auto;
+      float: none !important;
+    }
+  }
+  // END GRID SHIZZ
+  &__link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: $z-content-upper;
+    display: block;
+    opacity: 0;
+    background-color: transparent;
+    color: transparent;
+    text-align: center;
+    @include transition;
+    & .btn {
+      margin-top: 50%;
+      .touch & { display: none; }
+    }
+    &:hover {
+      opacity: 1;
+      background-color: $black-33;
+      color: $white;
+      text-decoration: none;
+      & .btn { transform: scale(1.05,1.05); }
+      .touch & { background-color: transparent; }
+    }
+    .flexbox & {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      & .btn {
+        margin-top: 0;
+      }
+    }
+  }
+  &__content {
+    padding: $margin;
+    border-left: 1px solid $norway-grey;
+    border-right: 1px solid $norway-grey;
+    border-bottom: 1px solid $norway-grey;
+    background-color: $white;
+  }
+  &__title {
+    font-family: $main-font-family;
+    font-size: 1.467em;
+    letter-spacing: .015em;
+    line-height: 1.3;
+  }
+  &__location {
+    margin-top: 1em;
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+    text-indent: -1.5em;
+    font-size: 0.75em;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    color: $text-grey;
+    &:before {
+      content: "";
+      display: inline-block;
+      height: 1.5em;
+      width: 1.05em;
+      margin-right: .5em;
+      margin-bottom: .2em;
+      vertical-align: middle;
+      background-image: url( "../img/icons/map-pin.png" );
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-size: contain;
+      .svg & { background-image: url( "../img/icons/map-pin.svg" ); }
+    }
+  }
+  $circle-height: 50px;
+  &__saved {
+      display: table-cell;
+      padding-right: ($margin/1.5);
+      line-height: 1.2;
+      text-align: center;
+      border-right: 1px solid $norway-grey;
+      vertical-align: middle !important;
+    &-num {
+      display: inline-block;
+      width: $circle-height;
+      height: $circle-height;
+      margin-top: .2em;
+      text-align: center;
+      color: #fff;
+      line-height: $circle-height;
+      background-color: $se-orange;
+      border-radius: $circle-height;
+      @include bp(medium){
+        display: inline-block;
+        margin-top: 0;
+      }
+    }
+    @include bp(small){
+      padding-right: $margin;
+    }
+    @include bp(medium){
+      vertical-align: middle !important;
+    }
+  }
+  &__details {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: ($margin/1.5);
+    @include bp(small){
+      padding-left: $margin;
+    }
+    @include bp(medium){
+    }
+  }
+  &__price {
+    color: $se-orange;
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1;
+  }
+  &__arrow {
+    display: none;
+    @include bp(medium){
+      display: inline-block;
+      width: $circle-height;
+      height: $circle-height;
+      border: 1px solid $se-orange;
+      border-radius: $circle-height;
+      background-repeat: no-repeat;
+      background-image: url('../img/icons/arrow-right-orange.png');
+      background-size: auto 22px;
+      background-position: 20px center;
+      .svg & { background-image: url('../img/icons/arrow-right-orange.svg'); }
+    }
+  }
+  &__bottom {
+    @include bp(medium){
+      display: table;
+      width: 100%;
+      margin-top: 1.5em;
+      * { vertical-align: middle; }
+      strong,
+      span { vertical-align: baseline; }
+      &-item {
+        display: table-cell;
+        padding-right: 1em;
+        &--right {
+          padding-right: 0;
+          text-align: right;
+          vertical-align: bottom !important;
+          @include bp(medium){
+            vertical-align: middle !important;
+          };
+        }
+      }
+    }
+  }
+  // large offer card
+  &--lg {
+    float: none !important;
+    margin-bottom: 0;
+    @include gallery(12);
+    @include clearfix;
+    .offer__images > .row__column { margin-top: 0; }
+    .offer__image-smaller {
+      display: inline-block;
+      width: 50%;
+      @include bp( xlarge ){
+        display: block;
+        width: 100%;
+      }
+    }
+    .offer__content {
+      padding: $margin ($margin*1.25);
+      @include bp(large){ padding: ($margin*1.25) ($margin*1.75); }
+    }
+    li {
+      margin-left: 1.5em;
+      font-weight: 200;
+      letter-spacing: .015em;
+      list-style-position: outside;
+    }
+    .offer__bottom {
+      margin-top: 1.5em;
+      padding-top: 1.5em;
+      border-top: 1px solid $norway-grey;
+    }
+  }
+}

@@ -1,0 +1,63 @@
+<header class="site-header">
+
+  <!-- CORE NAV -->
+  <div class="core-nav">
+    <div class="row row--padding">
+      <div class="core-nav__wrap">
+
+        <div class="core-nav__column core-nav__column--left">
+          <div class="js-toggle-mobile-nav icon icon--menu row"></div>
+        </div>
+
+        <!-- NAV & SE LOGO -->
+        <div class="core-nav__column core-nav__column--center">
+          <a class="logo logo--secret-escapes" href="https://www.secretescapes.com/">
+            <img class="logo--secret-escapes--img js-svg-swap" src="{{ site.baseurl }}/img/logo/secret-escapes.png" alt="Secret Escapes logo">
+          </a>
+          <span class="core-nav__divider"></span>
+          <!-- CORE NAV LIST -->
+          <ul class="core-nav__list">
+            {% include core-navigation.html block="core-nav" %}
+          </ul>
+        </div>
+
+        <!-- PARTNER LOGO -->
+        <div class="core-nav__column core-nav__column--right">
+          {% include partner-logo.html %}
+        </div>
+
+      </div><!-- END - .core-nav__wrap -->
+    </div><!-- END - .row -->
+  </div><!-- END - .core-nav -->
+
+</header>
+
+
+<!-- MOBILE NAV -->
+<div class="mobile-nav is-closed">
+  <div class="mobile-nav__wrap">
+
+    <!-- CLOSE ICON -->
+    <!-- Same core nav block used to mirror icon position -->
+    <div class="row row--padding">
+      <div class="core-nav__wrap">
+        <div class="core-nav__column core-nav__column--left">
+          <div class="js-toggle-mobile-nav icon icon--close"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- NAV LIST -->
+    <div class="row--padding">
+      <ul class="mobile-nav__list">
+        {% include core-navigation.html block="mobile-nav" %}
+      </ul>
+    </div>
+
+    <!-- PARTNER LOGO -->
+    <div class="mobile-nav__bottom">
+      {% include partner-logo.html %}
+    </div>
+
+  </div>
+</div>

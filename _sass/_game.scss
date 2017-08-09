@@ -1,0 +1,54 @@
+.game {
+  &__category-list,
+  &__style-list {
+    line-height: 0;
+  }
+  &__option {
+    display: inline-block;
+    position: relative;
+    z-index: $z-content;
+    width: 100%;
+    cursor: pointer;
+    @include background-attributes;
+    @include transition;
+    &:before {
+      display: block;
+      content: "";
+      width: 100%;
+      padding-top: 100%;
+    }
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: $z-content-upper;
+      background-color: rgba($amex-blue-dark,.66);
+      background-image: url(../img/icons/tick.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 0;
+      opacity: 0;
+      @include transition;
+    }
+    &:hover:after{
+      opacity: .5;
+      .has-limit & { opacity: 0; }
+    }
+    &.is-selected {
+      &:after {
+        opacity: 1;
+        background-size: 80px auto;
+      }
+      .has-limit &:after {
+        opacity: 1;
+        background-color: rgba($amex-blue-dark,.9);
+      }
+    }
+    .game__category & { width: 20%; }
+    .game__style & { width: 25%; }
+  }
+}

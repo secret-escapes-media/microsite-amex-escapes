@@ -1,0 +1,8 @@
+{% assign offers = site.data.offers | sort: 'saved' | reverse %}
+{% assign offer-type = include.type %}
+
+<div class="row">
+  {% for offer in offers %}
+    {% include offer.html %}
+  {% endfor %}
+</div>

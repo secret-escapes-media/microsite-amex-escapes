@@ -1,0 +1,51 @@
+---
+layout: standard
+---
+
+{% assign collection-offers = site.data.offers | where: "category", page.id %}
+
+<div class="section">
+  <div class="row row--padding">
+    <div class="row row--xl align-center">
+      <p class="p--lead">
+        {{page.intro}}
+      </p>
+    </div>
+    <div class="row row--xxl row--columns-4-4-4">
+      <div class="row__column"><div class="bg-image-ratio bg-image-ratio--1-1" style="background-image: url('{{site.baseurl}}/img/content/collections/{{page.id}}/page-01.jpg');"></div></div>
+      <div class="row__column"><div class="bg-image-ratio bg-image-ratio--1-1" style="background-image: url('{{site.baseurl}}/img/content/collections/{{page.id}}/page-02.jpg');"></div></div>
+      <div class="row__column"><div class="bg-image-ratio bg-image-ratio--1-1" style="background-image: url('{{site.baseurl}}/img/content/collections/{{page.id}}/page-03.jpg');"></div></div>
+    </div>
+  </div>
+</div>
+
+<div class="section bg--light-grey">
+  <div class="row row--padding">
+    <div class="row row--xl align-center">
+      <h4 class="title title--upper title--bold title--expanded title--super">Our Top Pick</h4>
+      <h3 class="title title--large">{{page.top-pick.title}}</h3>
+      <p class="p--large">{{page.top-pick.description}}</p>
+    </div>
+    {% assign offers = collection-offers | where: 'top-pick', 'true' %}
+    <div class="row row--xxl">
+      {% for offer in offers %}
+        {% include offer-lg.html %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="row row--padding">
+    <div class="row--xxl">
+      {% assign offers = collection-offers | sort: 'saved' | reverse %}
+      {% for offer in offers %}
+        {% if offer.top-pick %}
+          {% continue %}
+        {% else %}
+          {% include offer.html %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>

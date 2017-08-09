@@ -1,0 +1,35 @@
+---
+layout: standard
+id: collections
+title: Collections
+page-title: Summer Escapes
+nav-order: 1
+intro: Whether you love the glamour and iconic sights of Europe, or the veritable paradise of a long haul beach escape, browse these American Express collections of the finest stays around the world. Find your summer escape, with a host of inspired offers plus top picks for summer travel.
+
+content-banner:
+  title: Summer Escapes
+  content: |
+    <p class="p--lead">{{page.intro}}</p>
+    <a href="{{site.baseurl}}/perfect-summer-break" class="btn btn--cyan">Find Your Break</a>
+---
+
+<div class="section section--lg">
+  <div class="row row--padding">
+
+    {% assign colllections = site.html_pages | where: 'layout', 'collection' | sort: 'collection-nav-order' %}
+    {% for collection in colllections %}
+    <div class="collection">
+      <a class="collection__link" href="{{ site.baseurl }}{{ collection.url }}"></a>
+      <div class="collection__bg">
+        <div class="collection__bg-image" style="background-image: url({{site.baseurl}}/img/content/collections/{{collection.id}}/nav-01.jpg);"></div>
+        <div class="collection__bg-image" style="background-image: url({{site.baseurl}}/img/content/collections/{{collection.id}}/nav-02.jpg);"></div>
+        <div class="collection__bg-image" style="background-image: url({{site.baseurl}}/img/content/collections/{{collection.id}}/nav-03.jpg);"></div>
+      </div>
+      <div class="collection__title">
+        <h2 class="title title--color title--bold title--small title--upper title--bold title--expanded">{{collection.title}}</h2>
+      </div>
+    </div>
+    {% endfor %}
+
+  </div>
+</div>

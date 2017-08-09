@@ -1,0 +1,605 @@
+################################################################################
+  # template
+################################################################################
+
+
+# ----------- LONG -----------
+
+# - category: #
+#   top-pick: #true
+#   game-pick: #true
+#   title: #
+#   id: #
+#   location: #
+#   description: #
+#   description-long: #
+#   description-list: >
+#     <li>#</li>
+#     <li>#</li>
+#     <li>#</li>
+#   price: #
+#   price-description: #per room per night
+#   saved: #
+#   expires: #2017/08/01
+#   link: #
+
+
+# ----------- SHORT -----------
+
+# - category: #
+#   title: #
+#   id: #
+#   location: #
+#   description: #
+#   price: #
+#   price-description: #per room per night
+#   saved: #
+#   expires: #2017/08/01
+#   link: #
+
+
+
+################################################################################
+  # CITY BREAKS
+################################################################################
+
+- top-pick: true
+  category: city-breaks
+  title: Villa Makassar
+  id: villa-makassar
+  location: 5* magnificent Art Deco stay in Marrakech, Morocco
+  description: Central riad with spa, voted one of the top 12 Art Deco hotels in the world by the Sunday Times
+  description-long: Exuding elegance and luxury with a lavish Art Deco twist, this breathtakingly hip Great Gatsby of Marrakech riads offers the ultimate escape, within easy reach of Marrakech's key attractions. Eclectically-decorated and scintillating with style, it was even selected as one of top 12 Art Deco hotels in the world by the Sunday Times - seasoned travellers could find no better for a design-forward break in this city.
+  description-list: >
+    <li>Escaping the Marrakech heat by cooling down with a spa treatment or two</li>
+    <li>Sipping cocktails on the roof terrace as the sun goes down over the city</li>
+    <li>The original Art Deco works and sculptures that adorn the hotel</li>
+  price: 60
+  price-description: per person per night
+  saved: 34
+  expires: 2017/08/15
+  link: https://www.secretescapes.com/villa-makassar-marrakech-morocco/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Amex_2017_Makassar
+
+- category: city-breaks
+  title: Avalon Hotel NYC
+  id: avalon-hotel-nyc
+  location: Midtown, New York
+  description: A suite escape in the heart of Midtown, a block from the Empire State Building
+  description-long: Looking to experience the best of the City That Never Sleeps, while still catching a wink, once in a while, yourself? Look no further than this stylish stay, on the edge of the Koreatown and Murray Hill neighbourhoods in Midtown Manhattan.
+  description-list: >
+    <li>Snuggling up between your 300-thread-count Egyptian-cotton sheets</li>
+    <li>Taking a leisurely block-long stroll to the Empire State Building</li>
+    <li>Having your pick of elegantly appointed suites</li>
+  price: 133
+  price-description: per suite per night
+  saved: 34
+  expires: #2017/08/15 10 days
+  link: https://www.secretescapes.com/avalon-hotel-nyc-midtown-new-york/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Amex_2017_Avalon
+
+- category: city-breaks
+  game-pick: true
+  title: McCarren Hotel & Pool
+  id: mc-carren-hotel-pool
+  location: Brooklyn, New York
+  description: An in-demand urban oasis in the heart of hip Williamsburg, with breakfast and a dining credit
+  description-long: In the coolest neighbourhood of New York’s coolest borough lies trendsetting McCarren Hotel & Pool. Located near buzzy Bedford Avenue and directly on the edge of McCarren Park, this is exactly where you want to be – Williamsburg addresses don’t come much better than this.
+  description-list: >
+    <li>Dancing to DJ beats, while sipping cocktails from the bar on the panoramic rooftop</li>
+    <li>Experiencing the TripAdvisor favourite’s massively popular pool</li>
+    <li>Starting each day with a hearty breakfast</li>
+  price: 176
+  price-description: per room per night
+  saved: 53
+  expires: 2017/08/14
+  link: https://www.secretescapes.com/mccarren-hotel-brooklyn-new-york/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Amex_2017_Mccarren
+
+- category: city-breaks
+  title: La Villa Haussmann
+  id: la-villa-haussmann
+  location: A chic city stay in the upscale heart of Paris
+  description: A chic hotel near the Arc de Triomphe, with stylish interiors and a perfect location for sightseeing
+  price: 99
+  price-description:  per person per night
+  saved: 63
+  expires: 2017/08/15
+  link: https://www.secretescapes.com/la-villa-haussmann-paris-france/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Amex_2017_Haussmann
+
+- category: city-breaks
+  title: DoubleTree by Hilton New York Times Square West
+  id: double-tree-by-hilton-new-york-times-square-west
+  location: Times Square, New York City
+  description: A stylish city-view room just minutes from New York's glittering Times Square
+  price: 88
+  price-description: per room per night
+  saved: 48
+  expires: 2017/08/14
+  link: https://www.secretescapes.com/doubletree-by-hilton-new-york-times-square-times-square-new-york-city/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Amex_2017_Hilton
+
+- category: city-breaks
+  title: The Langham London
+  id: the-langham-london
+  location: Regent Street, Central London
+  description: Stay at an award-winning, five-star Regent Street landmark, with breakfast at Roux at The Landau
+  price: 295
+  price-description: per room per night
+  saved: 49
+  expires: 2017/08/16
+  link: https://www.secretescapes.com/the-langham-london-regent-street-central-london/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Amex_2017_Langham
+
+- category: city-breaks
+  title: Boutiquehotel STAATS
+  id: boutiquehotel-staats
+  location: A new hotel in one of Holland’s prettiest medieval towns
+  description: Brand new boutique charms in Holland's historic Haarlem, with breakfast and bubbly
+  price: #
+  price-description: #per room per night
+  saved: #
+  expires: #2017/08/01
+  link: https://www.secretescapes.com/boutiquehotel-staats-a-new-hotel-in-one-of-hollands-prettiest-medieval-towns/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Amex_2017_Staats
+
+- category: city-breaks
+  title: Ozo Hotel
+  id: ozo-hotel
+  location: Polished new Netherlands hotel in southeast Amsterdam
+  description: A brand new, sophisticated stay in Amsterdam's residential Zuidoost borough
+  price: 34
+  price-description: per person per night
+  saved: 30
+  expires: 2017/07/15
+  link: https://www.secretescapes.com/ozo-hotel-amsterdam-the-netherlands-1/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Amex_2017_Ozo
+
+- category: city-breaks
+  title: Fairmont Rey Juan Carlos I
+  id: fairmont-rey-juan-carlos-i
+  location: 5* Barcelona stay at an award-winning resort with outdoor pool
+  description: The best of both worlds - a stylish base for a city break with top facilities and an outdoor pool
+  price: 66
+  price-description: per person per night
+  saved: 37
+  expires: 2017/08/15
+  link: https://www.secretescapes.com/fairmont-rey-juan-carlos-i-barcelona-1spain/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Amex_2017_Rey_juan
+
+
+
+################################################################################
+  # STAYCATIONS
+################################################################################
+
+- category: staycations
+  top-pick: true
+  title: Mercure Gloucester Bowden Hall Hotel
+  id: mercure-gloucester-bowden-hall-hotel
+  location: Gloucester, Cotswolds
+  description: A listed Georgian hotel with beautiful grounds and stylish new interiors in the Cotswolds
+  description-long: With its regal front lawns and Regency style, Mercure Gloucester, Bowden Hall Hotel ticks all of your lord and lady of the manor requirements from its first impressions. Set in 12 acres of rolling park and woodland and in a listed Georgian hall, it looks just as impressive inside as as it does outside.
+  description-list: >
+    <li>Admiring the imposing façade and regal front lawns that give this hotel some serious curb appeal</li>
+    <li>Taking advantage of the a la carte dinner allowance option to sample the fresh and locally sourced ingredients that make up the restaurant’s menu</li>
+    <li>Making the most of the hotel’s extensive grounds by exploring its 12 acres of rolling park and woodland</li>
+  price: 79
+  price-description: per room per night
+  saved: 56
+  expires: 2017/08/16
+  link: https://www.secretescapes.com/mercure-gloucester-bowden-hall-hotel-gloucester-cotswolds/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Amex_2017_Mercure
+
+- category: staycations
+  title: Glazebrook House Hotel
+  id: glazebrook-house-hotel
+  location: South Brent, South Devon
+  description: A quirky new boutique hotel with its own wine and whisky tasting room, on the edge of Dartmoor
+  price: 265
+  price-description: per room per night
+  saved: 29
+  expires: 2017/08/15
+  link: https://www.secretescapes.com/glazebrook-house-hotel-south-brent-south-devon/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Amex_2017_Glazebrook
+
+- category: staycations
+  title: The Cornwall Hotel, Spa & Estate
+  id: the-cornwall-hotel-spa-estate
+  location: St Austell, Cornwall
+  description: A spa break at a luxury Cornish retreat, with a state-of-the-art wellness centre and infinity pool
+  price: 105
+  price-description: per room per night
+  saved: 40
+  expires: 2017/08/16
+  link: https://www.secretescapes.com/the-cornwall-hotel-spa-and-estate-st-austell-cornwall/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Amex_2017_Corwallestate
+
+- category: staycations
+  title: Sheen Falls Lodge
+  id: sheen-falls-lodge
+  location: County Kerry, Ireland
+  description: Five-star luxury on the fringes of Kenmare, with stunning views and an award-winning restaurant
+  price: 99
+  price-description: per person per night
+  saved: 39
+  expires: 2017/08/16
+  link: https://www.secretescapes.com/sheen-falls-lodge-kerry-kenmare/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Amex_2017_SheenFalls
+
+- category: staycations
+  title: Moddershall Oaks Country Spa Retreat
+  id: moddershall-oaks-country-spa-retreat
+  location: Moddershall, Staffordshire
+  description: A Good Spa Guide-recommended countryside retreat, with an award-winning restaurant
+  price: 269
+  price-description: per suite per night
+  saved: 32
+  expires: 2017/08/16
+  link: https://www.secretescapes.com/moddershall-oaks-country-spa-retreat-moddershall-staffordshire/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Amex_2017_Moddershall
+
+- category: staycations
+  title: Ston Easton Park Hotel
+  id: ston-easton-park-hotel
+  location: Ston Easton, Somerset
+  description: A splendid Palladian mansion with grand period interiors, plus 36 acres of parkland to stroll around
+  price: 119
+  price-description: per room per night
+  saved: 49
+  expires: 2017/08/16
+  link: https://www.secretescapes.com/ston-easton-park-hotel-ston-easton-somerset/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Amex_2017_StonEaton
+
+- category: staycations
+  title: The White Hart
+  id: the-white-hart
+  location: Nettlebed, Oxfordshire
+  description: Oxfordshire country inn with cosy boutique interiors and a beautiful setting, including dinner
+  price: 99
+  price-description: per room per night
+  saved: 57
+  expires: 2017/08/16
+  link: https://www.secretescapes.com/the-white-hart-nettlebed-oxfordshire/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Amex_2017_WhiteHeart
+
+
+
+################################################################################
+  # EUROPEAN GETAWAYS
+################################################################################
+
+- category: european-getaways
+  top-pick: true
+  title: Saturnia Tuscany Hotel
+  id: saturnia-tuscany-hotel
+  location: Tuscany stay near one of Italy's favourite thermal springs
+  description: A rural, TripAdvisor-awarded base with stunning views, modern interiors and thermal spa
+  description-long: In the wild Maremma area of southern Tuscany, amongst olive groves and rows of vines, you might not expect to find Italy’s most celebrated natural hot spring - but it's here that you can encounter a series of white mineral rock pools, home to the restorative and ultra-relaxing waters of Saturnia, for a perfect getaway that mixes natural beauty and therapy.
+  description-list: >
+    <li>Enjoying the tranquillity of the location alongside stunning views</li>
+    <li>The proximity to the thermal springs with their restorative waters - which you could also enjoy in the hotel's own spa</li>
+    <li>Getting the chance to sample the incredible cuisine of the region at the on-site restaurant</li>
+  price: 38
+  price-description: per person per night
+  saved: 57
+  expires: 2017/08/15
+  link: https://www.secretescapes.com/saturnia-tuscany-hotel-tuscany-italy/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Amex_2017_Saturnia
+
+- category: european-getaways
+  title: H4 Hotel Arcadia Locarno
+  id: h4-hotel-arcadia-locarno
+  location: Scenic Switzerland lakeside stay
+  description: A modern base with mountains views in the Swiss town of Locarno, by Lake Maggiore
+  price: 78
+  price-description: per person per night
+  saved: 33
+  expires: 2017/08/15
+  link: https://www.secretescapes.com/h4-hotel-arcadia-locarno-locarno-switzerland-uk/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Amex_2017_H4
+
+- category: european-getaways
+  title: Corinthia Hotel Lisbon
+  id: corinthia-hotel-lisbon
+  location: 5* elegant spa hotel in central Lisbon, Portugal
+  description: All-out glamour at a luxe Corinthia spa hotel, with breakfast, a spa discount and perks
+  price: 55
+  price-description: per person per night
+  saved: 32
+  expires: 2017/08/15
+  link: https://www.secretescapes.com/corinthia-hotel-lisbon-5-star-elegant-spa-hotel-in-central-lisbon-portugal/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Amex_2017_CorinthiaLisbon
+
+- category: european-getaways
+  title: Chervò Golf Hotel Spa & Resort San Vigilio
+  id: chervo-golf-hotel-spa-resort-san-vigilio
+  location: Blissful golf & spa hotel stay near Italy's Lake Garda
+  description: Championship golf facilities at a tranquil spa hotel in the Italian hills near beautiful Lake Garda
+  price: 82
+  price-description: per person per night
+  saved: 36
+  expires: 2017/08/15
+  link: https://www.secretescapes.com/chervo-golf-hotel-spa-and-resort-san-vigilio-lombardia-italy/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Amex_2017_Chevro
+
+- category: european-getaways
+  title: Relais Histò San Pietro sul Mar Piccolo
+  id: relais-histo-san-pietro-sul-mar-piccolo
+  location: 5* authentic stay in a Puglian masseria, Italy
+  description: Discover scenic Puglia with a secluded stay in a 14th-century masseria, with breakfast and more
+  price: 46
+  price-description: per person per night
+  saved: 71
+  expires: 2017/08/15
+  link: https://www.secretescapes.com/relais-histo-san-pietro-sul-mar-piccolo-authentic-stay-in-a-puglian-masseria-italy/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Amex_2017_Relais
+
+- category: european-getaways
+  title: Hôtel Villa-Lamartine
+  id: hotel-villa-lamartine
+  location: Elegant stay in Southwest France's beautiful Arcachon
+  description: Sun-soaked escape to Arcachon Bay, home to diverse natural wonders, with a terrace suite
+  price: 78
+  price-description: per person per night
+  saved: 30
+  expires: 2017/08/15
+  link: https://www.secretescapes.com/hotel-villa-lamartine-arcachon-france/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Amex_2017_Lamartine
+
+- category: european-getaways
+  title: Diamond Deluxe Hotel
+  id: diamond-deluxe-hotel
+  location: A sleek, adults-only retreat on the Greek Island of Kos
+  description: A five-star, adults-only boutique beach hotel on Kos, with glam whitewashed décor, pools and spa.
+  price: 109
+  price-description: per room per night
+  saved: 58
+  expires: 2017/08/15
+  link: https://www.secretescapes.com/diamond-deluxe-hotel-kos-greek-islands1/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Amex_2017_Diamond
+
+- category: european-getaways
+  title: Antwerp Loft
+  id: antwerp-loft
+  location: Unique Belgium stay in a stylish loft
+  description: An ultra-hip and stylish home-from-home near central sights, with a choice of lofts
+  price: 44
+  price-description: per person per night
+  saved: 31
+  expires: 2017/08/15
+  link: https://www.secretescapes.com/antwerp-loft-antwerp-belgium-uk/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Amex_2017_Antwerp
+
+- category: european-getaways
+  title: Luxury Berlin & Prague holiday with optional tour
+  id: luxury-berlin-prague-holiday-with-optional-tour
+  location: Hotel AMANO Grand Central & Hotel Angelis
+  description: Contemporary Berlin luxury and French elegance in the Czech capital, plus optional Prague tour
+  price: 249
+  price-description: per person for 4 nights
+  saved: 38
+  expires: 2017/08/15
+  link: https://www.secretescapes.com/luxury-berlin-and-prague-holiday-with-optional-tour-hotel-amano-grand-central-and-hotel-angelis/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Amex_2017_Berlin_Prague
+
+
+
+################################################################################
+  # COASTAL BREAKS
+################################################################################
+
+- category: coastal-breaks
+  top-pick: true
+  title: Domaine de Cocagne
+  id: domaine-de-cocagne
+  location: A scenic rural stay at a chic hotel on the Côte d’Azur
+  description: A scenic stay in verdant hills on the French Riviera, with stylish interiors and a nearby beach
+  description-long: A tranquil, five-hectare haven sitting in the French Riviera’s hills, Sandton Hotel Domaine Cocagne is a chic slice of the good life. Recently revamped, Bardot wouldn’t look out of place perched on a lounger by the heated, palm-studded pool.
+  description-list: >
+    <li>Toasting yourself a Côte d’Azur brown by the pool, looking out over the hills</li>
+    <li>Sipping rosé on the terrace after a day shopping in Nice</li>
+    <li>Admiring original Renoir paintings and sculptures at the artist’s estate nearby</li>
+    <li>Upgrading to a spacious Résidence for ample space to relax in</li>
+  price: 137
+  price-description: per room per night
+  saved: 45
+  expires: 2017/08/15
+  link: https://www.secretescapes.com/domaine-de-cocagne-a-scenic-rural-stay-at-a-chic-hotel-on-the-cote-dazur/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Amex_2017_Domaine
+
+- category: coastal-breaks
+  title: Kore Tulum Retreat & Spa Resort
+  id: kore-tulum-retreat-spa-resort
+  location: Tulum, Mexico
+  description: An all-inclusive stay in a luxurious suite at an adults-only retreat on the Riviera Maya
+  price: 181
+  price-description: per suite per night
+  saved: 34
+  expires: 2017/08/12
+  link: https://www.secretescapes.com/kore-tulum-retreat-and-spa-resort-tulum-mexico/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Amex_2017_KoreTulum
+
+- category: coastal-breaks
+  title: Thavorn Beach Village Resort & Spa
+  id: thavorn-beach-village-resort-spa
+  location: Phuket, Thailand
+  description: A languid, tropical holiday on a private beach, with extras packed in for long stays
+  price: 57
+  price-description: per room per night
+  saved: 56
+  expires: 2017/08/15
+  link: https://www.secretescapes.com/thavorn-beach-village-resort-and-spa-phuket-thailand/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Amex_2017_Thavorn
+
+- category: coastal-breaks
+  title: Huma Island Resort & Spa
+  id: huma-island-resort-spa
+  location: Palawan, Philippines
+  description: Over-water villas on an island with spectacular diving spots - includes land and sea transfers
+  price: 300
+  price-description: per villa per night
+  saved: 48
+  expires: 2017/08/16
+  link: https://www.secretescapes.com/huma-island-resort-and-spa-palawan-philippines/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Amex_2017_Huma
+
+- category: coastal-breaks
+  title: Relais La Speranzina
+  id: relais-la-speranzina
+  location: An elegant Sirmione spa hotel set by Lake Garda
+  description: An intimate relais stay in the heart of Sirmione, overlooking Lake Garda’s glittering shores
+  price: 264
+  price-description: per person per night
+  saved: 39
+  expires: 2017/08/15
+  link: https://www.secretescapes.com/relais-la-speranzina-an-elegant-sirmione-spa-hotel-set-by-lake-garda/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Amex_2017_Relais
+
+- category: coastal-breaks
+  title: Urbanica The Meridian Hotel
+  id: urbanica-the-meridian-hotel
+  location: Miami, Florida
+  description: A rave-reviewed new hotel in trendy SoFi, on the southern edge of South Beach, with a suite
+  price: 72
+  price-description: per suite per night
+  saved: 24
+  expires: 2017/08/04
+  link: https://www.secretescapes.com/urbanica-the-meridian-hotel-miami-florida/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Amex_2017_Urbanica
+
+- category: coastal-breaks
+  title: Grand Hyatt Dubai
+  id: grand-hyatt-dubai
+  location: Dubai, UAE
+  description: A Dubai stay at an impressive award-winning hotel, with discounts and plenty more
+  price: #
+  price-description: #per room per night
+  saved: #
+  expires: #2017/08/01
+  link: https://www.secretescapes.com/grand-hyatt-dubai-dubai-uae/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Amex_2017_Dubai
+
+- category: coastal-breaks
+  title: Villas and Apartments Srebreno
+  id: villas-and-apartments-srebreno
+  location: Stylish stay near Croatia's beautiful Dubrovnik
+  description: Stay like a local in a modern, self-catered apartment near stunning Dubrovnik, with spa access
+  price: 34
+  price-description: per person per night
+  saved: 40
+  expires: 2017/08/15
+  link: https://www.secretescapes.com/villas-and-apartments-srebreno-mlini-croatia/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Amex_2017_Croatia
+
+- category: coastal-breaks
+  title: Hôtel Montaigne & Spa
+  id: hotel-montaigne-spa
+  location: Modern & central Cannes hotel with sleek spa facilities
+  description: A modern spa hotel with Art Deco flourishes in the heart of the city, near the Promenade
+  price: 83
+  price-description: per room per night
+  saved: 42
+  expires: 2017/08/15
+  link: https://www.secretescapes.com/hotel-montaigne-and-spa-cannes-france/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Amex_2017_Montaigne
+
+
+
+################################################################################
+  # LONG HAUL LUXURY
+################################################################################
+
+- top-pick: true
+  category: long-haul-luxury
+  title: The Leaf Jimbaran
+  id: the-leaf-jimbaran
+  location: Bali, Indonesia
+  description: A heavenly stay in Jimbaran, with the option of a luxurious pool villa and numerous extra perks
+  description-long: An idyllic stay at a dreamy retreat in Jimbaran, Bali, including breakfast, one-way transfer, plus a villa option with a host of extras for longer stays
+  description-list: >
+    <li>Opting for a one-bedroom villa, complete with private pool and sun deck for ultimate relaxation</li>
+    <li>The nutritious yet flavourful Asian fusion dishes on the menu in relaxed Sattvic Restaurant</li>
+    <li>Rebalancing mind and body with a yoga class followed by a blissful Balinese massage</li>
+  price: 48
+  price-description: per villa per nights
+  saved: 29
+  expires: 2017/08/15
+  link: https://www.secretescapes.com/the-leaf-jimbaran-bali-indonesia/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Amex_2017_Jimbaran
+
+- category: long-haul-luxury
+  title: Andaz Maui at Wailea Resort
+  id: andaz-maui-at-wailea-resort
+  location: Maui, Hawaii
+  description: A dreamy oceanfront retreat near Haleakala National Park, with a B&B villa option
+  price: 268
+  price-description: per room per night
+  saved: 40
+  expires: 2017/08/14
+  link: https://www.secretescapes.com/andaz-maui-at-wailea-resort-a-hot-hideaway-on-maui-hawaii/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Amex_2017_Andaz
+
+- category: long-haul-luxury
+  title: Sublime Samana Hotel & Residences
+  id: sublime-samana-hotel-residences
+  location: Las Terrenas, Dominican Republic
+  description: A sumptuous suite at a Small Luxury Hotel of the World on an exotic peninsula, with breakfast
+  price: 127
+  price-description: per suite per night
+  saved: 33
+  expires: 2017/08/14
+  link: https://www.secretescapes.com/sublime-samana-hotel-and-residences-las-terrenas-dominican-republic/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Amex_2017_Samana
+
+- category: long-haul-luxury
+  title: Boutique Phuket beach holiday
+  id: boutique-phuket-beach-holiday
+  location: The Old Phuket, Thailand
+  description: Fly off to a Phuket beach pad, with a refreshing take on colonial architecture near Karon Beach
+  price: 759
+  price-description: per person for 10 nights
+  saved: 44
+  expires: 2017/08/15
+  link: https://www.secretescapes.com/boutique-phuket-beach-holiday-the-old-phuket-thailand/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Amex_2017_Phuket
+
+- category: long-haul-luxury
+  title: Circa 39 Miami Beach
+  id: circa-39-miami-beach
+  location: Miami Beach, Florida
+  description: A stylish boutique hotel in trendy Mid-Beach, across the street from the beach
+  price: 66
+  price-description: per room per night
+  saved: 20
+  expires: 2017/08/14
+  link: https://www.secretescapes.com/circa-39-miami-beach-miami-beach-florida/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Amex_2017_circa
+
+- category: long-haul-luxury
+  title: Niagara Falls & New York break with optional helicopter flight
+  id: niagara-falls-new-york-break-with-optional-helicopter-flight
+  location: Marriott On The Falls Hotel & Z NYC Hotel
+  description: Bucket-list break with amazing views from both hotels and optional helicopter over the falls
+  price: 799
+  price-description: per person for 6 nights
+  saved: 39
+  expires: 2017/08/15
+  link: https://www.secretescapes.com/incredible-niagara-falls-and-new-york-holiday-with-magnificent-optional-tours-marriott-on-the-falls-hotel-and-z-nyc-hotel/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Amex_2017_Niagra
+
+- category: long-haul-luxury
+  title: The Ritz-Carlton Abu Dhabi, Grand Canal
+  id: the-ritz-carlton-abu-dhabi-grand-canal
+  location: Abu Dhabi, UAE
+  description: Five-star Ritz-Carlton majesty on the Grand Canal, facing the famous Sheikh Zayed Grand Mosque
+  price: 143
+  price-description: per room per night
+  saved: 51
+  expires: 2017/08/15
+  link: https://www.secretescapes.com/the-ritz-carlton-abu-dhabi-grand-canal-abu-dhabi-uae/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Amex_2017_GrandCanal
+
+- category: long-haul-luxury
+  title: Tanjung Rhu Resort
+  id: tanjung-rhu-resort
+  location: Langkawi, Malaysia
+  description: A suite at an award-winning, five-star beach resort, including a one-way airport transfer and more
+  price: 134
+  price-description: per suite per night
+  saved: 53
+  expires: 2017/08/15
+  link: https://www.secretescapes.com/tanjung-rhu-resort-langkawi-malaysia/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Amex_2017_Tanjung
+
+- category: long-haul-luxury
+  title: Banyan Tree Lang Co
+  id: banyan-tree-lang-co
+  location: Hue, Vietnam
+  description: Unrivalled Banyan Tree hospitality in serene Phu Loc, with a pool villa and a plethora of extras
+  price: 262
+  price-description: per villa per night
+  saved: 55
+  expires: 2017/08/15
+  link: https://www.secretescapes.com/banyan-tree-lang-co-hue-vietnam/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Amex_2017_Banyan
+
+- category: long-haul-luxury
+  title: Radisson Blu Resort Hua Hin
+  id: radisson-blu-resort-hua-hin
+  location: Hua Hin, Thailand
+  description: A sleek stay at an idyllic beach resort with breakfast, discounts and more
+  price: 86
+  price-description: per room per night
+  saved: 54
+  expires: 2017/08/14
+  link: https://www.secretescapes.com/radisson-blu-resort-hua-hin-hua-hin-thailand/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Amex_2017_RadissonBlu
+
+- category: long-haul-luxury
+  title: Mida Resort Kanchanaburi
+  id: mida-resort-kanchanaburi
+  location: Kanchanaburi, Thailand
+  description: A smart retreat on the edge of the River Kwai, in Thailand's verdant western wilderness
+  price: 103
+  price-description: per room per night
+  saved: 23
+  expires: 2017/08/15
+  link: https://www.secretescapes.com/mida-resort-kanchanaburi-kanchanaburi-thailand/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Amex_2017_MIda

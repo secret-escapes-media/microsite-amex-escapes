@@ -1,0 +1,285 @@
+// all custom styles for the site
+
+
+// ---------- GENERAL STYLES ----------
+
+.collection{
+  position: relative;
+  max-width: 750px;
+  margin: $margin auto;
+  padding-top: 11em;
+  padding-bottom: 11em;
+  text-align: center;
+  & + & { margin-top: ($margin*4); }
+  &__link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: $z-content-overlay;
+  }
+  &__title{
+    position: relative;
+    z-index: $z-content-upper;
+    display: inline-block;
+    color: $amex-blue-dark;
+    background-color: rgba($white,.9);
+    padding: $margin ($margin*1.5);
+    box-shadow: 0px 5px 40px 0px rgba(0, 0, 0, 0.2);
+    @include transition;
+  }
+  &:hover &__title {
+    transform: scale(1.1);
+  }
+  &__bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: $z-content;
+  }
+  &__bg-image{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: $z-content;
+    width: 40%;
+    box-shadow: 0px 5px 40px 0px rgba(0, 0, 0, 0.2);
+    background-color: $light-grey;
+    @include background-attributes;
+    &:nth-of-type(1) {
+      z-index: ($z-content+1);
+      left: 0;
+      display: block;
+      margin-top: -($margin);
+      margin-bottom: $margin;
+    }
+    &:nth-of-type(2) {
+      z-index: ($z-content+2);
+      display: block;
+      left: 30%;
+    }
+    &:nth-of-type(3) {
+      z-index: ($z-content+3);
+      display: block;
+      left: 60%;
+      margin-top: $margin;
+      margin-bottom: -($margin);
+    }
+  }
+}
+
+.compy {
+  height: 400px;
+  max-width: 735px;
+  margin: 2em auto 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+
+body {
+  background-attachment: fixed;
+  @include background-attributes;
+  background-color: $amex-grey;
+}
+
+.page__content { background-color: $white; }
+
+// // temp ones
+// .game {
+//   background-color: #000;
+//   padding: 22em 2em;
+//   color: #fff;
+// }
+
+.padding {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.social {
+  margin-top: -(gutter());
+  &__post {
+    @include layout(12 $gutters);
+    @include gallery(4);
+    position: relative;
+    display: inline-block;
+    margin-top: gutter();
+    color: #fff;
+    @include background-attributes;
+    &:before {
+      display: block;
+      content: "";
+      width: 100%;
+      padding-top: 100%;
+    }
+  }
+}
+
+
+
+
+
+
+
+.text {
+  &--gold { color: #cfb53b; }
+  &--bold { font-weight: 400; }
+}
+
+
+
+
+.invert-text { color: $white; }
+.bg {
+  &--light-grey { background-color: $norway-light-grey; }
+  // &--amex-blue { background-color: $amex-blue; }
+  &--amex-blue-dark { background-color: $amex-blue-dark; }
+  &--amex-cyan-lighter { background-color: $amex-cyan-lighter; }
+}
+
+.local {
+  text-align: center;
+  &__interview { text-align: left; }
+  &__avatar { max-width: $medium; margin-left: auto; margin-right: auto; }
+  & + & { margin-top: ($margin*4); }
+  @include bp(xlarge){
+    text-align: left;
+    // & + & { margin-top: ($margin*2); }
+  }
+}
+
+.offer-promo {
+  position: relative;
+  padding-top: ($margin*6);
+  padding-bottom: ($margin*6);
+  color: $white;
+  background-color: rgba(60, 67, 76, 0.75);
+  text-align: center;
+  &__bgs {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: $z-background;
+  }
+  &__bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: none;
+    width: 100%;
+    @include background-attributes;
+    &:nth-of-type(1) {
+      left: 0;
+      display: block;
+    }
+    @include bp(large){
+      width: 33.33%;
+      &:nth-of-type(2) {
+        display: block;
+        left: 33.33%;
+      }
+      &:nth-of-type(3) {
+        display: block;
+        left: 66.66%;
+      }
+    }
+  }
+}
+
+
+// ---------- button ----------
+
+.btn {
+  @include transition;
+  display:inline-block;
+  padding: 1.2em 3em;
+  font-weight: 700;
+  font-size: .694em;
+  text-transform: uppercase;
+  letter-spacing: .25em;
+  border-radius: 3px;
+  color: $white;
+  cursor: pointer;
+  &:hover { text-decoration: none; }
+  @include bp(large){ font-size: .867em; }
+  &--small {
+    // font-size: .579em;
+    font-size: .694em;
+    @include bp(large){ font-size: .694em; }
+  }
+  &--large {
+    font-size: .867em;
+    @include bp(large){ font-size: 1em; }
+  }
+  * + & { margin-top: 1.5em; }
+  &--outline  {
+    color: $amex-blue;
+    border: 1px solid rgba($amex-blue,.66);
+    &:hover {
+      color: $white;
+      background-color: $amex-blue;
+    }
+  }
+  &--outline-orange  {
+    color: $se-orange;
+    border: 1px solid rgba($se-orange,.66);
+    &:hover {
+      color: $white;
+      background-color: $se-orange;
+    }
+  }
+  &--outline-cyan  {
+    color: $amex-cyan;
+    border: 1px solid rgba($amex-cyan,.66);
+    &:hover {
+      color: $white;
+      background-color: $amex-cyan;
+    }
+  }
+  &--orange {
+    background-color: $se-orange;
+    &:hover { background-color: #e67812; }
+  }
+  &--cyan {
+    background-color: $amex-cyan;
+    &:hover { background-color: darken($amex-cyan,10); }
+  }
+  &--blue {
+    background-color: $amex-blue;
+    &:hover { background-color: darken($amex-blue,10); }
+  }
+}
+
+.logo-title {
+  margin-bottom: 1em;
+  &__logo  {
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5em;
+  }
+  &__title { text-align: center; }
+  @include bp(large){
+    display: table;
+    max-width: 660px;
+    margin-left: auto;
+    margin-right: auto;
+    &__logo  {
+      width: 180px;
+      display: table-cell;
+      padding-right: 1.5em;
+      vertical-align: middle;
+    }
+    &__title {
+      display: table-cell;
+      text-align: left;
+      vertical-align: middle;
+    }
+  }
+}

@@ -1,0 +1,8 @@
+<!-- SITE NAV -->
+<div class="site-nav">
+  <div class="row">
+    <ul class="site-nav__list">
+      {% assign site-sections = site.html_pages | sort:"nav-order" %}{% for section in site-sections %} {% if section.nav-order %}<li class="site-nav__item site-nav__item--{{ section.title | slugify }}"><a class="site-nav__link" href="{{ site.baseurl }}{{ section.url }}">{{section.title}}</a></li>{% endif %}{% endfor %}
+    </ul>
+  </div><!-- END - .row -->
+</div><!-- END - .site-nav -->
