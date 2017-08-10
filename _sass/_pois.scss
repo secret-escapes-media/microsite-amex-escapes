@@ -42,7 +42,7 @@
     right: 0;
     bottom: 0;
     color: $white;
-    background-color: $norway-dark-grey-5;
+    background-color: $dark-grey;
     @include transition;
     .title {
       position: absolute;
@@ -62,7 +62,7 @@
     }
     &:hover {
       .title { letter-spacing: 0.175em; }
-      background-color: $norway-dark-grey-66;
+      background-color: rgba($dark-grey,0.66);
     }
   }
   &--overview {

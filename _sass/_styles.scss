@@ -81,19 +81,12 @@
 
 
 body {
-  background-attachment: fixed;
   @include background-attributes;
+  background-position: center top;
   background-color: $amex-grey;
 }
 
 .page__content { background-color: $white; }
-
-// // temp ones
-// .game {
-//   background-color: #000;
-//   padding: 22em 2em;
-//   color: #fff;
-// }
 
 .padding {
   padding-top: 4em;
@@ -124,19 +117,19 @@ body {
 
 
 
+.invert-text {
+  color: $white;
+  .title { color: $white; }
+}
 
 .text {
   &--gold { color: #cfb53b; }
   &--bold { font-weight: 400; }
 }
 
-
-
-
-.invert-text { color: $white; }
 .bg {
-  &--light-grey { background-color: $norway-light-grey; }
-  // &--amex-blue { background-color: $amex-blue; }
+  &--light-grey { background-color: $light-grey; }
+  &--amex-blue { background-color: $amex-blue; }
   &--amex-blue-dark { background-color: $amex-blue-dark; }
   &--amex-cyan-lighter { background-color: $amex-cyan-lighter; }
 }
@@ -197,17 +190,17 @@ body {
 
 .btn {
   @include transition;
-  display:inline-block;
-  padding: 1.2em 3em;
+  display: inline-block;
+  padding: 1em 2em;
   font-weight: 700;
-  font-size: .694em;
+  font-size: .8em;
   text-transform: uppercase;
   letter-spacing: .25em;
   border-radius: 3px;
   color: $white;
   cursor: pointer;
   &:hover { text-decoration: none; }
-  @include bp(large){ font-size: .867em; }
+  @include bp(large){ padding: 1.2em 3em; font-size: .92em; }
   &--small {
     // font-size: .579em;
     font-size: .694em;
@@ -253,6 +246,11 @@ body {
   &--blue {
     background-color: $amex-blue;
     &:hover { background-color: darken($amex-blue,10); }
+  }
+  &--invert {
+    background-color: $amex-cyan-light;
+    color: $amex-blue-dark;
+    &:hover { background-color: $white; }
   }
 }
 

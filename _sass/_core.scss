@@ -5,8 +5,9 @@
 
 $white:      #fff;
 $black:      #000;
-$light-grey: #e1e1e1;
-$grey:       #74787d;
+$light-grey: #f6f6f7;
+$mid-grey:   #e1e1e1;
+$grey:       #4f5762;
 $dark-grey:  #1a1a1a;
 
 $white-15:    rgba(255,255,255,.15);
@@ -34,15 +35,6 @@ $se-dark-grey-33: rgba(41,39,40,.33);
 $se-dark-grey-5:  rgba(41,39,40,.5);
 $se-dark-grey-66: rgba(41,39,40,.66);
 $se-dark-grey-85: rgba(41,39,40,.85);
-
-$norway-red:          #b92f29;
-$norway-red-light:    #f6eae9;
-$norway-blue:         #2578b2;
-$norway-grey:         #dadcdf;
-$norway-dark-grey:    #4f5762;
-$norway-dark-grey-5:  rgba(79,87,98,.5);
-$norway-dark-grey-66: rgba(79,87,98,.66);
-$norway-light-grey:   #f6f6f7;
 
 $amex-cyan:         #009bbb;
 $amex-cyan-light:   #bee1e7;
@@ -191,7 +183,7 @@ $z-background:      -1;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: $grey;
+  // background-color: $grey;
   width: 100%;
   &:before {
     display: block;

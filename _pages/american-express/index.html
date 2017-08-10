@@ -54,7 +54,7 @@ amex-content:
       </div>
     </div>
     <div class="row align-center">
-      <a href="{{page.amex-link}}" class="btn btn--cyan">Find Out More</a>
+      <a id="tracking-amex-btn-intro" href="{{page.amex-link}}" class="btn btn--cyan">Find Out More</a>
     </div>
   </div>
 </div>
@@ -64,7 +64,7 @@ amex-content:
     {% for copy in page.amex-content %}
       <div class="bob{% cycle '', ' bob--swap' %}">
         <div class="bob__image">
-          <a href="{{page.amex-link}}"><div class="bg-image-ratio bg-image-ratio--3-2" style="background-image: url('{{site.baseurl}}/img/content/amex/{{copy.image}}');"></div></a>
+          <a id="tracking-amex-{{copy.title | slugify}}-image" href="{{page.amex-link}}"><div class="bg-image-ratio bg-image-ratio--3-2" style="background-image: url('{{site.baseurl}}/img/content/amex/{{copy.image}}');"></div></a>
         </div>
         <div class="bob__text">
           <h2 class="title title--medium">{{copy.title}}</h2>
@@ -77,6 +77,6 @@ amex-content:
 
 <div class="section section--equal-padding">
   <div class="row row--padding align-center">
-    <a href="{{page.amex-link}}" class="btn btn--cyan">Find Out More</a>
+    <a id="tracking-amex-btn-bottom" href="{{page.amex-link}}" class="btn btn--cyan">Find Out More</a>
   </div>
 </div>

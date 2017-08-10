@@ -16,12 +16,24 @@ $margin: 1.6em;
 // -------- grid sections --------
 
 .section {
-  padding-top: 5em;
-  padding-bottom: 5em;
+  padding-top: 2.986em;
+  padding-bottom: 2.986em;
   & + &--equal-padding { padding-top: 0; }
-  &--lg {
-    padding-top: 10em;
-    padding-bottom: 10em;
+  @include bp(large){
+    padding-top: 3.5em;
+    padding-bottom: 3.5em;
+    &--lg {
+      padding-top: 5em;
+      padding-bottom: 5em;
+    }
+  }
+  @include bp(xxlarge){
+    padding-top: 5em;
+    padding-bottom: 5em;
+    &--lg {
+      padding-top: 7.5em;
+      padding-bottom: 7.5em;
+    }
   }
 }
 
@@ -137,7 +149,11 @@ $margin: 1.6em;
 }
 
 // only used on the competiiton page, but of an outlier
-.row--columns-4-4-4-no-break .row__column { @include gallery(4); line-height: 0; }
+.row--columns-4-4-4-no-break .row__column {
+  @include gallery(4);
+  line-height: 0;
+  margin-top: 0;
+}
 
 
 

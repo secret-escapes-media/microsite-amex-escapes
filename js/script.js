@@ -67,6 +67,22 @@
   }
 
 
+
+///////////////////////////////////////
+//      Parallax
+//      [ example: <div class="parallax" data-parallax-speed="0.2"> ]
+///////////////////////////////////////
+
+$(document).scroll(function(){
+  var scrolled = $(document).scrollTop();
+  $('.js-parallax').each(function(){
+    var speed = $(this).attr('data-parallax-speed');
+    var offset = $(this).offset();
+    var parallax = (scrolled - offset.top) * speed ;
+    $(this).css('background-position', 'center ' + parallax + 'px');
+  });
+});
+
 ///////////////////////////////////////
 //    Generic modal
 ///////////////////////////////////////
@@ -201,14 +217,14 @@ var game               = '.game',
     selectedClass      = 'is-selected',
     categoryOption     = 'js-game__category-option',
     selectedCategory   = '.'+categoryOption+'.'+selectedClass,
-    sumbitCategoryBtn  = 'js-game__category-submit',
+    submitCategoryBtn  = 'js-game__category-submit',
     userCategory       = '',
     userStyle          = '',
     categoryList       = 'js-game__category-list',
     styleList          = 'js-game__style-list',
     styleOption        = 'js-game__style-option',
     selectedStyle      = '.'+styleOption+'.'+selectedClass,
-    sumbitStyleBtn     = 'js-game__style-submit',
+    submitStyleBtn     = 'js-game__style-submit',
     resetBtn           = 'js-game__reset';
 
 var gameData = {
@@ -369,13 +385,15 @@ $('body').on('click', '.'+categoryOption, function() {
   // add visual feedback when 5 options are selected
   if ($(selectedCategory).length == 5){
     $('.'+categoryList).addClass('has-limit');
+    $('.game__category').addClass('has-limit');
   } else {
     $('.'+categoryList).removeClass('has-limit');
+    $('.game__category').removeClass('has-limit');
   }
 });
 
-// sumbit function for category
-$('body').on('click', '.'+sumbitCategoryBtn, function() {
+// submit function for category
+$('body').on('click', '.'+submitCategoryBtn, function() {
   // collect selected categories
   var selectedCategories = [];
   $(selectedCategory).each(function() {
@@ -408,13 +426,15 @@ $('body').on('click', '.'+styleOption, function() {
   // add visual feedback when 5 options are selected
   if ($(selectedStyle).length == 5){
     $('.'+styleList).addClass('has-limit');
+    $('.game__style').addClass('has-limit');
   } else {
     $('.'+styleList).removeClass('has-limit');
+    $('.game__style').removeClass('has-limit');
   }
 });
 
-// sumbit function for style
-$('body').on('click', '.'+sumbitStyleBtn, function() {
+// submit function for style
+$('body').on('click', '.'+submitStyleBtn, function() {
   // collect selected categories
   var selectedStyles = [];
   $(selectedStyle).each(function() {
@@ -427,14 +447,17 @@ $('body').on('click', '.'+sumbitStyleBtn, function() {
   $('.game__result').show();
   $('.js-result-' + userStyle).show();
   $('.game__style').hide();
+  $('.game').addClass('game--complete');
   // scroll back to the top of the game section
   $('html,body').scrollTop( $('.game').offset().top );
 });
 
 // Reset the game at the results screen
 $('body').on('click', '.'+resetBtn, function() {
+  $('.game').removeClass('game--complete');
   // remove the previous lists
   $('.'+styleList+', .'+categoryList).removeClass('has-limit').empty();
+  $('.game__category, .game__style').removeClass('has-limit');
   // hide the previous screens
   $('.game__style, .game__result, .result').hide();
   // rebuild the category selection & show
@@ -444,61 +467,61 @@ $('body').on('click', '.'+resetBtn, function() {
 });
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// temporary resest for building !!!!!!!!!!!!!!!!! must clean when built
-// !!!!!!!!!!!! need to do the HTML as well to remove classes etc
-$('.js-game__try-again').on('click', function() {
-  $(selectedOption).removeClass(selectedClass);
-  $('.js-game-chosen-category').empty();
-});
-
-
-  // total up all of the options
-    // get the classes of the selected options in array
-      // which one appears the most
-      // if there is a split find the two that appear more than once
-        // randomly choose between them
-
-
-
-
-
-
-
-
-// When sumbit is clicked the result for category is taken
+// When submit is clicked the result for category is taken
 // if 2,2,1 is the case then 50/50 between each of the 2 category
 // with category selected, fill the options of the style list
 // The category styles need to be retreaved from somewhere?
 // create two options and duplicate so there are tweleve options
 // the category page is hidden and the style page is shown
 // same clicking funtion as before, 3 to be selected this time
-// when sumbit is clicked the result for the style is done
+// when submit is clicked the result for the style is done
 // the category and style are inserted into the result
 // also the product with the correct tags and description is inserted as well
 // the style page is hidden and the result page is shown
 // also a link to look at the collection / other options that fit the category and style
 // There is either a start again option, or a switch results / see all results
+
+
+
+
+///////////////////////////////////////
+//      Game message fixed
+///////////////////////////////////////
+
+function offsetMsg(){
+  // gives padding to the game wrap which goes underneath the
+  // absolute positioned message
+  var msgHeight = $('.game__message').outerHeight();
+  $('.game__wrap').css('padding-top', msgHeight + 'px');
+}
+$(document).ready(function(){ offsetMsg(); });
+$(window).resize(function(){ offsetMsg(); });
+
+function stickMsg(){
+  var st = $(document).scrollTop();
+  var trigger = $('.game__wrap');
+  var distance = trigger.offset().top;
+  var end = distance + trigger.height();
+  var msg = $('.game__message');
+
+  // pin message to the top when scrolled to .game__wrap
+  if( st > distance && st < end ){
+    msg.addClass('game__message--fixed');
+  }else{
+    msg.removeClass('game__message--fixed');
+  }
+  // pin message to the bottom of the game when you scroll too far
+  if( st > end ){
+    msg.addClass('game__message--end');
+  }else{
+    msg.removeClass('game__message--end');
+  }
+}
+if( $('body').hasClass('page--perfect-summer-break') ){
+  $(document).scroll(function() { stickMsg(); });
+}
+
+
 
 
 

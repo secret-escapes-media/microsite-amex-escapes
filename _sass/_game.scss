@@ -10,6 +10,7 @@
     width: 100%;
     cursor: pointer;
     @include background-attributes;
+    background-size: 100%;
     @include transition;
     &:before {
       display: block;
@@ -41,14 +42,51 @@
     &.is-selected {
       &:after {
         opacity: 1;
-        background-size: 80px auto;
+        background-size: 60px auto;
+        @include bp(large) {
+          background-size: 80px auto;
+        }
       }
       .has-limit &:after {
         opacity: 1;
         background-color: rgba($amex-blue-dark,.9);
       }
     }
-    .game__category & { width: 20%; }
-    .game__style & { width: 25%; }
+    .game__category & { width: 50%; }
+    .game__style & { width: 50%; }
+    @include bp(large) {
+      .game__category & { width: 20%; }
+      .game__style & { width: 25%; }
+    }
   }
+
 }
+
+
+  .game__message {
+    position: absolute;
+    top: 0;
+    left: 0; right: 0;
+    width: 100%;
+    padding: $margin;
+    background-color: rgba(255,255,255,0.9);
+    z-index: 1;
+    span { display: block; }
+
+    &--fixed { position: fixed; }
+    &--end { position: absolute; top: auto; bottom: 0; }
+
+    .btn { display: none; }
+    .has-limit & .btn { display: inline-block; }
+    // disable row + row margin
+    & + * { margin-top: 0 !important; }
+  }
+
+  .game__wrap {
+    padding-top: 0;
+    margin-top: -$margin; // counters the top padding of the message
+    .game.game--complete & {
+      padding-top: 0 !important;
+      margin-top: 0 !important;
+    }
+  }

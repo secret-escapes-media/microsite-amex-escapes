@@ -4,8 +4,12 @@
 .title-banner {
   position: relative;
   height: 75%;
+  min-height: 350px;
   text-align: center;
   color: white;
+  @include background-attributes();
+  background-position: center 0;
+  .page--collections & { min-height: 450px; }
   &--amex { height: 60%; }
   &__wrap {height: 100%;}
   &__title {
@@ -17,19 +21,33 @@
     z-index: $z-content;
     &-wrap {
       position: absolute;
+      width: 100%;
       top: 0;
-      left: 0;
-      right: 0;
       z-index: $z-content;
-      padding-top: 25vh;
+      padding-top: 10vh;
       padding-left: ($margin/2);
       padding-right: ($margin/2);
       margin: auto;
-      max-width: $xxxlarge;
-      &--narrow { max-width: 850px; }
+
+      @include bp(xxxlarge){
+        max-width: $xxxlarge;
+        margin-left: -600px;
+      }
+
+      @include bp(xlarge){
+        left: 50%;
+        &--narrow {
+          max-width: 850px;
+          margin-left: -425px;
+        }
+      }
+
       .csstransforms.csstransforms3d & {
         top: 50%;
+        left: 0;
+        right: 0;
         padding-top: 0;
+        margin-left: auto;
         transform: translateY(-50%);
       }
     }

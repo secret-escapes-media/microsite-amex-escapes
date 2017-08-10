@@ -1,6 +1,6 @@
 // Offer block styles
 
-section.offers { background-color: $norway-light-grey; }
+section.offers { background-color: $light-grey; }
 
 .offer {
   position: relative;
@@ -56,9 +56,9 @@ section.offers { background-color: $norway-light-grey; }
   }
   &__content {
     padding: $margin;
-    border-left: 1px solid $norway-grey;
-    border-right: 1px solid $norway-grey;
-    border-bottom: 1px solid $norway-grey;
+    border-left: 1px solid $mid-grey;
+    border-right: 1px solid $mid-grey;
+    border-bottom: 1px solid $mid-grey;
     background-color: $white;
   }
   &__title {
@@ -100,7 +100,7 @@ section.offers { background-color: $norway-light-grey; }
       padding-right: ($margin/1.5);
       line-height: 1.2;
       text-align: center;
-      border-right: 1px solid $norway-grey;
+      border-right: 1px solid $mid-grey;
       vertical-align: middle !important;
     &-num {
       display: inline-block;
@@ -108,7 +108,7 @@ section.offers { background-color: $norway-light-grey; }
       height: $circle-height;
       margin-top: .2em;
       text-align: center;
-      color: #fff;
+      color: $white;
       line-height: $circle-height;
       background-color: $se-orange;
       border-radius: $circle-height;
@@ -187,6 +187,7 @@ section.offers { background-color: $norway-light-grey; }
     .offer__image-smaller {
       display: inline-block;
       width: 50%;
+      vertical-align: top;
       @include bp( xlarge ){
         display: block;
         width: 100%;
@@ -196,16 +197,20 @@ section.offers { background-color: $norway-light-grey; }
       padding: $margin ($margin*1.25);
       @include bp(large){ padding: ($margin*1.25) ($margin*1.75); }
     }
+    .offer__title {
+      @include bp(large) {
+        font-size: 1.867em;
+      }
+    }
     li {
       margin-left: 1.5em;
-      font-weight: 200;
       letter-spacing: .015em;
       list-style-position: outside;
     }
     .offer__bottom {
       margin-top: 1.5em;
       padding-top: 1.5em;
-      border-top: 1px solid $norway-grey;
+      border-top: 1px solid $mid-grey;
     }
   }
 }

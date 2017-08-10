@@ -6,7 +6,7 @@
   {% assign page-title = page.title | slugify %}
   {% assign page-category = page.category %}
 
-  <body id="top" class="page--{{page-title}} category--{{page-category}}" data-current-page="{{page-title}}" data-current-category="{{page-category}}" style="background-image: url('{{site.baseurl}}/img/bg/{{page.id}}.jpg');">
+  <body id="top" class="page--{{page-title}} category--{{page-category}} js-parallax" data-current-page="{{page-title}}" data-current-category="{{page-category}}" style="background-image: url('{{site.baseurl}}/img/bg/{{page.id}}.jpg');" data-parallax-speed="0.2">
 
     {% include tracking.html %}
 

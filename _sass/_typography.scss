@@ -13,10 +13,13 @@ body,
 input, textarea, keygen, select, button {
   font: 400 14px/1.728 $main-font-family;
   -webkit-text-size-adjust: 100%;
+  color: $paragraph-black;
+  @include bp(large) {
+    font: 200 15px/1.728 $main-font-family;
+  }
   @include bp(medium) {
     font-size: 15px;
-  }
-  color: $paragraph-black;
+  };
 }
 
 
@@ -24,22 +27,25 @@ input, textarea, keygen, select, button {
 
 .title {
   font-family: $title-font-family;
-  font-weight: 200;
   line-height: 1.15;
   word-break: break-word;
   color: $title-black;
+  @include bp(large) {
+    font-weight: 200;
+  }
+
   + *   { margin-top: .8em; }
   * + & { margin-top: .8em; }
   &--margin-none + * { margin-top: 0; }
   &--margin + * { margin-top: 1.5em; }
   * + &--margin-top { margin-top: 3em; }
 
-  &--sub-heading { margin-top: 0 !important; }
+  &--sub-heading { margin-top: 0.2em !important; }
 
   &--color     { color: inherit; }
   // &--sub       { font-family: $subtitle-font-family; font-weight: 400; line-height: 1.1; }
   &--sub        { padding-top: 0 !important; }
-  &--super + *  { margin-top: 0 !important; }
+  &--super + *  { margin-top: 0.2em !important; }
   &--bold      { font-weight: 500; }
   &--bolder    { font-weight: 600; }
   &--condense  { letter-spacing: 0; }
@@ -49,36 +55,17 @@ input, textarea, keygen, select, button {
   &--upper     { text-transform: uppercase; }
   &--italic    { font-style: italic; }
 
-  // &--largest     { font-size: 2.986em; }
-  // &--larger      { font-size: 2.25em; }
-  // &--large       { font-size: 2em; }
-  // &--medium      { font-size: 1.867em; }
-  // &--small       { font-size: 1.867em; }
-  // &--smaller     { font-size: 1.867em; }
-  // &--smallest    { font-size: 1.467em; }
-  // @include bp(small){
-  //   &--largest     { font-size: 3.583em; }
-  //   &--larger      { font-size: 2.488em; }
-  //   &--large       { font-size: 2.488em; }
-  // }
-  // @include bp(medium){
-  //   &--largest     { font-size: 5.16em; }
-  //   &--larger      { font-size: 2.9em; }
-  // }
-  // @include bp(large){
-  //   &--largest     { font-size: 6.192em; }
-  //   &--larger      { font-size: 3.533em; }
-  //   &--large       { font-size: 3.375em; }
-  //   &--medium      { font-size: 2.488em; }
-  //   &--small       { font-size: 2.2em; }
-  // }
-  // @include bp(xxxlarge){
-  //   &--largest     { font-size: 6.192em; }
-  //   &--larger      { font-size: 5.16em; }
-  //   &--large       { font-size: 3.533em; }
-  //   &--medium      { font-size: 2.9em; }
-  // }
 
+
+  &--largest     { font-size: 4.3em; letter-spacing: -.025em; }
+  &--larger      { font-size: 2.586em; letter-spacing: -.025em; }
+  &--large       { font-size: 2.074em; }
+  &--medium      { font-size: 1.867em; }
+  &--small       { font-size: 1.467em; }
+  &--smaller     { font-size: 1.2em; }
+  &--smallest    { font-size: 1.2em; }
+
+  @include bp(large){
     &--largest     { font-size: 6.192em; letter-spacing: -.025em; }
     &--larger      { font-size: 5.16em; letter-spacing: -.025em; }
     &--large       { font-size: 3.533em; }
@@ -86,6 +73,8 @@ input, textarea, keygen, select, button {
     &--small       { font-size: 2.2em; }
     &--smaller     { font-size: 1.867em; }
     &--smallest    { font-size: 1.467em; }
+    &--tiny        { font-size: 1.26em; }
+  }
 
 }
 
@@ -98,17 +87,22 @@ input, textarea, keygen, select, button {
 }
 
 p {
-  font-weight: 200;
+  font-weight: 400;
   letter-spacing: .015em;
+  @include bp(large){
+    font-weight: 200;
+  }
 }
-
-.p--lead {
-  font-size: 1.44em;
-  line-height: 1.55;
+@include bp(large){
+  .p--lead {
+    font-size: 1.44em;
+    line-height: 1.55;
+  }
+  .p--large { font-size: 1.2em; }
+  .p--small { font-size: .85em; }
+  .p--bold      { font-weight: 400; }
+  .p--bolder    { font-weight: 600; }
 }
-.p--large { font-size: 1.2em; }
-.p--small { font-size: .85em; }
-
 
 // -------- general content styles --------
 
