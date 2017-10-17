@@ -17,7 +17,11 @@ layout: default
 <div class="page__content">
 {{content}}
 
-{% unless page.id == 'amex' %}
+{% unless page.id == 'competition' %}
+  {% include competition-promo.html %}
+{% endunless %}
+
+{% unless page.id == 'competition' or page.id == 'amex'%}
   {% include amex-promo.html %}
 {% endunless %}
 </div>

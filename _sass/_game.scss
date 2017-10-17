@@ -55,7 +55,7 @@
     .game__category & { width: 50%; }
     .game__style & { width: 50%; }
     @include bp(large) {
-      .game__category & { width: 20%; }
+      .game__category & { width: 25%; }
       .game__style & { width: 25%; }
     }
   }

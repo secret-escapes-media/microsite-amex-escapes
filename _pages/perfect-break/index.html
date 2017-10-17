@@ -1,0 +1,127 @@
+---
+layout: standard
+id: perfect-break
+title: Perfect break
+nav-order: 2
+intro: Find out what your perfect new year escape should be. Play the game below and discover our top recommendation based on your tastes.
+
+content-banner:
+  title: Discover your <br>perfect break
+  content: |
+    <p class="p--lead p--bold">Find out what your perfect new year escape should be. Play the game below and discover our top recommendation based on your tastes.</p>
+
+game-results:
+
+  - id: city-modern
+    link: city-breaks
+    link-title: City Breaks
+    title: A modern city break
+    content: For you, the electric buzz of the modern city is what you want from your getaway. Glass spires pierce the skyline whereas at ground floor the city ticks an upbeat tempo. Alight at trendy cocktail bars, discover a host of contemporary galleries, and immerse yourself in the throws of the city.
+    offer-id: new-york-winter-offer
+
+  - id: city-historical
+    link: city-breaks
+    link-title: City Breaks
+    title: A city break full of history and culture
+    content: Remarkable architecture, streets pierced by ruins that halt modernity, stories and tales that stretch back  centuries – you want a city break packed with cultural exploits. From Rome to Athens and beyond, you can’t sit still until your itinerary is packed with museums, monuments and galleries, interspersed by espresso stops and quaint, vibrant bars.
+    offer-id: rome-winter-offer
+
+  - id: stay-cosy
+    link: staycations
+    link-title: Staycations
+    title: A cosy stay in the UK
+    content: Forget flying abroad, the wintery countryside of Britain fills you with wanderlust. Rolling valleys and effortlessly picturesque villages offer delightful escapes, framed by tea, a full english, and plenty of cosy pub stops following a day’s ramble.
+    offer-id: cosy-peak-district-offer
+
+  - id: stay-spa
+    link: staycations
+    link-title: Staycations
+    title: A lavish spa break in the UK
+    content: Forget trudging to the airport, sink into comfort at a grand stately home. A very British luxury awaits, where you’ll be pampered all day long in sumptuous spas. Brave the cold and explore wild countryside, before heading back to the fireplace with a hot toddy.
+    offer-id: cotswolds-spa-offer
+
+  - id: sun-caribbean
+    link: winter-sun
+    link-title: Winter Sun
+    title: Escape to the Caribbean
+    content: Balmy beaches, propping up at rum shacks, sinking into clear, refreshing waters – we’re sure you need little persuasion. The Caribbean is the ultimate winter sun destination, offering breathtaking beauty, endearing culture, and plenty of sunshine. Leave your winter blues behind...
+    offer-id: tropical-caribbean-offer
+
+  - id: sun-asia
+    link: winter-sun
+    link-title: Winter Sun
+    title: Winter Sun Asia
+    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus maxime voluptas, maiores similique ut aliquid, repellat dolore reprehenderit soluta officia sunt sed impedit, tenetur ab saepe unde voluptates ad corrupti! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    offer-id: luxury-maldives-resort-offer
+
+  - id: winter-ski
+    link: winter-wonderland
+    link-title: Winter Wonderland
+    title: Hit the slopes
+    content: You want a winter adventure. Who can blame you? Sailing down mountains offers unparalleled thrills. Typified by jaw-dropping vistas over dramatic mountains, kick-back in wooden chalets, ready for a night enjoying famed off-piste action.
+    offer-id: french-ski-chalet
+
+  - id: winter-landscapes
+    link: winter-wonderland
+    link-title: Winter Wonderland
+    title: Explore a winter wilderness
+    content: Awe-inspiring landscapes, scenes that leave you speechless, is what you need this winter. Explore beguiling countryside, with vast glaciers and frothing geysers as waterfalls cascade in the distance. Feel the drama of the natural world with enchanting foreign lands...
+    offer-id: epic-iceland-offer
+---
+
+<div class="section section--lg game">
+  <div class="row row--padding align-center">
+
+    <div class="game__wrap">
+      <div class="game__category">
+        <div class="row game__message">
+          <span class="title title--smaller">Pick <strong>five</strong> images that look like your perfect summer break</span>
+          <a id="track-category-submit" class="btn btn--orange btn--large js-game__category-submit">Submit</a>
+        </div>
+        <div class="row">
+          <ul class="game__category-list js-game__category-list"></ul>
+        </div>
+      </div>
+      <div class="game__style">
+        <div class="row game__message">
+          <div class="title title--smaller">Now pick <strong>five</strong> more and reveal your perfect getaway!</div>
+          <a id="track-game-result" class="btn btn--orange btn--large js-game__style-submit">Submit</a>
+        </div>
+        <div class="row">
+          <ul class="game__style-list js-game__style-list"></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="game__result align-center">
+      <div class="row">
+        {% for result in page.game-results %}
+        <div class="result js-result-{{result.id}}">
+          <div class="row row--lg">
+            <div class="title title--upper title--bold title--expanded title--super title--tiny">Your perfect summer break is...</div>
+            <div class="title title--large">{{result.title}}</div>
+            <p class="p--large">{{result.content}}</p>
+          </div>
+          <div class="row row--xxl align-left">
+            {% assign result-offer = site.data.offers | where: "id", result.offer-id %}
+            {% for offer in result-offer %}
+              {% include offer-lg.html %}
+            {% endfor %}
+          </div>
+          <div class="row align-center">
+            <div>
+              <a id="track-game-result-collection" href="{{site.baseurl}}/{{result.link}}" class="btn btn--orange">See More {{result.link-title}}</a><br><a id="track-game-reset" class="js-game__reset btn btn--outline-orange btn--small">Choose Again?</a>
+            </div>
+            <div>
+
+            </div>
+          </div>
+          <div class="row align-center">
+
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

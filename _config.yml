@@ -1,8 +1,8 @@
 # Site settings
-title: Summer Escapes
+title: New Year Escapes
 description: >
-  American Express and Secret Escapes have brought you a collection of summer escapes set to kick-start your wanderlust. Browse city breaks, long-haul luxury, staycations and more, with a host of luxurious offers made for superlative getaways.
-baseurl: "/summer-escapes" # the subpath of your site, e.g. /blog/
+  Whether you love the icy adventures that a winter in the Alps affords, or the veritable paradise of a long haul beach escape, browse these American Express collections of the finest stays around the world. Find your new year escape, with a host of inspired offers plus top picks for winter travel. 
+baseurl: "/new-year-escapes" # the subpath of your site, e.g. /blog/
 url: "http://mp.secretescapes.com" # the base hostname & protocol for your site
 
 # Build settings

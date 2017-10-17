@@ -19,7 +19,7 @@ gulp.task('serve', function () {
       server: {
         baseDir: '_site/',
         routes: {
-          '/summer-escapes': '_site/'
+          '/new-year-escapes': '_site/'
         }
       }
     });

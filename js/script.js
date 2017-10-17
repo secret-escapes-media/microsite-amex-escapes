@@ -231,9 +231,8 @@ var gameData = {
   "categories": [
       { "id": "city" },
       { "id": "stay" },
-      { "id": "europe" },
-      { "id": "coast" },
-      { "id": "longhaul" }
+      { "id": "sun" },
+      { "id": "winter" }
     ],
   "styles": {
     "city": [
@@ -241,20 +240,16 @@ var gameData = {
         { "id": "city-historical" }
       ],
     "stay": [
-        { "id": "stay-country" },
-        { "id": "stay-coast" }
+        { "id": "stay-cosy" },
+        { "id": "stay-spa" }
       ],
-    "europe": [
-        { "id": "europe-north" },
-        { "id": "europe-south" }
+    "sun": [
+        { "id": "sun-caribbean" },
+        { "id": "sun-asia" }
       ],
-    "coast": [
-        { "id": "coast-beach" },
-        { "id": "coast-city" }
-      ],
-    "longhaul": [
-        { "id": "longhaul-asia" },
-        { "id": "longhaul-america" }
+    "winter": [
+        { "id": "winter-ski" },
+        { "id": "winter-landscapes" }
       ]
     }
   };
@@ -311,9 +306,9 @@ function createCategoryList() {
       categoryCounter     = 0,
       imageCounter        = 1;
   // create 20 options using the game categories
-  for (var i = 1; i <= 20; i++) {
+  for (var i = 1; i <= 16; i++) {
     // adds a list item of game category to list
-    $('.'+categoryList).append('<li class="game__option js-game__category-option" data-category="' + gameData.categories[categoryCounter].id + '" style="background-image:url(../img/content/perfect-summer-break/categories/'+gameData.categories[categoryCounter].id+'-'+imageCounter+'.jpg);"></li>');
+    $('.'+categoryList).append('<li class="game__option js-game__category-option" data-category="' + gameData.categories[categoryCounter].id + '" style="background-image:url(../img/content/perfect-break/categories/'+gameData.categories[categoryCounter].id+'-'+imageCounter+'.jpg);"></li>');
     // loops through the amount of available categories if
     if (categoryCounter == categoriesAvailable) {
       // there are no more categories left, back to start
@@ -338,7 +333,8 @@ function createStyleList() {
   // create 12 options using the game categories
   for (var i = 1; i <= 12; i++) {
     // adds a list item of game category to list
-    $('.'+styleList).append('<li class="game__option js-game__style-option" data-style="' + categoryStyle[stylesCounter].id + '" style="background-image:url(../img/content/perfect-summer-break/styles/'+categoryStyle[stylesCounter].id+'-'+imageCounter+'.jpg);"></li>');
+    // $('.'+styleList).append('<li class="game__option js-game__style-option" data-style="' + categoryStyle[stylesCounter].id + '" style="background-image:url(../img/content/perfect-break/styles/'+categoryStyle[stylesCounter].id+'-'+imageCounter+'.jpg);"></li>');
+    $('.'+styleList).append('<li class="game__option js-game__style-option" data-style="' + categoryStyle[stylesCounter].id + '" style="background-image:url(../img/content/perfect-break/styles/'+categoryStyle[stylesCounter].id+'.jpg);"></li>');
 
     // loops through the amount of available categories if
     if (stylesCounter == stylesAvailable) {
@@ -517,7 +513,7 @@ function stickMsg(){
     msg.removeClass('game__message--end');
   }
 }
-if( $('body').hasClass('page--perfect-summer-break') ){
+if( $('body').hasClass('page--perfect-break') ){
   $(document).scroll(function() { stickMsg(); });
 }
 
