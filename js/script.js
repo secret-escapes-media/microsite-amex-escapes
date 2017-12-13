@@ -308,7 +308,7 @@ function createCategoryList() {
   // create 20 options using the game categories
   for (var i = 1; i <= 16; i++) {
     // adds a list item of game category to list
-    $('.'+categoryList).append('<li class="game__option js-game__category-option" data-category="' + gameData.categories[categoryCounter].id + '" style="background-image:url(../img/content/perfect-break/categories/'+gameData.categories[categoryCounter].id+'-'+imageCounter+'.jpg);"></li>');
+    $('.'+categoryList).append('<li class="game__option js-game__category-option" data-category="' + gameData.categories[categoryCounter].id + '" style="background-image:url(../img/content/perfect-break/categories/'+gameData.categories[categoryCounter].id+'/0'+imageCounter+'.jpg);"></li>');
     // loops through the amount of available categories if
     if (categoryCounter == categoriesAvailable) {
       // there are no more categories left, back to start
@@ -334,7 +334,7 @@ function createStyleList() {
   for (var i = 1; i <= 12; i++) {
     // adds a list item of game category to list
     // $('.'+styleList).append('<li class="game__option js-game__style-option" data-style="' + categoryStyle[stylesCounter].id + '" style="background-image:url(../img/content/perfect-break/styles/'+categoryStyle[stylesCounter].id+'-'+imageCounter+'.jpg);"></li>');
-    $('.'+styleList).append('<li class="game__option js-game__style-option" data-style="' + categoryStyle[stylesCounter].id + '" style="background-image:url(../img/content/perfect-break/styles/'+categoryStyle[stylesCounter].id+'.jpg);"></li>');
+    $('.'+styleList).append('<li class="game__option js-game__style-option" data-style="' + categoryStyle[stylesCounter].id + '" style="background-image:url(../img/content/perfect-break/styles/'+categoryStyle[stylesCounter].id+'/0'+imageCounter+'.jpg);"></li>');
 
     // loops through the amount of available categories if
     if (stylesCounter == stylesAvailable) {
