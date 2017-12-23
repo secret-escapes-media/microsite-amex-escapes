@@ -2,7 +2,6 @@
   # template
 ################################################################################
 
-
 # ----------- LONG -----------
 
 # - category: #
@@ -37,465 +36,749 @@
 #   link: #
 
 
+################################################################################
+#
+#
+#   # CITY BREAKS
+#
+#
+################################################################################
 
 ################################################################################
-  # CITY BREAKS
+  # Top Pick
 ################################################################################
 
 - category: city-breaks
   top-pick: true
-  title: New York Winter offer
-  id: new-york-winter-offer
-  location: New York, USA
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat tempora amet cupiditate autem quis sit tempore ut fuga qui ratione, aliquam fugiat officia rem sapiente, eos eum impedit ipsum numquam dolor reiciendis consectetur similique pariatur perspiciatis possimus, sunt. Iure saepe qui non cum, rerum officiis totam nobis labore voluptatum laboriosam.
-  description-long: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas aliquid, quis asperiores ipsa suscipit ad libero quo non nostrum, hic blanditiis ducimus cum voluptas quos animi sint nisi delectus. A, accusamus tempore fuga id deleniti dolorum eaque minima eius, asperiores ullam iste natus omnis, ipsum sunt porro reiciendis assumenda repellendus dolore enim autem reprehenderit! Fuga quos doloribus error officia ad dignissimos, maxime facilis aliquam sapiente, soluta. Ipsam qui earum adipisci, asperiores quae, aperiam quam est quos, cum non veniam tempore.
+  title: WestHouse Hotel
+  id: westhouse-hotel
+  location: Midtown Manhattan, New York
+  description: A Conde Nast Traveller recommended NYC boutique with 1920s flair
+  description-long: A glamorous and award-winning Small Luxury Hotel of the World in the heart of Midtown Manhattan, just steps from Central Park and Broadway, with breakfast
   description-list: >
-    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ratione quod cupiditate mollitia, inventore itaque dolor officia, deleniti quas velit?</li>
-    <li>Eaque incidunt cumque, dolores qui, enim necessitatibus, suscipit iure corporis, maiores non quis iste id doloremque! Velit perferendis officia rerum.</li>
-    <li>Atque reiciendis illum vero veritatis culpa ratione nostrum ipsam labore dolore, neque distinctio, incidunt, facere expedita quibusdam consequuntur iure error.</li>
-  price: 999.99
+    <li>Having so many NYC sights within walking distance</li>
+    <li>The light bites and reviving refreshments served throughout the day</li>
+    <li>Personal trainers available on request in the 24-hour workout room – very New York</li>
+  price: 110
   price-description: per room per night
-  saved: 66
-  expires: 2018/08/01
-  link: #offer-link
+  saved: 27
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/westhouse-hotel-midtown-manhattan-new-york/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
+
+
+################################################################################
+  # Game offer - A modern city break
+################################################################################
+
+# westhouse-hotel
+
+
+################################################################################
+  # Game offer - A city break full of history and culture
+################################################################################
 
 - category: city-breaks
-  title: Rome Winter offer
-  id: rome-winter-offer
+  title: Hotel dei Consoli
+  id: hotel-dei-consoli
   location: Rome, Italy
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat tempora amet cupiditate autem quis sit tempore ut fuga qui ratione, aliquam fugiat officia rem sapiente, eos eum impedit ipsum numquam dolor reiciendis consectetur similique pariatur perspiciatis possimus, sunt. Iure saepe qui non cum, rerum officiis totam nobis labore voluptatum laboriosam.
-  description-long: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas aliquid, quis asperiores ipsa suscipit ad libero quo non nostrum, hic blanditiis ducimus cum voluptas quos animi sint nisi delectus. A, accusamus tempore fuga id deleniti dolorum eaque minima eius, asperiores ullam iste natus omnis, ipsum sunt porro reiciendis assumenda repellendus dolore enim autem reprehenderit! Fuga quos doloribus error officia ad dignissimos, maxime facilis aliquam sapiente, soluta. Ipsam qui earum adipisci, asperiores quae, aperiam quam est quos, cum non veniam tempore.
+  description: Iconic views from a central Rome hotel near the Vatican
+  description-long: Stay right near the Vatican and Sistine Chapel in Rome, at a hotel with a lovely rooftop garden and amazing views - includes breakfast and wine
   description-list: >
-    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ratione quod cupiditate mollitia, inventore itaque dolor officia, deleniti quas velit?</li>
-    <li>Eaque incidunt cumque, dolores qui, enim necessitatibus, suscipit iure corporis, maiores non quis iste id doloremque! Velit perferendis officia rerum.</li>
-    <li>Atque reiciendis illum vero veritatis culpa ratione nostrum ipsam labore dolore, neque distinctio, incidunt, facere expedita quibusdam consequuntur iure error.</li>
-  price: 888.88
+    <li>Sipping an Italian red while admiring views of Saint Peter’s Basilica from the hotel’s rooftop garden</li>
+    <li>Staying only a short stroll away from the stately Vatican and majestic Sistine Chapel</li>
+    <li>Having a foodie holiday in a city filled with bruschetta, lamb, spaghetti, artichokes and Pecorino Romano</li>
+  price: 54
   price-description: per room per night
-  saved: 55
-  expires: 2018/08/01
-  link: #offer-link
+  saved: 75
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/hotel-dei-consoli-rome-italy/sale?gce_hpf=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
+
+
+################################################################################
+  # Normal Offers
+################################################################################
 
 - category: city-breaks
-  title: City Break Offer
-  id: city-break-offer
-  location: Destination, Country
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat tempora amet cupiditate autem quis sit tempore ut fuga qui ratione, aliquam fugiat officia rem sapiente, eos eum impedit ipsum numquam dolor reiciendis consectetur similique pariatur perspiciatis possimus, sunt. Iure saepe qui non cum, rerum officiis totam nobis labore voluptatum laboriosam.
-  price: 777.77
+  title: MADE Hotel
+  id: made-hotel
+  location: Midtown, New York
+  description: Residence-style accommodation in hip New York's NoMad
+  price: 92
   price-description: per room per night
-  saved: 44
-  expires: 2018/08/01
-  link: #offer-link
+  saved: 39
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/made-hotel-midtown-new-york/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
 
 - category: city-breaks
-  title: City Break Offer
-  id: city-break-offer
-  location: Destination, Country
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat tempora amet cupiditate autem quis sit tempore ut fuga qui ratione, aliquam fugiat officia rem sapiente, eos eum impedit ipsum numquam dolor reiciendis consectetur similique pariatur perspiciatis possimus, sunt. Iure saepe qui non cum, rerum officiis totam nobis labore voluptatum laboriosam.
-  price: 777.77
-  price-description: per room per night
-  saved: 44
-  expires: 2018/08/01
-  link: #offer-link
+  title: Stylish Morocco boutique riad break
+  id: stylish-morocco-boutique-riad-break
+  location: Riad l'Escale de Marrakech, Morocco
+  description: A boutique riad stay in the heart of Marrakech
+  price: 179
+  price-description: per person for 3 nights
+  saved: 23
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/stylish-morocco-boutique-riad-break-riad-lescale-de-marrakech-morocco/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
 
 - category: city-breaks
-  title: City Break Offer
-  id: city-break-offer
-  location: Destination, Country
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat tempora amet cupiditate autem quis sit tempore ut fuga qui ratione, aliquam fugiat officia rem sapiente, eos eum impedit ipsum numquam dolor reiciendis consectetur similique pariatur perspiciatis possimus, sunt. Iure saepe qui non cum, rerum officiis totam nobis labore voluptatum laboriosam.
-  price: 777.77
+  title: Art Place Hotel & Ryad
+  id: art-place-hotel-ryad
+  location: Marrakech, Morocco
+  description: Authentic five-star riad in Marrakech's medina
+  price: 107
   price-description: per room per night
-  saved: 44
-  expires: 2018/08/01
-  link: #offer-link
+  saved: 30
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/art-place-hotel-and-ryad-marrakech-moroccoasd/sale?gce_hpf=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
 
 - category: city-breaks
-  title: City Break Offer
-  id: city-break-offer
-  location: Destination, Country
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat tempora amet cupiditate autem quis sit tempore ut fuga qui ratione, aliquam fugiat officia rem sapiente, eos eum impedit ipsum numquam dolor reiciendis consectetur similique pariatur perspiciatis possimus, sunt. Iure saepe qui non cum, rerum officiis totam nobis labore voluptatum laboriosam.
-  price: 777.77
+  title: Hotel Les Dames du Panthéon
+  id: hotel-les-dames-du-pantheon
+  location: Paris, France
+  description: A characterful boutique Paris stay in Saint-Germain
+  price: 113
   price-description: per room per night
-  saved: 44
-  expires: 2018/08/01
-  link: #offer-link
+  saved: 43
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/hotel-les-dames-du-pantheon-paris-france/sale?gce_hpf=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
 
 - category: city-breaks
-  title: City Break Offer
-  id: city-break-offer
-  location: Destination, Country
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat tempora amet cupiditate autem quis sit tempore ut fuga qui ratione, aliquam fugiat officia rem sapiente, eos eum impedit ipsum numquam dolor reiciendis consectetur similique pariatur perspiciatis possimus, sunt. Iure saepe qui non cum, rerum officiis totam nobis labore voluptatum laboriosam.
-  price: 777.77
+  title: 1908 Lisboa Hotel
+  id: lisboa-hotel
+  location: Lisbon, Portugal
+  description: A chic stay in an Art Nouveau building in downtown Lisbon
+  price: 118
   price-description: per room per night
-  saved: 44
-  expires: 2018/08/01
-  link: #offer-link
+  saved: 34
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/1908-lisboa-hotel-lisbon-portugal/sale?gce_hpf=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
 
 - category: city-breaks
-  title: City Break Offer
-  id: city-break-offer
-  location: Destination, Country
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat tempora amet cupiditate autem quis sit tempore ut fuga qui ratione, aliquam fugiat officia rem sapiente, eos eum impedit ipsum numquam dolor reiciendis consectetur similique pariatur perspiciatis possimus, sunt. Iure saepe qui non cum, rerum officiis totam nobis labore voluptatum laboriosam.
-  price: 777.77
+  title: Hotel Imperial
+  id: hotel-imperial
+  location: Copenhagen, Denmark
+  description: Design-centric Copenhagen digs with festive dates
+  price: 107
   price-description: per room per night
-  saved: 44
-  expires: 2018/08/01
-  link: #offer-link
+  saved: 47
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/hotel-imperial-copenhagen-denmark-1/sale?gce_hpf=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
 
 - category: city-breaks
-  title: City Break Offer
-  id: city-break-offer
-  location: Destination, Country
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat tempora amet cupiditate autem quis sit tempore ut fuga qui ratione, aliquam fugiat officia rem sapiente, eos eum impedit ipsum numquam dolor reiciendis consectetur similique pariatur perspiciatis possimus, sunt. Iure saepe qui non cum, rerum officiis totam nobis labore voluptatum laboriosam.
-  price: 777.77
+  title: My Story Hotel Ouro
+  id: my-story-hotel-ouro
+  location: Lisbon, Portugal
+  description: Contemporary digs in the heart of downtown Lisbon
+  price: 74
   price-description: per room per night
-  saved: 44
-  expires: 2018/08/01
-  link: #offer-link
+  saved: 40
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/my-story-hotel-ouro-lisbon-portugal-uk/sale?gce_hpf=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
+
+- category: city-breaks
+  title: The Westin Grand Berlin
+  id: the-westin-grand-berlin
+  location: Berlin, Germany
+  description: A glamorous five-star spa hotel in Berlin's Mitte district
+  price: 58
+  price-description: per person per night
+  saved: 48
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/the-westin-grand-berlin-berlin-germany2/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
+
+- category: city-breaks
+  title: Hotel Barsey by Warwick
+  id: hotel-barsey-by-warwick
+  location: Brussels, Belgium
+  description: A charming hotel on a famous Brussels street
+  price: 81
+  price-description: per room per night
+  saved: 50
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/hotel-barsey-by-warwick-brussels-belgium1/sale?gce_hpf=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
+
+- category: city-breaks
+  title: Courthouse Hotel Shoreditch
+  id: courthouse-hotel-shoreditch
+  location: East End, London
+  description: A Shoreditch courthouse turned hip hotel with pool
+  price: 159
+  price-description: per room per night
+  saved: 50
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/courthouse-hotel-shoreditch-shoreditch-london/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
+
+- category: city-breaks
+  title: Hotel Balmoral Champs-Elysées
+  id: hotel-balmoral-champs-elysees
+  location: Elegant Paris digs near the Champs-Elysées
+  description: A chic and arty Paris stay near the Champs-Élysées
+  price: 119
+  price-description: per room per night
+  saved: 25
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/hotel-balmoral-paris-france3/sale?gce_hpf=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
 
 
 
 ################################################################################
-  # STAYCATIONS
+#
+#
+#   # WINTER SUN
+#
+#
 ################################################################################
 
-- category: staycations
-  top-pick: true
-  title: Cotswolds Spa offer
-  id: cotswolds-spa-offer
-  location: Cotswolds, UK
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat tempora amet cupiditate autem quis sit tempore ut fuga qui ratione, aliquam fugiat officia rem sapiente, eos eum impedit ipsum numquam dolor reiciendis consectetur similique pariatur perspiciatis possimus, sunt. Iure saepe qui non cum, rerum officiis totam nobis labore voluptatum laboriosam.
-  description-long: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas aliquid, quis asperiores ipsa suscipit ad libero quo non nostrum, hic blanditiis ducimus cum voluptas quos animi sint nisi delectus. A, accusamus tempore fuga id deleniti dolorum eaque minima eius, asperiores ullam iste natus omnis, ipsum sunt porro reiciendis assumenda repellendus dolore enim autem reprehenderit! Fuga quos doloribus error officia ad dignissimos, maxime facilis aliquam sapiente, soluta. Ipsam qui earum adipisci, asperiores quae, aperiam quam est quos, cum non veniam tempore.
-  description-list: >
-    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ratione quod cupiditate mollitia, inventore itaque dolor officia, deleniti quas velit?</li>
-    <li>Eaque incidunt cumque, dolores qui, enim necessitatibus, suscipit iure corporis, maiores non quis iste id doloremque! Velit perferendis officia rerum.</li>
-    <li>Atque reiciendis illum vero veritatis culpa ratione nostrum ipsam labore dolore, neque distinctio, incidunt, facere expedita quibusdam consequuntur iure error.</li>
-  price: 999.99
-  price-description: per room per night
-  saved: 66
-  expires: 2018/08/01
-  link: #offer-link
-
-- category: staycations
-  title: Cosy Peak District offer
-  id: cosy-peak-district-offer
-  location: Peak District, UK
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat tempora amet cupiditate autem quis sit tempore ut fuga qui ratione, aliquam fugiat officia rem sapiente, eos eum impedit ipsum numquam dolor reiciendis consectetur similique pariatur perspiciatis possimus, sunt. Iure saepe qui non cum, rerum officiis totam nobis labore voluptatum laboriosam.
-  description-long: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas aliquid, quis asperiores ipsa suscipit ad libero quo non nostrum, hic blanditiis ducimus cum voluptas quos animi sint nisi delectus. A, accusamus tempore fuga id deleniti dolorum eaque minima eius, asperiores ullam iste natus omnis, ipsum sunt porro reiciendis assumenda repellendus dolore enim autem reprehenderit! Fuga quos doloribus error officia ad dignissimos, maxime facilis aliquam sapiente, soluta. Ipsam qui earum adipisci, asperiores quae, aperiam quam est quos, cum non veniam tempore.
-  description-list: >
-    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ratione quod cupiditate mollitia, inventore itaque dolor officia, deleniti quas velit?</li>
-    <li>Eaque incidunt cumque, dolores qui, enim necessitatibus, suscipit iure corporis, maiores non quis iste id doloremque! Velit perferendis officia rerum.</li>
-    <li>Atque reiciendis illum vero veritatis culpa ratione nostrum ipsam labore dolore, neque distinctio, incidunt, facere expedita quibusdam consequuntur iure error.</li>
-  price: 888.88
-  price-description: per room per night
-  saved: 55
-  expires: 2018/08/01
-  link: #offer-link
-
-- category: staycations
-  title: Relaxing staycation offer
-  id: relaxing-staycation-offer
-  location: Destination, Country
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat tempora amet cupiditate autem quis sit tempore ut fuga qui ratione, aliquam fugiat officia rem sapiente, eos eum impedit ipsum numquam dolor reiciendis consectetur similique pariatur perspiciatis possimus, sunt. Iure saepe qui non cum, rerum officiis totam nobis labore voluptatum laboriosam.
-  price: 777.77
-  price-description: per room per night
-  saved: 44
-  expires: 2018/08/01
-  link: #offer-link
-
-- category: staycations
-  title: Relaxing staycation offer
-  id: relaxing-staycation-offer
-  location: Destination, Country
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat tempora amet cupiditate autem quis sit tempore ut fuga qui ratione, aliquam fugiat officia rem sapiente, eos eum impedit ipsum numquam dolor reiciendis consectetur similique pariatur perspiciatis possimus, sunt. Iure saepe qui non cum, rerum officiis totam nobis labore voluptatum laboriosam.
-  price: 777.77
-  price-description: per room per night
-  saved: 44
-  expires: 2018/08/01
-  link: #offer-link
-
-- category: staycations
-  title: Relaxing staycation offer
-  id: relaxing-staycation-offer
-  location: Destination, Country
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat tempora amet cupiditate autem quis sit tempore ut fuga qui ratione, aliquam fugiat officia rem sapiente, eos eum impedit ipsum numquam dolor reiciendis consectetur similique pariatur perspiciatis possimus, sunt. Iure saepe qui non cum, rerum officiis totam nobis labore voluptatum laboriosam.
-  price: 777.77
-  price-description: per room per night
-  saved: 44
-  expires: 2018/08/01
-  link: #offer-link
-
-- category: staycations
-  title: Relaxing staycation offer
-  id: relaxing-staycation-offer
-  location: Destination, Country
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat tempora amet cupiditate autem quis sit tempore ut fuga qui ratione, aliquam fugiat officia rem sapiente, eos eum impedit ipsum numquam dolor reiciendis consectetur similique pariatur perspiciatis possimus, sunt. Iure saepe qui non cum, rerum officiis totam nobis labore voluptatum laboriosam.
-  price: 777.77
-  price-description: per room per night
-  saved: 44
-  expires: 2018/08/01
-  link: #offer-link
-
-- category: staycations
-  title: Relaxing staycation offer
-  id: relaxing-staycation-offer
-  location: Destination, Country
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat tempora amet cupiditate autem quis sit tempore ut fuga qui ratione, aliquam fugiat officia rem sapiente, eos eum impedit ipsum numquam dolor reiciendis consectetur similique pariatur perspiciatis possimus, sunt. Iure saepe qui non cum, rerum officiis totam nobis labore voluptatum laboriosam.
-  price: 777.77
-  price-description: per room per night
-  saved: 44
-  expires: 2018/08/01
-  link: #offer-link
-
-- category: staycations
-  title: Relaxing staycation offer
-  id: relaxing-staycation-offer
-  location: Destination, Country
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat tempora amet cupiditate autem quis sit tempore ut fuga qui ratione, aliquam fugiat officia rem sapiente, eos eum impedit ipsum numquam dolor reiciendis consectetur similique pariatur perspiciatis possimus, sunt. Iure saepe qui non cum, rerum officiis totam nobis labore voluptatum laboriosam.
-  price: 777.77
-  price-description: per room per night
-  saved: 44
-  expires: 2018/08/01
-  link: #offer-link
-
-- category: staycations
-  title: Relaxing staycation offer
-  id: relaxing-staycation-offer
-  location: Destination, Country
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat tempora amet cupiditate autem quis sit tempore ut fuga qui ratione, aliquam fugiat officia rem sapiente, eos eum impedit ipsum numquam dolor reiciendis consectetur similique pariatur perspiciatis possimus, sunt. Iure saepe qui non cum, rerum officiis totam nobis labore voluptatum laboriosam.
-  price: 777.77
-  price-description: per room per night
-  saved: 44
-  expires: 2018/08/01
-  link: #offer-link
-
-
-
 ################################################################################
-  # WINTER SUN
+  # Top Pick
 ################################################################################
 
 - category: winter-sun
   top-pick: true
-  title: Luxury Maldives Resort offer
-  id: luxury-maldives-resort-offer
-  location: Herathera Island, Maldives
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat tempora amet cupiditate autem quis sit tempore ut fuga qui ratione, aliquam fugiat officia rem sapiente, eos eum impedit ipsum numquam dolor reiciendis consectetur similique pariatur perspiciatis possimus, sunt. Iure saepe qui non cum, rerum officiis totam nobis labore voluptatum laboriosam.
-  description-long: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas aliquid, quis asperiores ipsa suscipit ad libero quo non nostrum, hic blanditiis ducimus cum voluptas quos animi sint nisi delectus. A, accusamus tempore fuga id deleniti dolorum eaque minima eius, asperiores ullam iste natus omnis, ipsum sunt porro reiciendis assumenda repellendus dolore enim autem reprehenderit! Fuga quos doloribus error officia ad dignissimos, maxime facilis aliquam sapiente, soluta. Ipsam qui earum adipisci, asperiores quae, aperiam quam est quos, cum non veniam tempore.
+  title: Paradise in the Maldives
+  id: paradise-in-the-maldives
+  location: Medhufushi Island Resort
+  description: An island idyll with a villa stay in the Indian Ocean
+  description-long: Castaway heaven at Medhufushi Island's only resort, with a beach villa stay – includes flights, seaplane transfers and full board
   description-list: >
-    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ratione quod cupiditate mollitia, inventore itaque dolor officia, deleniti quas velit?</li>
-    <li>Eaque incidunt cumque, dolores qui, enim necessitatibus, suscipit iure corporis, maiores non quis iste id doloremque! Velit perferendis officia rerum.</li>
-    <li>Atque reiciendis illum vero veritatis culpa ratione nostrum ipsam labore dolore, neque distinctio, incidunt, facere expedita quibusdam consequuntur iure error.</li>
-  price: 999.99
-  price-description: per room per night
-  saved: 66
-  expires: 2018/08/01
-  link: #offer-link
+    <li>Marvelling at the extraordinary natural beauty surrounding the resort</li>
+    <li>Transferring to the villa resort by seaplane</li>
+    <li>Trying your luck at catching some big game, with a dedicated fishing excursion</li>
+  price: 1599
+  price-description: per person for 7 nights
+  saved: 38
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/paradise-in-the-maldives-medhufushi-island-resort/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
+
+
+################################################################################
+  # Game offer - Escape to the Caribbean
+################################################################################
 
 - category: winter-sun
-  title: Tropical caribbean offer
-  id: tropical-caribbean-offer
-  location: All-inclusive Caribbean beachfront resort
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat tempora amet cupiditate autem quis sit tempore ut fuga qui ratione, aliquam fugiat officia rem sapiente, eos eum impedit ipsum numquam dolor reiciendis consectetur similique pariatur perspiciatis possimus, sunt. Iure saepe qui non cum, rerum officiis totam nobis labore voluptatum laboriosam.
-  description-long: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas aliquid, quis asperiores ipsa suscipit ad libero quo non nostrum, hic blanditiis ducimus cum voluptas quos animi sint nisi delectus. A, accusamus tempore fuga id deleniti dolorum eaque minima eius, asperiores ullam iste natus omnis, ipsum sunt porro reiciendis assumenda repellendus dolore enim autem reprehenderit! Fuga quos doloribus error officia ad dignissimos, maxime facilis aliquam sapiente, soluta. Ipsam qui earum adipisci, asperiores quae, aperiam quam est quos, cum non veniam tempore.
+  title: All-inclusive spa escape to the island of Tobago
+  id: all-inclusive-spa-escape-to-the-island-of-tobago
+  location: Le Grand Courlan Spa Resort, Tobago
+  description: All-inclusive style at an intimate Tobago spa resort
+  description-long: A stylish, all-inclusive escape to an intimate spa resort on Tobago’s west coast, with three spa treatments, afternoon tea and all travel
   description-list: >
-    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ratione quod cupiditate mollitia, inventore itaque dolor officia, deleniti quas velit?</li>
-    <li>Eaque incidunt cumque, dolores qui, enim necessitatibus, suscipit iure corporis, maiores non quis iste id doloremque! Velit perferendis officia rerum.</li>
-    <li>Atque reiciendis illum vero veritatis culpa ratione nostrum ipsam labore dolore, neque distinctio, incidunt, facere expedita quibusdam consequuntur iure error.</li>
-  price: 888.88
-  price-description: per room per night
-  saved: 55
-  expires: 2018/08/01
-  link: #offer-link
+    <li>Staying on the west coast of Tobago, a hop from the glittering sands of Stonehaven Bay</li>
+    <li>Soothing aromatherapy massages, salt body glows, and mini facials at the fabulous spa</li>
+    <li>Seriously good Caribbean cuisine made with local herbs at the all-day Pinnacle Restaurant</li>
+  price: 889
+  price-description: per person for 7 nights
+  saved: 43
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/all-inclusive-spa-escape-to-the-island-of-tobago-le-grand-courlan-spa-resort-tobago/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
+
+
+################################################################################
+  # Game offer - Discover balmy Asia
+################################################################################
 
 - category: winter-sun
-  title: Sunny Beach resort
-  id: sunny-beach-resort
-  location: Destination, Country
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat tempora amet cupiditate autem quis sit tempore ut fuga qui ratione, aliquam fugiat officia rem sapiente, eos eum impedit ipsum numquam dolor reiciendis consectetur similique pariatur perspiciatis possimus, sunt. Iure saepe qui non cum, rerum officiis totam nobis labore voluptatum laboriosam.
-  price: 777.77
-  price-description: per room per night
-  saved: 44
-  expires: 2018/08/01
-  link: #offer-link
+  title: X2 Chiang Mai Riverside
+  id: x2-chiang-mai-riverside
+  location: Chiang Mai, Thailand
+  description: An ultra-chic boutique resort by the river - daily champagne and a host of other perks included
+  description-long: Discover laid-back Chiang Mai with a luxe riverside stay in a brand-new, swanky boutique resort - breakfast, daily champagne, food and spa discounts, a transfer and more for longer stays included
+  description-list: >
+    <li>Taking afternoon tea by the river, with nibbles from a menu planned by a Michelin-starred chef</li>
+    <li>The chic, arty vibe from the design-centric resort</li>
+    <li>Afternoons soaking in the sun by the rooftop pool</li>
+  price: 156
+  price-description: per suite per night
+  saved: 27
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/x2-chiang-mai-riverside-chiang-mai-thailand/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
+
+
+################################################################################
+  # Normal Offers
+################################################################################
 
 - category: winter-sun
-  title: Sunny Beach resort
-  id: sunny-beach-resort
-  location: Destination, Country
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat tempora amet cupiditate autem quis sit tempore ut fuga qui ratione, aliquam fugiat officia rem sapiente, eos eum impedit ipsum numquam dolor reiciendis consectetur similique pariatur perspiciatis possimus, sunt. Iure saepe qui non cum, rerum officiis totam nobis labore voluptatum laboriosam.
-  price: 777.77
-  price-description: per room per night
-  saved: 44
-  expires: 2018/08/01
-  link: #offer-link
+  title: 5* Thailand city-to-beach holiday with Shangri-La stays
+  id: thailand-city-to-beach-holiday-with-shangri-la-stays
+  location: Bangkok, Chiang Mai & Phuket
+  description: Three ultra-luxurious stays in one five-star Thai getaway
+  price: 1999
+  price-description: per person for 13 nights
+  saved: 25
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/5-star-thailand-city-to-beach-holiday-with-shangri-la-stays-bangkok-chiang-mai-and-phuket/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
 
 - category: winter-sun
-  title: Sunny Beach resort
-  id: sunny-beach-resort
-  location: Destination, Country
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat tempora amet cupiditate autem quis sit tempore ut fuga qui ratione, aliquam fugiat officia rem sapiente, eos eum impedit ipsum numquam dolor reiciendis consectetur similique pariatur perspiciatis possimus, sunt. Iure saepe qui non cum, rerum officiis totam nobis labore voluptatum laboriosam.
-  price: 777.77
-  price-description: per room per night
-  saved: 44
-  expires: 2018/08/01
-  link: #offer-link
+  title: Lanson Place Bukit Ceylon Serviced Residences
+  id: lanson-place-bukit-ceylon-serviced-residences
+  location: Kuala Lumpur, Malaysia
+  description: Elegant serviced apartments within Kuala Lumpur's golden triangle, breakfast and more included
+  price: 59
+  price-description: per apartment per night
+  saved: 42
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/lanson-place-bukit-ceylon-serviced-residences-kuala-lumpur-malaysia/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
 
 - category: winter-sun
-  title: Sunny Beach resort
-  id: sunny-beach-resort
-  location: Destination, Country
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat tempora amet cupiditate autem quis sit tempore ut fuga qui ratione, aliquam fugiat officia rem sapiente, eos eum impedit ipsum numquam dolor reiciendis consectetur similique pariatur perspiciatis possimus, sunt. Iure saepe qui non cum, rerum officiis totam nobis labore voluptatum laboriosam.
-  price: 777.77
-  price-description: per room per night
-  saved: 44
-  expires: 2018/08/01
-  link: #offer-link
+  title: Adaaran Select Meedhupparu
+  id: adaaran-select-meedhupparu
+  location: Raa Atoll, Maldives
+  description: A beautiful Maldives beach villa stay, with all-inclusive board and a romantic picnic
+  price: 237
+  price-description: per villa per night
+  saved: 59
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/adaaran-select-meedhupparu-raa-atoll-maldives/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
 
 - category: winter-sun
-  title: Sunny Beach resort
-  id: sunny-beach-resort
-  location: Destination, Country
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat tempora amet cupiditate autem quis sit tempore ut fuga qui ratione, aliquam fugiat officia rem sapiente, eos eum impedit ipsum numquam dolor reiciendis consectetur similique pariatur perspiciatis possimus, sunt. Iure saepe qui non cum, rerum officiis totam nobis labore voluptatum laboriosam.
-  price: 777.77
-  price-description: per room per night
-  saved: 44
-  expires: 2018/08/01
-  link: #offer-link
+  title: Plataran Borobudur Resort & Spa
+  id: plataran-borobudur-resort-spa
+  location: Central Java, Indonesia
+  description: A pool villa at a boutique World Luxury Hotel Award winner, with a breathtaking hilltop location
+  price: 158
+  price-description: per villa per night
+  saved: 60
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/plataran-borobudur-resort-and-spa-central-java-indonesia/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
 
 - category: winter-sun
-  title: Sunny Beach resort
-  id: sunny-beach-resort
-  location: Destination, Country
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat tempora amet cupiditate autem quis sit tempore ut fuga qui ratione, aliquam fugiat officia rem sapiente, eos eum impedit ipsum numquam dolor reiciendis consectetur similique pariatur perspiciatis possimus, sunt. Iure saepe qui non cum, rerum officiis totam nobis labore voluptatum laboriosam.
-  price: 777.77
+  title: The Confidante
+  id: the-confidante
+  location: Miami Beach, Florida
+  description: Miami’s coolest beachfront boutique with two pools
+  price: 124
   price-description: per room per night
-  saved: 44
-  expires: 2018/08/01
-  link: #offer-link
+  saved: 53
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/the-confidante-miami-beach-florida/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
 
 - category: winter-sun
-  title: Sunny Beach resort
-  id: sunny-beach-resort
-  location: Destination, Country
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat tempora amet cupiditate autem quis sit tempore ut fuga qui ratione, aliquam fugiat officia rem sapiente, eos eum impedit ipsum numquam dolor reiciendis consectetur similique pariatur perspiciatis possimus, sunt. Iure saepe qui non cum, rerum officiis totam nobis labore voluptatum laboriosam.
-  price: 777.77
+  title: Diverse Thailand trip with city, beach & floating river villa stays
+  id: diverse-thailand-trip-with-city-beach-floating-river-villa-stays
+  location: Bangkok, River Kwai & Krabi
+  description: A floating River Kwai villa, plus city and beach R&R in Thailand
+  price: 1449
+  price-description: per person for 14 nights
+  saved: 25
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/diverse-thailand-holiday-with-city-beach-and-floating-river-villa-stays-bangkok-river-kwai-and-krabi/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
+
+- category: winter-sun
+  title: Glamorous all-inclusive Cancun beach holiday
+  id: glamorous-all-inclusive-cancun-beach-holiday
+  location: Krystal Grand Punta Cancun, Mexico
+  description: All-inclusive beachside bliss in Punta Cancun
+  price: 1779
+  price-description: per person for 14 nights
+  saved: 40
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/all-inclusive-cancun-beach-holiday-krystal-grand-punta-cancun-mexico/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
+
+- category: winter-sun
+  title: The Pavilions Phuket
+  id: the-pavilions-phuket
+  location: Phuket, Thailand
+  description: Ultra-luxe villas and suites for a romantic getaway - half-board stay available
+  price: 82
   price-description: per room per night
-  saved: 44
-  expires: 2018/08/01
-  link: #offer-link
+  saved: 65
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/the-pavilions-phuket-phuket-thailand/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
+
+- category: winter-sun
+  title: Mövenpick Ibn Battuta Gate Hotel Dubai
+  id: movenpick-ibn-battuta-gate-hotel-dubai
+  location: Dubai, UAE
+  description: A five-star Dubai hotel with optional theme park tickets
+  price: 90
+  price-description: per room per night
+  saved: 51
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/movenpick-ibn-battuta-gate-hotel-dubai-dubai-uaeasdf/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
+
+- category: winter-sun
+  title: Deevana Krabi Resort
+  id: deevana-krabi-resort
+  location: Krabi, Thailand
+  description: A boutique hotel in vibrant Ao Nang, including breakfast, a spa treatment and more
+  price: 45
+  price-description: per room per night
+  saved: 51
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/deevana-krabi-resort-krabi-thailand/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
 
 
 
 ################################################################################
-  # WINTER WONDERLAND
+#
+#
+#   # STAYCATIONS
+#
+#
+################################################################################
+
+################################################################################
+  # Top Pick
+################################################################################
+
+- category: staycations
+  top-pick: true
+  title: The Wheatsheaf Inn
+  id: the-wheatsheaf-inn
+  location: Northleach, Cotswolds
+  description: The coolest coaching inn in the Cotswolds
+  description-long: Stay at a charming Georgian coaching inn with beautifully chic rooms and an ideal Cotswolds location – includes breakfast
+  description-list: >
+    <li>Escaping to the country needn't mean forgoing designer details – here you'll find Farrow & Ball hued rooms, Bang & Olufsen technology and full-sized Bramley toiletries</li>
+    <li>Retreating to the garden treatment room for a soothing massage</li>
+    <li>The beds; oversized expanses of comfort with Hypno mattresses and luxury mohair throws</li>
+  price: 120
+  price-description: per room per night
+  saved: 29
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/the-wheatsheaf-inn-northleach-cotswolds/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
+
+
+################################################################################
+  # Game offer - A cosy stay in the UK
+################################################################################
+
+- category: staycations
+  title: The Crown Inn
+  id: the-crown-inn
+  location: Playhatch, Oxfordshire
+  description: A 16th-century Oxfordshire inn brimming with boutique style
+  description-long: A boutique country hotel in Oxfordshire, with charming rooms and a gastropub-style restaurant – includes breakfast and three-course dinner
+  description-list: >
+    <li>Exploring your beautiful green surrounds, making for the quintessential country escape</li>
+    <li>Relaxing in the seclusion and peace offered by the bedrooms</li>
+    <li>Tucking in to English country dining with a South African twist</li>
+  price: 95
+  price-description: per room per night
+  saved: 51
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/the-crown-inn-playhatch-oxfordshire/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
+
+
+################################################################################
+  # Game offer - A lavish spa break in the UK
+################################################################################
+
+- category: staycations
+  title: The Grand Hotel & Spa
+  id: the-grand-hotel-spa
+  location: York, North Yorkshire
+  description: A super-chic five-star York stay with spa and three AA Rosette dining
+  description-long: A sophisticated five-star York hotel with luxe spa and gourmet, three AA Rosette-awarded restaurant - breakfast and optional dinner included
+  description-list: >
+    <li>Sampling a plethora of elegant dishes at the three AA Rosette-awarded Hudsons restaurants</li>
+    <li>Enjoying some time out at the quiet and atmospheric spa, located in the building's old vaults</li>
+    <li>Staying at a centrally-located five-star hotel that overlooks the historic city walls</li>
+  price: 125
+  price-description: per room per night
+  saved: 35
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/the-grand-hotel-and-spa-york-north-yorkshire/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
+
+
+################################################################################
+  # Normal Offers
+################################################################################
+
+- category: staycations
+  title: Mercure Gloucester Bowden Hall Hotel
+  id: mercure-gloucester-bowden-hall-hotel
+  location: Gloucester, Cotswolds
+  description: A listed Georgian Cotswolds stay with chic interiors
+  price: 79
+  price-description: per room per night
+  saved: 55
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/mercure-gloucester-bowden-hall-hotel-gloucester-cotswolds/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
+
+- category: staycations
+  title: Ellenborough Park
+  id: ellenborough-park
+  location: Cheltenham, Gloucestershire
+  description: A five-star, honey-hued retreat on the edge of Cheltenham
+  price: 139
+  price-description: per room per night
+  saved: 28
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/ellenborough-park-cheltenham-gloucestershire/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
+
+- category: staycations
+  title: Ruthin Castle Hotel & Spa
+  id: ruthin-castle-hotel-spa
+  location: Ruthin, North Wales
+  description: A centuries-old castle in North Wales with AA Rosette food
+  price: 99
+  price-description: per room per night
+  saved: 34
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/ruthin-castle-hotel-and-spa-ruthin-north-wales/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
+
+- category: staycations
+  title: The Beach at Bude
+  id: the-beach-at-bude
+  location: Bude, Cornwall
+  description: An acclaimed Cornish beachfront hotel for foodies
+  price: 169
+  price-description: per room per night
+  saved: 45
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/the-beach-at-bude-bude-cornwall/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
+
+- category: staycations
+  title: The Ormond at Tetbury
+  id: the-ormond-at-tetbury
+  location: Tetbury, Cotswolds
+  description: A historic boutique Cotswolds coaching inn
+  price: 89
+  price-description: per room per night
+  saved: 45
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/the-ormond-at-tetbury-tetbury-cotswolds/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
+
+- category: staycations
+  title: The Mandrake
+  id: the-mandrake
+  location: Fitzrovia, London
+  description: Boutique style and elegance with an enviable London postcode
+  price: 239
+  price-description: per room per night
+  saved: 51
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/the-mandrake-fitzrovia-london/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
+
+- category: staycations
+  title: Clayton Hotel Chiswick
+  id: clayton-hotel-chiswick
+  location: Chiswick, West London
+  description: A laid-back stay in a glossy West London hotel
+  price: 89
+  price-description: per room per night
+  saved: 53
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/clayton-hotel-chiswick-chiswick-london/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
+
+- category: staycations
+  title: Eastwell Manor - A Champneys Spa Hotel
+  id: eastwell-manor-a-champneys-spa-hotel
+  location: Ashford, Kent
+  description: A stunning Kent manor house with plush Champneys spa
+  price: 149
+  price-description: per room per night
+  saved: 50
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/eastwell-manor-a-champneys-spa-hotel-ashford-kent/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
+
+- category: staycations
+  title: De Vere Wotton House
+  id: de-vere-wotton-house
+  location: Dorking, Surrey
+  description: A grand Surrey stay in an elegant country house
+  price: 155
+  price-description: per room per night
+  saved: 43
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/de-vere-wotton-house-dorking-surrey/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
+
+- category: staycations
+  title: Rookery Hall Hotel & Spa
+  id: rookery-hall-hotel-spa
+  location: Nantwich, Cheshire
+  description: A stately Cheshire pile with top spa facilities
+  price: 159
+  price-description: per room per night
+  saved: 45
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/rookery-hall-hotel-and-spa-nantwich-cheshire/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
+
+
+
+################################################################################
+#
+#
+#   # WINTER WONDERLAND
+#
+#
+################################################################################
+
+################################################################################
+  # Top Pick
 ################################################################################
 
 - category: winter-wonderland
   top-pick: true
-  title: Epic iceland offer
-  id: epic-iceland-offer
-  location: Hilton Reykjavik Nordica, Iceland
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat tempora amet cupiditate autem quis sit tempore ut fuga qui ratione, aliquam fugiat officia rem sapiente, eos eum impedit ipsum numquam dolor reiciendis consectetur similique pariatur perspiciatis possimus, sunt. Iure saepe qui non cum, rerum officiis totam nobis labore voluptatum laboriosam.
-  description-long: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas aliquid, quis asperiores ipsa suscipit ad libero quo non nostrum, hic blanditiis ducimus cum voluptas quos animi sint nisi delectus. A, accusamus tempore fuga id deleniti dolorum eaque minima eius, asperiores ullam iste natus omnis, ipsum sunt porro reiciendis assumenda repellendus dolore enim autem reprehenderit! Fuga quos doloribus error officia ad dignissimos, maxime facilis aliquam sapiente, soluta. Ipsam qui earum adipisci, asperiores quae, aperiam quam est quos, cum non veniam tempore.
+  title: Epic Iceland Northern Lights trip with unforgettable tours
+  id: epic-iceland-northern-lights-trip-with-unforgettable-tours
+  location: Icelandair Hotel Reykjavik Marina, Reykjavik
+  description: Northern Lights, whale watching, snowmobiling and more in Iceland
+  description-long: A stellar Iceland adventure with a Northern Lights boat tour and whale and dolphin-watching, plus optional Blue Lagoon transfers and Golden Circle snowmobiling experience
   description-list: >
-    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ratione quod cupiditate mollitia, inventore itaque dolor officia, deleniti quas velit?</li>
-    <li>Eaque incidunt cumque, dolores qui, enim necessitatibus, suscipit iure corporis, maiores non quis iste id doloremque! Velit perferendis officia rerum.</li>
-    <li>Atque reiciendis illum vero veritatis culpa ratione nostrum ipsam labore dolore, neque distinctio, incidunt, facere expedita quibusdam consequuntur iure error.</li>
-  price: 999.99
-  price-description: per room per night
-  saved: 66
-  expires: 2018/08/01
-  link: #offer-link
+    <li>The chance to see the colourful Northern Lights on an unforgettable cruise</li>
+    <li>Choosing to have your transfers included to the iconic Blue Lagoon spa</li>
+    <li>Exploring the hip city of Reykjavik from your stylish base</li>
+  price: 449
+  price-description: per person for 3 nights
+  saved: 45
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/spectacular-iceland-break-with-northern-lights-cruise-icelandair-hotel-reykjavik-marina-reykjavik/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
+
+
+################################################################################
+  # Game offer - Hit the slopes
+################################################################################
 
 - category: winter-wonderland
-  title: French ski chalet
-  id: french-ski-chalet
+  title: Courcheneige Hotel
+  id: courcheneige-hotel
   location: Courchevel, France
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat tempora amet cupiditate autem quis sit tempore ut fuga qui ratione, aliquam fugiat officia rem sapiente, eos eum impedit ipsum numquam dolor reiciendis consectetur similique pariatur perspiciatis possimus, sunt. Iure saepe qui non cum, rerum officiis totam nobis labore voluptatum laboriosam.
-  description-long: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas aliquid, quis asperiores ipsa suscipit ad libero quo non nostrum, hic blanditiis ducimus cum voluptas quos animi sint nisi delectus. A, accusamus tempore fuga id deleniti dolorum eaque minima eius, asperiores ullam iste natus omnis, ipsum sunt porro reiciendis assumenda repellendus dolore enim autem reprehenderit! Fuga quos doloribus error officia ad dignissimos, maxime facilis aliquam sapiente, soluta. Ipsam qui earum adipisci, asperiores quae, aperiam quam est quos, cum non veniam tempore.
+  description: Courchevel's highest ski hotel with panoramic patio
+  description-long: A sensational hotel in Courchevel 1850, with a ski shop, Jacuzzi and panoramic terrace – includes breakfast or half board, a ski rental discount and family option
   description-list: >
-    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ratione quod cupiditate mollitia, inventore itaque dolor officia, deleniti quas velit?</li>
-    <li>Eaque incidunt cumque, dolores qui, enim necessitatibus, suscipit iure corporis, maiores non quis iste id doloremque! Velit perferendis officia rerum.</li>
-    <li>Atque reiciendis illum vero veritatis culpa ratione nostrum ipsam labore dolore, neque distinctio, incidunt, facere expedita quibusdam consequuntur iure error.</li>
-  price: 888.88
+    <li>Ski-in, ski-out convenience, at Courchevel’s highest hotel</li>
+    <li>Enjoying a tipple in Waikiki, the hotel's newly opened, fabulous après-ski bar</li>
+    <li>Soothing soaks in the hotel’s outdoor hot tub</li>
+  price: 204
   price-description: per room per night
-  saved: 55
-  expires: 2018/08/01
-  link: #offer-link
+  saved: 48
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/courcheneige-hotel-courchevel-france-uk/sale?gce_hpf=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
+
+
+################################################################################
+  # Game offer - Explore a winter wilderness
+################################################################################
 
 - category: winter-wonderland
-  title: Winter Lanscape Offer
-  id: winter-lanscape-offer
-  location: Destination, Country
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat tempora amet cupiditate autem quis sit tempore ut fuga qui ratione, aliquam fugiat officia rem sapiente, eos eum impedit ipsum numquam dolor reiciendis consectetur similique pariatur perspiciatis possimus, sunt. Iure saepe qui non cum, rerum officiis totam nobis labore voluptatum laboriosam.
-  price: 777.77
-  price-description: per room per night
-  saved: 44
-  expires: 2018/08/01
-  link: #offer-link
+  title: Luxury suite stay in Iceland with Northern Lights & tour options
+  id: luxury-suite-stay-in-iceland-with-northern-lights-tour-options
+  location: Reykjavik Marina Residence, Iceland
+  description: A hidden Reykjavik gem, with a Northern Lights hunt and more
+  description-long: An Iceland break with a Northern Lights cruise, plus a Golden Circle, whale watching and Blue Lagoon option – with breakfast and a suite in Reykjavik's most luxurious hotel included
+  description-list: >
+    <li>Staying in Reykjavik's hidden gem – a luxurious suite in a gorgeous former townhouse</li>
+    <li>Chasing the Northern Lights by boat</li>
+    <li>Having the option to add an unforgettable whale and dolphin watching excursion</li>
+  price: 599
+  price-description: per person for 3 nights
+  saved: 42
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/luxury-suite-stay-in-iceland-with-northern-lights-and-tour-options1-reykjavik-marina-residence-iceland/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Nikon_Iceland
+
+
+################################################################################
+  # Normal Offers
+################################################################################
 
 - category: winter-wonderland
-  title: Winter Lanscape Offer
-  id: winter-lanscape-offer
-  location: Destination, Country
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat tempora amet cupiditate autem quis sit tempore ut fuga qui ratione, aliquam fugiat officia rem sapiente, eos eum impedit ipsum numquam dolor reiciendis consectetur similique pariatur perspiciatis possimus, sunt. Iure saepe qui non cum, rerum officiis totam nobis labore voluptatum laboriosam.
-  price: 777.77
-  price-description: per room per night
-  saved: 44
-  expires: 2018/08/01
-  link: #offer-link
+  title: Iceland Northern Lights break with a superb hotel stay
+  id: iceland-northern-lights-break-with-a-superb-hotel-stay
+  location: Centerhotel Thingholt, Reykjavik
+  description: Iceland's must-dos and a stylish Reykjavik stay
+  price: 449
+  price-description: per person for 3 nights
+  saved: 42
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/epic-iceland-northern-lights-break-with-a-superb-hotel-stay-centerhotel-thingholt-reykjavik/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
 
 - category: winter-wonderland
-  title: Winter Lanscape Offer
-  id: winter-lanscape-offer
-  location: Destination, Country
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat tempora amet cupiditate autem quis sit tempore ut fuga qui ratione, aliquam fugiat officia rem sapiente, eos eum impedit ipsum numquam dolor reiciendis consectetur similique pariatur perspiciatis possimus, sunt. Iure saepe qui non cum, rerum officiis totam nobis labore voluptatum laboriosam.
-  price: 777.77
-  price-description: per room per night
-  saved: 44
-  expires: 2018/08/01
-  link: #offer-link
+  title: Mesmerising Iceland Northern Lights trip with top tours
+  id: mesmerising-iceland-northern-lights-trip-with-top-tours
+  location: Centerhotel Plaza, Reykjavik
+  description: Discover Iceland's Northern Lights, plus a choice of epic tours
+  price: 399
+  price-description: per person for 3 nights
+  saved: 36
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/breathtaking-iceland-northern-lights-trip-with-top-tours-reykjavik-iceland/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
 
 - category: winter-wonderland
-  title: Winter Lanscape Offer
-  id: winter-lanscape-offer
-  location: Destination, Country
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat tempora amet cupiditate autem quis sit tempore ut fuga qui ratione, aliquam fugiat officia rem sapiente, eos eum impedit ipsum numquam dolor reiciendis consectetur similique pariatur perspiciatis possimus, sunt. Iure saepe qui non cum, rerum officiis totam nobis labore voluptatum laboriosam.
-  price: 777.77
-  price-description: per room per night
-  saved: 44
-  expires: 2018/08/01
-  link: #offer-link
+  title: Incredible Northern Norway nature & wildlife adventure
+  id: incredible-northern-norway-nature-wildlife-adventure
+  location: Tromsø, Narvik, Sortland, Svolvær & the Lofoten Islands
+  description: A wild Norway tour with a fjord cruise and Northern Lights
+  price: 949
+  price-description: per person for 5 nights
+  saved: 26
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/incredible-northern-norway-nature-and-wildlife-adventure-tromsoe-narvik-sortland-svolvaer-and-the-lofoten-islands/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
 
 - category: winter-wonderland
-  title: Winter Lanscape Offer
-  id: winter-lanscape-offer
-  location: Destination, Country
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat tempora amet cupiditate autem quis sit tempore ut fuga qui ratione, aliquam fugiat officia rem sapiente, eos eum impedit ipsum numquam dolor reiciendis consectetur similique pariatur perspiciatis possimus, sunt. Iure saepe qui non cum, rerum officiis totam nobis labore voluptatum laboriosam.
-  price: 777.77
-  price-description: per room per night
-  saved: 44
-  expires: 2018/08/01
-  link: #offer-link
+  title: Residence Le Sun Valley
+  id: residence-le-sun-valley
+  location: La Plagne, France
+  description: An ultra-affordable ski stay in world-renowned La Plagne
+  price: 72
+  price-description: per apartment per night
+  saved: 29
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/residence-le-sun-valley-france-rhone-alpes-rhone-alpes-alpes/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
 
 - category: winter-wonderland
-  title: Winter Lanscape Offer
-  id: winter-lanscape-offer
-  location: Destination, Country
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat tempora amet cupiditate autem quis sit tempore ut fuga qui ratione, aliquam fugiat officia rem sapiente, eos eum impedit ipsum numquam dolor reiciendis consectetur similique pariatur perspiciatis possimus, sunt. Iure saepe qui non cum, rerum officiis totam nobis labore voluptatum laboriosam.
-  price: 777.77
+  title: Gutshof Zillertal
+  id: gutshof-zillertal
+  location: Mayrhofen, Tyrol, Austria
+  description: A traditional Alpine chalet in the Austrian Tyrol
+  price: 113
   price-description: per room per night
-  saved: 44
-  expires: 2018/08/01
-  link: #offer-link
+  saved: 40
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/gutshof-zillertal-mayrhofen-tyrol-austria/sale?gce_hpf=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
 
 - category: winter-wonderland
-  title: Winter Lanscape Offer
-  id: winter-lanscape-offer
-  location: Destination, Country
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat tempora amet cupiditate autem quis sit tempore ut fuga qui ratione, aliquam fugiat officia rem sapiente, eos eum impedit ipsum numquam dolor reiciendis consectetur similique pariatur perspiciatis possimus, sunt. Iure saepe qui non cum, rerum officiis totam nobis labore voluptatum laboriosam.
-  price: 777.77
+  title: 5* Andorra ski holiday with ski passes
+  id: andorra-ski-holiday-with-ski-passes
+  location: Hotel Ski Plaza, Grandvalira
+  description: A five-star ski break on the Grandvalira slopes
+  price: 665
+  price-description: per person for 5 nights
+  saved: 37
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/5-star-andorra-ski-holiday-with-optional-equipment-rental1-hotel-ski-plaza-andorra/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
+
+- category: winter-wonderland
+  title: Scenic rail adventure through Switzerland
+  id: scenic-rail-adventure-through-switzerland
+  location: Lucerne & Interlaken
+  description: An enchanting Swiss foray with a Golden Pass train ride
+  price: 469
+  price-description: per person for 4 nights
+  saved: 33
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/scenic-switzerland-break-with-glacier-express-travel-luzern-and-interlaken/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
+
+- category: winter-wonderland
+  title: Enchanting Lake Bled winter break
+  id: enchanting-lake-bled-winter-break
+  location: Hotel Astoria, Slovenia
+  description: A winter break near the spectacular shores of Lake Bled
+  price: 195
+  price-description: per person for 3 nights
+  saved: 34
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/enchanting-lake-bled-winter-break1-hotel-astoria-slovenia/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
+
+- category: winter-wonderland
+  title: Epic Finnish Lapland adventure with a glass villa stay
+  id: epic-finnish-lapland-adventure-with-a-glass-villa-stay
+  location: Iisakki Glass Village, Finland
+  description: An extraordinary stay in a Finnish Lapland glass villa
+  price: 949
+  price-description: per person for 5 nights
+  saved: 16
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/epic-finnish-lapland-adventure-with-a-glass-villa-stay-iisakki-glass-village-finland/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
+
+- category: winter-wonderland
+  title: Arcadien Hotel & Spa
+  id: arcadien-hotel-spa
+  location: Les Arcs 1600, France
+  description: A modern ski hotel in the French Alps
+  price: 105
   price-description: per room per night
-  saved: 44
-  expires: 2018/08/01
-  link: #offer-link
+  saved: 40
+  expires: 2018/01/02
+  link: https://www.secretescapes.com/arcadien-hotel-and-spa-arc-1600-france/sale?gce_hpf=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017

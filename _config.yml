@@ -1,10 +1,10 @@
 # Site settings
 title: New Year Escapes
 description: >
-  Whether you love the icy adventures that a winter in the Alps affords, or the veritable paradise of a long haul beach escape, browse these American Express collections of the finest stays around the world. Find your new year escape, with a host of inspired offers plus top picks for winter travel. 
+  Whether you love the icy adventures that a winter in the Alps affords, or the veritable paradise of a long haul beach escape, browse these American Express collections of the finest stays around the world. Find your new year escape, with a host of inspired offers plus top picks for winter travel.
 baseurl: "/new-year-escapes" # the subpath of your site, e.g. /blog/
 url: "http://mp.secretescapes.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
-exclude: [node_modules, gulpfile.js, package.json, bower_components, bower.json, README.md]
+exclude: [node_modules, gulpfile.js, package.json, package-lock.json, bower_components, bower.json, README.md]
