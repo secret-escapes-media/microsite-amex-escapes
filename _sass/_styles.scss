@@ -7,9 +7,13 @@
   position: relative;
   max-width: 750px;
   margin: $margin auto;
-  padding-top: 11em;
-  padding-bottom: 11em;
+  padding-top: 8em;
+  padding-bottom: 8em;
   text-align: center;
+  @include bp(large){
+    padding-top: 11em;
+    padding-bottom: 11em;
+  }
   & + & { margin-top: ($margin*4); }
   &__link {
     position: absolute;
@@ -23,11 +27,17 @@
     position: relative;
     z-index: $z-content-upper;
     display: inline-block;
+    width: 80%;
     color: $amex-blue-dark;
     background-color: rgba($white,.9);
     padding: $margin ($margin*1.5);
     box-shadow: 0px 5px 40px 0px rgba(0, 0, 0, 0.2);
     @include transition;
+    word-break: break-word;
+    @include bp(small){
+      width: auto;
+      word-break: normal;
+    }
   }
   &:hover &__title {
     transform: scale(1.1);
@@ -45,42 +55,58 @@
     top: 0;
     bottom: 0;
     z-index: $z-content;
-    width: 40%;
+    display: block;
+    width: 55%;
     box-shadow: 0px 5px 40px 0px rgba(0, 0, 0, 0.2);
     background-color: $light-grey;
     @include background-attributes;
     &:nth-of-type(1) {
       z-index: ($z-content+1);
       left: 0;
-      display: block;
-      margin-top: -($margin);
-      margin-bottom: $margin;
+      margin-top: -($margin/2);
+      margin-bottom: $margin/2;
     }
     &:nth-of-type(2) {
       z-index: ($z-content+2);
-      display: block;
-      left: 30%;
+      left: 45%;
+      margin-top: $margin/2;
+      margin-bottom: -($margin/2);
     }
     &:nth-of-type(3) {
       z-index: ($z-content+3);
-      display: block;
-      left: 60%;
-      margin-top: $margin;
-      margin-bottom: -($margin);
+      display: none;
+    }
+    @include bp(medium){
+      width: 40%;
+      &:nth-of-type(1) {
+        left: 0;
+        margin-top: -($margin);
+        margin-bottom: $margin;
+      }
+      &:nth-of-type(2) {
+        left: 30%;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      &:nth-of-type(3) {
+        display: block;
+        left: 60%;
+        margin-top: $margin;
+        margin-bottom: -($margin);
+      }
     }
   }
 }
 
-.compy {
-  height: 400px;
-  max-width: 735px;
-  margin: 2em auto 0;
-  overflow-y: auto;
-  overflow-x: hidden;
-}
+body { background-color: $amex-grey; }
 
-
-body {
+.page__bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: $z-background;
   @include background-attributes;
   background-position: center top;
   background-color: $amex-grey;
@@ -92,30 +118,6 @@ body {
   padding-top: 4em;
   padding-bottom: 4em;
 }
-
-.social {
-  margin-top: -(gutter());
-  &__post {
-    @include layout(12 $gutters);
-    @include gallery(4);
-    position: relative;
-    display: inline-block;
-    margin-top: gutter();
-    color: #fff;
-    @include background-attributes;
-    &:before {
-      display: block;
-      content: "";
-      width: 100%;
-      padding-top: 100%;
-    }
-  }
-}
-
-
-
-
-
 
 .invert-text {
   color: $white;
@@ -132,57 +134,6 @@ body {
   &--amex-blue { background-color: $amex-blue; }
   &--amex-blue-dark { background-color: $amex-blue-dark; }
   &--amex-cyan-lighter { background-color: $amex-cyan-lighter; }
-}
-
-.local {
-  text-align: center;
-  &__interview { text-align: left; }
-  &__avatar { max-width: $medium; margin-left: auto; margin-right: auto; }
-  & + & { margin-top: ($margin*4); }
-  @include bp(xlarge){
-    text-align: left;
-    // & + & { margin-top: ($margin*2); }
-  }
-}
-
-.offer-promo {
-  position: relative;
-  padding-top: ($margin*6);
-  padding-bottom: ($margin*6);
-  color: $white;
-  background-color: rgba(60, 67, 76, 0.75);
-  text-align: center;
-  &__bgs {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: $z-background;
-  }
-  &__bg {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    display: none;
-    width: 100%;
-    @include background-attributes;
-    &:nth-of-type(1) {
-      left: 0;
-      display: block;
-    }
-    @include bp(large){
-      width: 33.33%;
-      &:nth-of-type(2) {
-        display: block;
-        left: 33.33%;
-      }
-      &:nth-of-type(3) {
-        display: block;
-        left: 66.66%;
-      }
-    }
-  }
 }
 
 
@@ -251,33 +202,5 @@ body {
     background-color: $amex-cyan-light;
     color: $amex-blue-dark;
     &:hover { background-color: $white; }
-  }
-}
-
-.logo-title {
-  margin-bottom: 1em;
-  &__logo  {
-    width: 120px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1.5em;
-  }
-  &__title { text-align: center; }
-  @include bp(large){
-    display: table;
-    max-width: 660px;
-    margin-left: auto;
-    margin-right: auto;
-    &__logo  {
-      width: 180px;
-      display: table-cell;
-      padding-right: 1.5em;
-      vertical-align: middle;
-    }
-    &__title {
-      display: table-cell;
-      text-align: left;
-      vertical-align: middle;
-    }
   }
 }

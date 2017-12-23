@@ -4,13 +4,15 @@
 .title-banner {
   position: relative;
   height: 75%;
-  min-height: 350px;
+  min-height: 550px;
   text-align: center;
   color: white;
   @include background-attributes();
   background-position: center 0;
-  .page--collections & { min-height: 450px; }
-  &--amex { height: 60%; }
+  &--amex {
+    height: 60%;
+    min-height: 350px;
+  }
   &__wrap {height: 100%;}
   &__title {
     position: absolute;
@@ -24,7 +26,7 @@
       width: 100%;
       top: 0;
       z-index: $z-content;
-      padding-top: 10vh;
+      padding-top: 20vh;
       padding-left: ($margin/2);
       padding-right: ($margin/2);
       margin: auto;

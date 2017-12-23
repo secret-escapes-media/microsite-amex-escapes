@@ -26,13 +26,10 @@ input, textarea, keygen, select, button {
 // -------- Headings --------
 
 .title {
-  font-family: $title-font-family;
-  line-height: 1.15;
-  word-break: break-word;
   color: $title-black;
-  @include bp(large) {
-    font-weight: 200;
-  }
+  font-family: $title-font-family;
+  font-weight: 200;
+  line-height: 1.15;
 
   + *   { margin-top: .8em; }
   * + & { margin-top: .8em; }
@@ -58,7 +55,7 @@ input, textarea, keygen, select, button {
 
 
   &--largest     { font-size: 4.3em; letter-spacing: -.025em; }
-  &--larger      { font-size: 2.586em; letter-spacing: -.025em; }
+  &--larger      { font-size: 3.5em; letter-spacing: -.025em; }
   &--large       { font-size: 2.074em; }
   &--medium      { font-size: 1.867em; }
   &--small       { font-size: 1.467em; }
@@ -66,8 +63,8 @@ input, textarea, keygen, select, button {
   &--smallest    { font-size: 1.2em; }
 
   @include bp(large){
-    &--largest     { font-size: 6.192em; letter-spacing: -.025em; }
-    &--larger      { font-size: 5.16em; letter-spacing: -.025em; }
+    &--largest     { font-size: 6.192em; }
+    &--larger      { font-size: 5.16em; }
     &--large       { font-size: 3.533em; }
     &--medium      { font-size: 2.9em; }
     &--small       { font-size: 2.2em; }
@@ -94,6 +91,10 @@ p {
   }
 }
 @include bp(large){
+  .p--banner {
+    font-size: 1.25em;
+    line-height: 1.45;
+  }
   .p--lead {
     font-size: 1.44em;
     line-height: 1.55;

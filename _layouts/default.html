@@ -6,7 +6,7 @@
   {% assign page-title = page.title | slugify %}
   {% assign page-category = page.category %}
 
-  <body id="top" class="page--{{page-title}} category--{{page-category}} js-parallax" data-current-page="{{page-title}}" data-current-category="{{page-category}}" style="background-image: url('{{site.baseurl}}/img/bg/{{page.id}}.jpg');" data-parallax-speed="0.2">
+  <body id="top" class="page--{{page-title}} category--{{page-category}}" data-current-page="{{page-title}}" data-current-category="{{page-category}}">
 
     {% include tracking.html %}
 
@@ -22,6 +22,8 @@
       <IMG SRC="https://ad.doubleclick.net/ddm/ad/N3284.2141904SECRETESCAPES/B20564419.211713930;sz=1x1;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?" BORDER=0 WIDTH=1 HEIGHT=1 ALT="Advertisement"></A>
       <SCRIPT TYPE="application/javascript" SRC="https://pixel.adsafeprotected.com/rjss/st/101572/21029617/skeleton.js"></SCRIPT> <NOSCRIPT><IMG SRC="https://pixel.adsafeprotected.com/rfw/st/101572/21029616/skeleton.gif" BORDER=0 WIDTH=1 HEIGHT=1 ALT=""></NOSCRIPT>
     </div>
+
+    <div class="page__bg" style="background-image: url('{{site.baseurl}}/img/bg/{{page.id}}.jpg');"></div>
 
   </body>
 

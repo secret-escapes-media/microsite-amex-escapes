@@ -12,7 +12,7 @@
   {% elsif page.intro %}
     {% assign page-description = page.intro | strip_html | strip_newlines | truncate: 155 %}
   {% else %}
-    {% assign page-description = site.description %}
+    {% assign page-description = site.description | truncate: 155 %}
   {% endif %}
 
   <meta charset="utf-8">

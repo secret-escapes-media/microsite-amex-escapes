@@ -51,6 +51,7 @@ $margin: 1.6em;
   &--lg  { @include container($large);}
   &--md  { @include container($medium);}
   &--sm  { @include container($small);}
+  &--xs  { @include container(330px);}
 }
 
 .row--padding {
@@ -68,6 +69,7 @@ $margin: 1.6em;
 
 .row__column + .row__column {
   margin-top: $margin;
+  .row--no-gutters & { margin-top: 0; }
   .row--extra-margin & { margin-top: $margin*2; }
   @include bp(xlarge) {
     margin-top: 0;
