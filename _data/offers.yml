@@ -113,17 +113,6 @@
 ################################################################################
 
 - category: city-breaks
-  title: Stylish Morocco boutique riad break
-  id: stylish-morocco-boutique-riad-break
-  location: Riad l'Escale de Marrakech, Morocco
-  description: A boutique riad stay in the heart of Marrakech
-  price: 179
-  price-description: per person for 3 nights
-  saved: 23
-  expires: 2018/01/09
-  link: https://www.secretescapes.com/stylish-morocco-boutique-riad-break-riad-lescale-de-marrakech-morocco/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
-
-- category: city-breaks
   title: Art Place Hotel & Ryad
   id: art-place-hotel-ryad
   location: Marrakech, Morocco
@@ -135,17 +124,6 @@
   link: https://www.secretescapes.com/art-place-hotel-and-ryad-marrakech-moroccoasd/sale?gce_hpf=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
 
 - category: city-breaks
-  title: Hotel Les Dames du Panthéon
-  id: hotel-les-dames-du-pantheon
-  location: Paris, France
-  description: A characterful boutique Paris stay in Saint-Germain
-  price: 113
-  price-description: per room per night
-  saved: 43
-  expires: 2018/01/09
-  link: https://www.secretescapes.com/hotel-les-dames-du-pantheon-paris-france/sale?gce_hpf=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
-
-- category: city-breaks
   title: 1908 Lisboa Hotel
   id: lisboa-hotel
   location: Lisbon, Portugal
@@ -155,17 +133,6 @@
   saved: 34
   expires: 2018/01/09
   link: https://www.secretescapes.com/1908-lisboa-hotel-lisbon-portugal/sale?gce_hpf=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
-
-- category: city-breaks
-  title: Hotel Imperial
-  id: hotel-imperial
-  location: Copenhagen, Denmark
-  description: Design-centric Copenhagen digs with festive dates
-  price: 107
-  price-description: per room per night
-  saved: 47
-  expires: 2018/01/09
-  link: https://www.secretescapes.com/hotel-imperial-copenhagen-denmark-1/sale?gce_hpf=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
 
 - category: city-breaks
   title: Hotel Gaston
@@ -239,18 +206,18 @@
 
 - category: winter-sun
   top-pick: true
-  title: Paradise in the Maldives
-  id: paradise-in-the-maldives
-  location: Medhufushi Island Resort
-  description: An island idyll with a villa stay in the Indian Ocean
-  description-long: Castaway heaven at Medhufushi Island's only resort, with a beach villa stay – includes flights, seaplane transfers and full board
+  title: Taj Exotica Resort & Spa
+  id: taj-exotica-resort-spa
+  location: South Malé Atoll, Maldives
+  description: A five-star villa resort on a paradise island, including speedboat transfers, half board and more
+  description-long: A choice of luxurious villas at an exclusive Maldivian resort, including half board, speedboat transfers, a massage treatment, sunset cruise and more
   description-list: >
-    <li>Marvelling at the extraordinary natural beauty surrounding the resort</li>
-    <li>Transferring to the villa resort by seaplane</li>
-    <li>Trying your luck at catching some big game, with a dedicated fishing excursion</li>
-  price: 1599
-  price-description: per person for 7 nights
-  saved: 38
+    <li>The exclusivity of the island - located in one of the largest lagoons in the Maldives</li>
+    <li>Waking up to sweeping views of aquamarine waters</li>
+    <li>Taking a snooze on the swaying hammock by the beach</li>
+  price: 574
+  price-description: per villa per night
+  saved: 57
   expires: 2018/01/09
   link: https://www.secretescapes.com/paradise-in-the-maldives-medhufushi-island-resort/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
 
@@ -281,21 +248,20 @@
 ################################################################################
 
 - category: winter-sun
-  title: Getaway Chiang Mai Resort & Spa
-  id: getaway-chiang-mai-resort-spa
-  location: Chiang Mai, Thailand
-  description: A tranquil Chiang Mai resort near hot springs, including breakfast, a transfer and more
-  description-long: A classic Chiang Mai retreat near serene hot springs, including breakfast, resort discounts and a transfer
+  title: Dreamy Malaysia & Thailand city & island-hopping escape
+  id: dreamy-malaysia-thailand-city-island-hopping-escape
+  location: Kuala Lumpur, Koh Tao & Koh Samui
+  description: A mix of urban and island living in Malaysia and Thailand
+  description-long: Urban kicks in the Malay capital and a double Thai dose of chilled island life, including a city tour, spa and dining discounts, and travel
   description-list: >
-    <li>Bathing in the therapeutic hot springs, a short drive away</li>
-    <li>Discovering a huge rock Jacuzzi and gushing waterfall, en route through 100 metres of outdoor pool</li>
-    <li>Being within a 30-minute drive of the airport yet surrounded by serene, unspoilt tropical jungle</li>
-  price: 36
-  price-description: per room per night
-  saved: 81
-  expires: 2018/01/09
-  link: https://www.secretescapes.com/getaway-chiang-mai-resort-and-spa-chiang-mai-thailand/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
-
+    <li>Gazing over the Petronas Twin Towers from your Kuala Lumpur hotel’s outdoor pool</li>
+    <li>Revelling in the white sands and lush jungle interior of legendary Koh Samui</li>
+    <li>Nora Buri Resort’s feng-shui inspired rooms are just steps from the beach</li>
+  price: 1499
+  price-description: per person for 10 nights
+  saved: 29
+  expires: 2018/01/23
+  link: https://www.secretescapes.com/dreamy-malaysia-and-thailand-city-and-island-hopping-escape-kuala-lumpur-koh-tao-and-koh-samui/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 ################################################################################
   # Normal Offers
@@ -333,17 +299,6 @@
   saved: 53
   expires: 2018/01/09
   link: https://www.secretescapes.com/the-confidante-miami-beach-florida/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
-
-- category: winter-sun
-  title: Glamorous all-inclusive Cancun beach holiday
-  id: glamorous-all-inclusive-cancun-beach-holiday
-  location: Krystal Grand Punta Cancun, Mexico
-  description: All-inclusive beachside bliss in Punta Cancun
-  price: 1779
-  price-description: per person for 14 nights
-  saved: 40
-  expires: 2018/01/09
-  link: https://www.secretescapes.com/all-inclusive-cancun-beach-holiday-krystal-grand-punta-cancun-mexico/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
 
 - category: winter-sun
   title: Mövenpick Ibn Battuta Gate Hotel Dubai
@@ -399,17 +354,6 @@
   saved: 40
   expires: 2018/01/09
   link: https://www.secretescapes.com/three-luxury-eco-retreats-in-bali-ubud-west-bali-national-park-and-canggu/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
-
-- category: winter-sun
-  title: Dreamy Malaysia & Thailand city & island-hopping escape
-  id: dreamy-malaysia-thailand-city-island-hopping-escape
-  location: Kuala Lumpur, Koh Tao & Koh Samui
-  description: A mix of urban and island living in Malaysia and Thailand
-  price: 1499
-  price-description: per person for 10 nights
-  saved: 29
-  expires: 2018/01/23
-  link: https://www.secretescapes.com/dreamy-malaysia-and-thailand-city-and-island-hopping-escape-kuala-lumpur-koh-tao-and-koh-samui/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 
 
@@ -604,10 +548,10 @@
 
 - category: winter-wonderland
   top-pick: true
-  title: Epic Iceland Northern Lights trip with unforgettable tours
-  id: epic-iceland-northern-lights-trip-with-unforgettable-tours
-  location: Icelandair Hotel Reykjavik Marina, Reykjavik
-  description: Northern Lights, whale watching, snowmobiling and more in Iceland
+  title: Iceland Northern Lights break with a superb hotel stay
+  id: iceland-northern-lights-break-with-a-superb-hotel-stay
+  location: Centerhotel Thingholt, Reykjavik
+  description: Iceland's must-dos and a stylish Reykjavik stay
   description-long: A stellar Iceland adventure with a Northern Lights boat tour and whale and dolphin-watching, plus optional Blue Lagoon transfers and Golden Circle snowmobiling experience
   description-list: >
     <li>The chance to see the colourful Northern Lights on an unforgettable cruise</li>
@@ -615,9 +559,9 @@
     <li>Exploring the hip city of Reykjavik from your stylish base</li>
   price: 449
   price-description: per person for 3 nights
-  saved: 45
+  saved: 42
   expires: 2018/01/09
-  link: https://www.secretescapes.com/spectacular-iceland-break-with-northern-lights-cruise-icelandair-hotel-reykjavik-marina-reykjavik/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
+  link: https://www.secretescapes.com/epic-iceland-northern-lights-break-with-a-superb-hotel-stay-centerhotel-thingholt-reykjavik/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
 
 
 ################################################################################
@@ -667,17 +611,6 @@
 ################################################################################
 
 - category: winter-wonderland
-  title: Iceland Northern Lights break with a superb hotel stay
-  id: iceland-northern-lights-break-with-a-superb-hotel-stay
-  location: Centerhotel Thingholt, Reykjavik
-  description: Iceland's must-dos and a stylish Reykjavik stay
-  price: 449
-  price-description: per person for 3 nights
-  saved: 42
-  expires: 2018/01/09
-  link: https://www.secretescapes.com/epic-iceland-northern-lights-break-with-a-superb-hotel-stay-centerhotel-thingholt-reykjavik/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
-
-- category: winter-wonderland
   title: Mesmerising Iceland Northern Lights trip with top tours
   id: mesmerising-iceland-northern-lights-trip-with-top-tours
   location: Centerhotel Plaza, Reykjavik
@@ -700,17 +633,6 @@
   link: https://www.secretescapes.com/incredible-northern-norway-nature-and-wildlife-adventure-tromsoe-narvik-sortland-svolvaer-and-the-lofoten-islands/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
 
 - category: winter-wonderland
-  title: Gutshof Zillertal
-  id: gutshof-zillertal
-  location: Mayrhofen, Tyrol, Austria
-  description: A traditional Alpine chalet in the Austrian Tyrol
-  price: 113
-  price-description: per room per night
-  saved: 40
-  expires: 2018/01/09
-  link: https://www.secretescapes.com/gutshof-zillertal-mayrhofen-tyrol-austria/sale?gce_hpf=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
-
-- category: winter-wonderland
   title: 5* Andorra ski holiday with ski passes
   id: andorra-ski-holiday-with-ski-passes
   location: Hotel Ski Plaza, Grandvalira
@@ -720,28 +642,6 @@
   saved: 37
   expires: 2018/01/09
   link: https://www.secretescapes.com/5-star-andorra-ski-holiday-with-optional-equipment-rental1-hotel-ski-plaza-andorra/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
-
-- category: winter-wonderland
-  title: Scenic rail adventure through Switzerland
-  id: scenic-rail-adventure-through-switzerland
-  location: Lucerne & Interlaken
-  description: An enchanting Swiss foray with a Golden Pass train ride
-  price: 469
-  price-description: per person for 4 nights
-  saved: 33
-  expires: 2018/01/09
-  link: https://www.secretescapes.com/scenic-switzerland-break-with-glacier-express-travel-luzern-and-interlaken/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
-
-- category: winter-wonderland
-  title: Enchanting Lake Bled winter break
-  id: enchanting-lake-bled-winter-break
-  location: Hotel Astoria, Slovenia
-  description: A winter break near the spectacular shores of Lake Bled
-  price: 195
-  price-description: per person for 3 nights
-  saved: 34
-  expires: 2018/01/09
-  link: https://www.secretescapes.com/enchanting-lake-bled-winter-break1-hotel-astoria-slovenia/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
 
 - category: winter-wonderland
   title: Hotel Courchevel Olympic
