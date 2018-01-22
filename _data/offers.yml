@@ -113,13 +113,13 @@
 ################################################################################
 
 - category: city-breaks
-  title: H10 London Waterloo
-  id: h10-london-waterloo
-  location: Waterloo, London
-  description: A sleek stay with a sky bar by London's South Bank
-  price: 125
+  title: The Curtain
+  id: the-curtain
+  location: Shoreditch, London
+  description: A luxe hotel and members' club in London's hip Shoreditch
+  price: 160
   price-description: per room per night
-  saved: 36
+  saved: 44
   expires: 2018/01/23
   link: https://www.secretescapes.com/h10-london-waterloo-waterloo-london/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
@@ -393,20 +393,20 @@
 
 - category: staycations
   top-pick: true
-  title: Queens Hotel Cheltenham - MGallery by Sofitel
-  id: queens-hotel-cheltenham-m-gallery-by-sofitel
-  location: Cheltenham, Cotswolds
-  description: A Regency stay at the gateway to the Cotswolds
-  description-long: A boutique country inn dating back to the 14th century and set in the rolling Oxfordshire countryside, with breakfast, three-course dinner and a family option
+  title: Kings Head Hotel
+  id: kings-head-hotel
+  location: Cirencester, Cotswolds
+  description: A high-end Cotswolds pad with a vaulted underground spa
+  description-long: An architecturally fascinating Cirencester retreat, once owned by an Elizabethan sheriff – includes breakfast, dinning discount and a spa discount
   description-list: >
-    <li>Melt-in-the-mouth steaks, picked out by you and cooked exactly how you want with South African flair and expertise</li>
-    <li>Stylish contemporary bedrooms with a knowing, heritage flair</li>
-    <li>Tramping across the Chilterns or cruising the Thames in Henley</li>
-  price: 99
-  price-description: per room per night
-  saved: 51
+    <li>Milking the generous discount on pre-booked spa treatments included in your stay</li>
+    <li>Tucking into a hearty three-course dinner after a day out in the Cotswolds</li>
+    <li>Your sublimely decorated room, packed with original period features</li>
+  price: 149
+  price-description: per suite per night
+  saved: 55
   expires: 2018/01/23
-  link: https://www.secretescapes.com/queens-hotel-cheltenham-mgallery-by-sofitel-cheltenham-cotswolds/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+  link: https://www.secretescapes.com/kings-head-hotel-cirencester-cotswolds/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 ################################################################################
   # Game offer - A cosy stay in the UK
@@ -434,20 +434,21 @@
 ################################################################################
 
 - category: staycations
-  title: The Headland
-  id: the-headland
-  location: Newquay, Cornwall
-  description: A grand hotel and cottages overlooking Cornwall's Fistral Beach
-  description-long: A dramatic location on the headland near Fistral Beach, with an award-winning spa and AA Rosette restaurant – includes access to the award-winning spa and more
+  title: Champneys Forest Mere
+  id: champneys-forest-mere
+  location: Liphook, Hampshire
+  description: A luxe Champneys spa break in the Hampshire countryside
+  description-long: An idyllic Champneys resort set within the South Downs National Park, including healthy meals and a thalassotherapy treatment
   description-list: >
-    <li>The cosiness of this impressive seaside retreat and cottages</li>
-    <li>Tucking into locally sourced fare in the hotel's double AA Rosette-awarded restaurant</li>
-    <li>The amazing location, offering beautiful coastline walks</li>
-  price: 79
+    <li>Disconnecting thanks to the dependable tranquillity of a Champneys spa break</li>
+    <li>Wandering the beautiful and peaceful grounds that form this historic estate</li>
+    <li>Enjoying guilt-free delicacies that are healthy, plentiful and absolutely delicious</li>
+    <li>Tuning out with a relaxing thalassotherapy treatment</li>
+  price: 214
   price-description: per room per night
-  saved: 38
+  saved: 54
   expires: 2018/01/23
-  link: https://www.secretescapes.com/the-headland-newquay-cornwall/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+  link: https://www.secretescapes.com/champneys-forest-mere-liphook-hampshire/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 
 ################################################################################
@@ -499,28 +500,6 @@
   link: https://www.secretescapes.com/new-place-hotel-shirrell-heath-southampton/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 - category: staycations
-  title: The Beach at Bude
-  id: the-beach-at-bude
-  location: Bude, Cornwall
-  description: An acclaimed Cornish beachfront hotel for foodies
-  price: 169
-  price-description: per room per night
-  saved: 45
-  expires: 2018/01/23
-  link: https://www.secretescapes.com/the-beach-at-bude-bude-cornwall/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
-
-- category: staycations
-  title: The Lamb
-  id: the-lamb
-  location: Hindon, Wiltshire
-  description: A cosy stay at a charming country pub near Stonehenge
-  price: 69
-  price-description: per room per night
-  saved: 50
-  expires: 2018/01/23
-  link: https://www.secretescapes.com/the-lamb-hindon-wiltshire/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
-
-- category: staycations
   title: The Ickworth Hotel
   id: the-ickworth-hotel
   location: Bury St Edmunds, Suffolk
@@ -552,6 +531,39 @@
   saved: 45
   expires: 2018/01/23
   link: https://www.secretescapes.com/de-vere-latimer-estate-chesham-buckinghamshire/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+
+- category: staycations
+  title: Belsfield Hotel
+  id: belsfield-hotel
+  location: Bowness-on-Windermere, Lake District
+  description: A grand Laura Ashley-owned Lake District hotel
+  price: 129
+  price-description: per room per night
+  saved: 41
+  expires: 2018/01/23
+  link: https://www.secretescapes.com/belsfield-hotel-bowness-on-windermere-lake-district/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+
+- category: staycations
+  title: Carbis Bay Hotel & Estate
+  id: carbis-bay-hotel-estate
+  location: St Ives, Cornwall
+  description: A plush stay at an award-winning St Ives beach hotel with spa
+  price: 159
+  price-description: per room per night
+  saved: 72
+  expires: 2018/01/23
+  link: https://www.secretescapes.com/carbis-bay-hotel-and-estate-st-ives-cornwall/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+
+- category: staycations
+  title: De Vere Tortworth Court
+  id: de-vere-tortworth-court
+  location: Gloucestershire, Cotswolds
+  description: A Cotswolds getaway to a Tudor-style mansion
+  price: 79
+  price-description: per room per night
+  saved: 52
+  expires: 2018/01/23
+  link: https://www.secretescapes.com/de-vere-tortworth-court-gloucestershire-cotswolds/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 
 
