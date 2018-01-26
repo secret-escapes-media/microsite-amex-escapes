@@ -62,7 +62,7 @@
   price: 137
   price-description: per room per night
   saved: 48
-  expires: 2018/01/23
+  expires: 2018/01/30
   link: https://www.secretescapes.com/cassa-hotel-midtown-new-york/sale?gce_hpf=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 
@@ -71,20 +71,20 @@
 ################################################################################
 
 - category: city-breaks
-  title: Skt. Petri
-  id: skt-petri
-  location: Copenhagen, Denmark
-  description: A five-star urban Copenhagen hotel in a former shopping mall
-  description-long: A five-star boutique design hotel in a former shopping mall, set in the heart of Copenhagen's vibrant Latin Quarter, with breakfast or half board
+  title: Freehand New York
+  id: freehand-new-york
+  location: Midtown, New York
+  description: A brand-new, buzzed-about New York city pad
+  description-long: A stylish Condé Nast Traveler-recommended stay in Manhattan, with youthful, high-end accommodation and sought-after eateries - includes a choice of rooms
   description-list: >
-    <li>The strikingly refurbished former shopping mall that houses Skt. Petri</li>
-    <li>The hotel's central Latin Quarter location – perfect for exploring Copenhagen on foot </li>
-    <li>Enjoying the sleek design of your spacious room</li>
-  price: 84
+    <li>Experiencing Freehand’s signature Roman and Williams design and sought-after dining</li>
+    <li>Knowing the label behind this hotel has landed in Condé Nast Traveler </li>
+    <li>Being in the Flatiron District, near Madison Square Park and the NoMad neighbourhood</li>
+  price: 79
   price-description: per room per night
-  saved: 44
-  expires: 2018/01/23
-  link: https://www.secretescapes.com/skt-petri-copenhagen-denmark-1/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+  saved: 33
+  expires: 2018/01/30
+  link: https://www.secretescapes.com/freehand-new-york-midtown-new-york/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 
 ################################################################################
@@ -92,20 +92,20 @@
 ################################################################################
 
 - category: city-breaks
-  title: Henri Hotel Berlin
-  id: henri-hotel-berlin
-  location: Berlin, Germany
-  description: A stylish boutique hotel in the heart of Berlin
-  description-long: A boutique stay in a Belle Epoque-style hotel on a renowend avenue in Berlin, including breakfast
+  title: Hotel Palazzo Giovanelli
+  id: hotel-palazzo-giovanelli
+  location: Venice, Italy
+  description: Stay right on the Grand Canal at an elegant Venice abode
+  description-long: An elegant hotel sitting pretty on Venice’s iconic Grand Canal, including breakfast, a welcome drink, entry to Venice Casino and a visit to Murano island
   description-list: >
-    <li>Dining on the German snack buffet served in the homely kitchen each evening</li>
-    <li>Making the most of the enviable location on the heart of west Berlin’s Charlottenburg district</li>
-    <li>Embracing the elegant Art Nouveau interiors, with high ceilings and marble floors</li>
-  price: 104
+    <li>The beautifully ornate and lavish Venetian furnished rooms</li>
+    <li>Watching the world cruise by with stunning views over the Grand Canal </li>
+    <li>Sharing a palace with such illustrious former residents as Mozart and the King of Denmark</li>
+  price: 110
   price-description: per room per night
-  saved: 52
-  expires: 2018/01/23
-  link: https://www.secretescapes.com/henri-hotel-berlin-berlin-germany1/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+  saved: 38
+  expires: 2018/01/30
+  link: https://www.secretescapes.com/hotel-palazzo-giovanelli-venice-italy/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 
 ################################################################################
@@ -113,103 +113,114 @@
 ################################################################################
 
 - category: city-breaks
-  title: The Curtain
-  id: the-curtain
-  location: Shoreditch, London
-  description: A luxe hotel and members' club in London's hip Shoreditch
-  price: 160
+  title: Park South Hotel
+  id: park-south-hotel
+  location: Midtown, New York
+  description: Boutique interiors and phenomenal dining in NYC's Midtown
+  price: 99
   price-description: per room per night
-  saved: 44
-  expires: 2018/01/23
-  link: https://www.secretescapes.com/h10-london-waterloo-waterloo-london/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+  saved: 31
+  expires: 2018/01/30
+  link: https://www.secretescapes.com/park-south-hotel-midtown-new-york-usa/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 - category: city-breaks
-  title: Hotel Les 5 Djellabas
-  id: hotel-les-5-djellabas
-  location: Marrakech, Morocco
-  description: A romantic retreat in a green corner of Marrakech
-  price: 77
+  title: Kasbah Igoudar
+  id: kasbah-igoudar
+  location: Near Marrakech, Morocco
+  description: A boutique Morocco hotel near the Atlas Mountains
+  price: 60
   price-description: per room per night
-  saved: 32
-  expires: 2018/01/23
-  link: https://www.secretescapes.com/hotel-les-5-djellabas-marrakech-morocco/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
-
-- category: city-breaks
-  title: The Britannia Hotel
-  id: the-britannia-hotel
-  location: Rome, Italy
-  description: An elegant stay at a smart boutique hotel in Rome
-  price: 45
-  price-description: per room per night
-  saved: 38
-  expires: 2018/01/23
-  link: https://www.secretescapes.com/the-britannia-hotel-rome-italy/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
-
-- category: city-breaks
-  title: C.O.Q Hotel Paris
-  id: c-o-q-hotel-paris
-  location: Paris, France
-  description: Stylish digs in the heart of Paris’ 13th arrondissement
-  price: 50
-  price-description: per room per night
-  saved: 33
-  expires: 2018/01/23
-  link: https://www.secretescapes.com/coq-hotel-paris-paris-france/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
-
-- category: city-breaks
-  title: Dear Lisbon - Bordalo House
-  id: dear-lisbon-bordalo-house
-  location: Lisbon, Portugal
-  description: A brand new boutique hotel in Lisbon's Chiado district
-  price: 83
-  price-description: per room per night
-  saved: 49
-  expires: 2018/01/23
-  link: https://www.secretescapes.com/dear-lisbon-bordalo-house-lisbon-portugal/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
-
-- category: city-breaks
-  title: The William Vale
-  id: the-william-vale
-  location: Brooklyn, New York
-  description: A swanky stay at a buzzy new Brooklyn base
-  price: 160
-  price-description: per room per night
-  saved: 57
-  expires: 2018/01/23
-  link: https://www.secretescapes.com/the-william-vale-brooklyn-new-york/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
-
-- category: city-breaks
-  title: Dar Lalla F'dila
-  id: dar-lalla-f-dila
-  location: Marrakech, Morocco
-  description: A 19th-century Moroccan jewel in the heart of Marrakech
-  price: 31
-  price-description: per person per night
   saved: 60
-  expires: 2018/01/23
-  link: https://www.secretescapes.com/dar-lalla-fdila-marrakech-morocco/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+  expires: 2018/01/30
+  link: https://www.secretescapes.com/kasbah-igoudar-near-marrakech-morocco/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 - category: city-breaks
-  title: Sofitel Paris Baltimore Tour Eiffel Hotel
-  id: sofitel-paris-baltimore-tour-eiffel-hotel
-  location: Paris, France
-  description: Stay minutes from the Eiffel Tower at this five-star Paris gem
+  title: Riad Palais Blanc
+  id: riad-palais-blanc
+  location: Marrakech, Morocco
+  description: A newly opened Marrakech riad with impeccable style
+  price: 101
+  price-description: per person per night
+  saved: 40
+  expires: 2018/01/30
+  link: https://www.secretescapes.com/riad-palais-blanc-marrakech-morocco-uk/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+
+- category: city-breaks
+  title: H10 Puerta de Alcalá
+  id: h10-puerta-de-alcalá
+  location: Madrid, Spain
+  description: Stylish interiors and rooftop panoramas in Madrid
+  price: 104
+  price-description: per person per night
+  saved: 45
+  expires: 2018/01/30
+  link: https://www.secretescapes.com/h10-puerta-de-alcala-madrid-spain/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+
+- category: city-breaks
+  title: Corinthia Hotel Lisbon
+  id: corinthia-hotel-lisbon
+  location: Lisbon, Portugal
+  description: Glamour at a five-star Corinthia spa hotel in Lisbon
   price: 110
   price-description: per person per night
-  saved: 47
-  expires: 2018/01/23
-  link: https://www.secretescapes.com/sofitel-paris-baltimore-tour-eiffel-hotel-paris-france/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+  saved: 32
+  expires: 2018/01/30
+  link: https://www.secretescapes.com/corinthia-hotel-lisbon-lisbon-portugaldhfd/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 - category: city-breaks
-  title: Thon Hotel Bristol Stephanie
-  id: thon-hotel-bristol-stephanie
-  location: Brussels, Belgium
-  description: A city-centre Brussels hotel with playful interiors
-  price: 43
+  title: Bougainvillea Relais
+  id: bougainvillea-relais
+  location: Sorrento, Italy
+  description: Chic and modern interiors at an idyllic Sorrento guest house
+  price: 58
+  price-description: per person per night
+  saved: 51
+  expires: 2018/01/30
+  link: https://www.secretescapes.com/bougainvillea-relais-sorrento-italy/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+
+- category: city-breaks
+  title: Titanic Gendarmenmarkt Berlin
+  id: titanic-gendarmenmarkt-berlin
+  location: Berlin, Germany
+  description: Elegant bliss in the old German State Opera building
+  price: 126
+  price-description: per person per night
+  saved: 38
+  expires: 2018/01/30
+  link: https://www.secretescapes.com/titanic-gendarmenmarkt-berlin-berlin-germany/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+
+- category: city-breaks
+  title: Hôtel Le Bellechasse
+  id: hôtel-le-bellechasse
+  location: Paris, France
+  description: A Left Bank gem in Saint-Germain-des-Prés
+  price: 140
   price-description: per person per night
   saved: 61
-  expires: 2018/01/23
-  link: https://www.secretescapes.com/thon-hotel-bristol-stephanie-brussels-belgium/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+  expires: 2018/01/30
+  link: https://www.secretescapes.com/hotel-le-bellechasse-paris-france/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+
+- category: city-breaks
+  title: Hotel Topazz
+  id: hotel-topazz
+  location: Vienna, Austria
+  description: Five-star Design Hotel™ digs in Vienna's heart
+  price: 144
+  price-description: per person per night
+  saved: 55
+  expires: 2018/01/30
+  link: https://www.secretescapes.com/hotel-topazz-vienna-austria-uk/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+
+- category: city-breaks
+  title: Danubius Hotel Regents Park
+  id: danubius-hotel-regents-park
+  location: St John's Wood, London
+  description: A London stay overlooking Regent's Park and Lord's Cricket Ground
+  price: 89
+  price-description: per room per night
+  saved: 59
+  expires: 2018/01/30
+  link: https://www.secretescapes.com/danubius-hotel-regents-park-st-johns-wood-london/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 
 
@@ -228,20 +239,20 @@
 
 - category: winter-sun
   top-pick: true
-  title: Taj Exotica Resort & Spa
-  id: taj-exotica-resort-spa
-  location: South Malé Atoll, Maldives
-  description: A five-star villa resort on a paradise island, including speedboat transfers, half board and more
-  description-long: A choice of luxurious villas at an exclusive Maldivian resort, including half board, speedboat transfers, a massage treatment, sunset cruise and more
+  title: Canareef Resort Maldives
+  id: canareef-resort-maldives
+  location: Addu Atoll, Maldives
+  description: A low-key island retreat in the Maldives' southernmost atoll, including full board
+  description-long: A lo-fi island resort in the Maldives, including a beach villa, full board and a dolphin-spotting cruise
   description-list: >
-    <li>The exclusivity of the island - located in one of the largest lagoons in the Maldives</li>
-    <li>Waking up to sweeping views of aquamarine waters</li>
-    <li>Taking a snooze on the swaying hammock by the beach</li>
-  price: 574
+    <li>The intensity of the sunsets, best enjoyed from your Sunset Beach villa</li>
+    <li>Peaceful strolls on powder-soft white sands</li>
+    <li>Spotting a pod of dolphins frolicking in ultramarine waters</li>
+  price: 73
   price-description: per villa per night
-  saved: 57
-  expires: 2018/01/23
-  link: https://www.secretescapes.com/taj-exotica-resort-and-spa-south-male-atoll-maldives/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+  saved: 81
+  expires: 2018/01/30
+  link: https://www.secretescapes.com/canareef-resort-maldives-addu-atoll-maldives/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 
 ################################################################################
@@ -261,7 +272,7 @@
   price: 175
   price-description: per person for 7 nights
   saved: 51
-  expires: 2018/01/23
+  expires: 2018/01/30
   link: https://www.secretescapes.com/kore-tulum-retreat-and-spa-resort-tulum-mexico/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 
@@ -270,46 +281,24 @@
 ################################################################################
 
 - category: winter-sun
-  title: Getaway Chiang Mai Resort & Spa
-  id: getaway-chiang-mai-resort-spa
-  location: Chiang Mai, Thailand
-  description: A tranquil Chiang Mai resort near hot springs, including breakfast, a transfer and more
-  description-long: A classic Chiang Mai retreat near serene hot springs, including breakfast, resort discounts and a transfer
+  title: The Royal Sands Koh Rong
+  id: the-royal-sands-koh-rong
+  location: Koh Rong, Cambodia
+  description: A brand-new luxury villa resort on the island of Koh Rong, with a private pool option
+  description-long: Untouched white-sand beaches and pristine five-star environs at a new resort on Koh Rong, including a stunning villa, breakfast, and more for longer stays
   description-list: >
-    <li>Bathing in the therapeutic hot springs, a short drive away</li>
-    <li>Discovering a huge rock Jacuzzi and gushing waterfall, en route through 100 metres of outdoor pool</li>
-    <li>Being within a 30-minute drive of the airport yet surrounded by serene, unspoilt tropical jungle</li>
-  price: 36
-  price-description: per person for 10 nights
-  saved: 81
-  expires: 2018/01/23
-  link: https://www.secretescapes.com/getaway-chiang-mai-resort-and-spa-chiang-mai-thailand/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+    <li>Thai massages and wellness treatments at Bliss Spa</li>
+    <li>Sundowners in one of the beach bar’s cosy loveseats</li>
+    <li>Boat trips complete with snorkelling, fishing and a romantic picnic on a nearby island</li>
+  price: 220
+  price-description: per villa per night
+  saved: 51
+  expires: 2018/01/30
+  link: https://www.secretescapes.com/the-royal-sands-koh-rong-resort-koh-rong-island-cambodia/sale
 
 ################################################################################
   # Normal Offers
 ################################################################################
-
-- category: winter-sun
-  title: The Confidante
-  id: the-confidante
-  location: Miami Beach, Florida
-  description: Miami’s coolest beachfront boutique with two pools
-  price: 124
-  price-description: per room per night
-  saved: 53
-  expires: 2018/01/23
-  link: https://www.secretescapes.com/the-confidante-miami-beach-florida/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Dec2017
-
-- category: winter-sun
-  title: Classic South Africa getaway with safari excursions
-  id: classic-south-africa-getaway-with-safari-excursions
-  location: Cape Town, Stellenbosch & Kruger
-  description: Discover South Africa's finest, from Cape Town to Kruger
-  price: 1699
-  price-description: per person for 9 nights
-  saved: 26
-  expires: 2018/01/23
-  link: https://www.secretescapes.com/classic-south-africa-getaway-with-safari-excursions-cape-town-stellenbosch-and-kruger/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 - category: winter-sun
   title: Vibrant Thailand city & blissful beach-hopping holiday
@@ -319,30 +308,8 @@
   price: 1149
   price-description: per person for 10 nights
   saved: 40
-  expires: 2018/01/23
+  expires: 2018/01/30
   link: https://www.secretescapes.com/vibrant-thailand-city-and-5-star-blissful-beach-hopping-holiday-luxury-hotels-in-bangkok-khao-lak-and-phuket/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
-
-- category: winter-sun
-  title: Panviman Resort Koh Phangan
-  id: panviman-resort-koh-phangan
-  location: Koh Phangan, Thailand
-  description: A multi award-winning resort by a white-sand beach, with Jacuzzi room option
-  price: 90
-  price-description: per room per night
-  saved: 62
-  expires: 2018/01/23
-  link: https://www.secretescapes.com/panviman-resort-koh-phangan-koh-phangan-thailand/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
-
-- category: winter-sun
-  title: 5* Singapore & Bali holiday with iconic hotel stays
-  id: 5-singapore-bali-holiday-with-iconic-hotel-stays
-  location: Shangri-La Singapore & Grand Hyatt Bali
-  description: Two mesmerising five-star stays in Singapore and Bali
-  price: 1499
-  price-description: per person for 8 nights
-  saved: 30
-  expires: 2018/01/23
-  link: https://www.secretescapes.com/luxury-singapore-and-bali-bali-indonesia/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 - category: winter-sun
   title: Hotel Victor
@@ -352,19 +319,8 @@
   price: 50
   price-description: per person per night
   saved: 57
-  expires: 2018/01/23
+  expires: 2018/01/30
   link: https://www.secretescapes.com/hotel-victor-miami-beach-florida/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
-
-- category: winter-sun
-  title: Singapore & Bintan Island city-to-beach getaway
-  id: singapore-bintan-island-city-to-beach-getaway
-  location: With modern hotels in Singapore & Indonesia
-  description: Philippe Starck digs in Singapore and a beach break in Bintan
-  price: 1229
-  price-description: per person for 9 nights
-  saved: 32
-  expires: 2018/01/23
-  link: https://www.secretescapes.com/singapore-and-bintan-island-city-to-beach-getaway-with-modern-hotels-in-singapore-and-indonesia/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 - category: winter-sun
   title: Tropical Costa Rica adventure
@@ -374,8 +330,63 @@
   price: 1499
   price-description: per person for 11 nights
   saved: 30
-  expires: 2018/01/23
+  expires: 2018/01/30
   link: https://www.secretescapes.com/tropical-costa-rica-adventure-san-jose-sarapiqui-arenal-and-tambor/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+
+- category: winter-sun
+  title: Luxury Barbados beach holiday with motorised watersports
+  id: luxury-barbados-beach-holiday-with-motorised-watersports
+  location: Tamarind by Elegant Hotels, Caribbean
+  description: Watersports and tropical cocktails in Barbados
+  price: 1099
+  price-description: per person for 7 night
+  saved: 30
+  expires: 2018/01/30
+  link: https://www.secretescapes.com/luxury-barbados-beach-holiday-with-motorised-watersports-tamarind-by-elegant-hotels-caribbean/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+
+- category: winter-sun
+  title: The Villa Casa Casuarina
+  id: the-villa-casa-casuarina
+  location: South Beach, Miami
+  description: A suite Miami stay at the former mansion of Gianni Versace
+  price: 440
+  price-description: per suite per night
+  saved: 53
+  expires: 2018/01/30
+  link: https://www.secretescapes.com/the-villa-casa-casuarina-south-beach-miami/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+
+- category: winter-sun
+  title: 5* luxury Mauritius holiday at an exceptional beach resort
+  id: 5-luxury-mauritius-holiday-at-an-exceptional-beach-resort
+  location: The Residence Mauritius, Belle Mare
+  description: Full board at a beautiful, award-winning Mauritius hotel
+  price: 1459
+  price-description: per person for 7 nights
+  saved: 20
+  expires: 2018/01/30
+  link: https://www.secretescapes.com/5-star-luxury-mauritius-holiday-the-residence-mauritius-belle-mare/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+
+- category: winter-sun
+  title: All-inclusive Abu Dhabi holiday with desert & beach stays
+  id: all-inclusive-abu-dhabi-holiday-with-desert-beach-stays
+  location: Abu Dhabi, United Arab Emirates
+  description: An all-inclusive Abu Dhabi escape with beach and desert stays
+  price: 949
+  price-description: per person for 7 nights
+  saved: 30
+  expires: 2018/01/30
+  link: https://www.secretescapes.com/all-inclusive-abu-dhabi-holiday-with-desert-and-beach-stays-abu-dhabi-united-arab-emirates/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+
+- category: winter-sun
+  title: Hyatt Regency Danang Resort and Spa
+  id: hyatt-regency-danang-resort-and-spa
+  location: Hyatt Regency Danang Resort and Spa
+  description: A five-star Hyatt beach resort, with luxurious residences for up to four people
+  price: 209
+  price-description: per residence per night
+  saved: 46
+  expires: 2018/01/30
+  link: https://www.secretescapes.com/hyatt-regency-danang-resort-and-spa-da-nang-vietnam/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 
 
@@ -393,20 +404,20 @@
 
 - category: staycations
   top-pick: true
-  title: Kings Head Hotel
-  id: kings-head-hotel
-  location: Cirencester, Cotswolds
-  description: A high-end Cotswolds pad with a vaulted underground spa
-  description-long: An architecturally fascinating Cirencester retreat, once owned by an Elizabethan sheriff – includes breakfast, dinning discount and a spa discount
+  title: De Vere Cotswold Water Park
+  id: de-vere-cotswold-water-park
+  location: Near Cirencester, Cotswolds
+  description: Relax at a lakeside leisure retreat in the Cotswolds
+  description-long: A contemporary stay among pretty surrounds in the very heart of the Cotswolds - includes breakfast, spa and bar discounts, and an optional dinner allowance
   description-list: >
-    <li>Milking the generous discount on pre-booked spa treatments included in your stay</li>
-    <li>Tucking into a hearty three-course dinner after a day out in the Cotswolds</li>
-    <li>Your sublimely decorated room, packed with original period features</li>
-  price: 149
-  price-description: per suite per night
-  saved: 55
-  expires: 2018/01/23
-  link: https://www.secretescapes.com/kings-head-hotel-cirencester-cotswolds/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+    <li>Roving the Cotswolds and recharging with a peaceful al fresco dinner on the lakeside decking</li>
+    <li>Letting the hydrotherapy pool, sauna, steam room and dry flotation room work their magic on body and soul</li>
+    <li>Enjoy a drinks voucher for the Old Boathouse Pub during your stay</li>
+  price: 79
+  price-description: per room per night
+  saved: 48
+  expires: 2018/01/30
+  link: https://www.secretescapes.com/de-vere-cotswold-water-park-near-cirencester-cotswolds/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 ################################################################################
   # Game offer - A cosy stay in the UK
@@ -425,7 +436,7 @@
   price: 134
   price-description: per room per night
   saved: 41
-  expires: 2018/01/23
+  expires: 2018/01/30
   link: https://www.secretescapes.com/the-lugger-hotel-portloe-cornwall/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 
@@ -447,35 +458,13 @@
   price: 214
   price-description: per room per night
   saved: 54
-  expires: 2018/01/23
+  expires: 2018/01/30
   link: https://www.secretescapes.com/champneys-forest-mere-liphook-hampshire/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 
 ################################################################################
   # Normal Offers
 ################################################################################
-
-- category: staycations
-  title: The Principal Oxford Spires Hotel
-  id: the-principal-oxford-spires-hotel
-  location: Oxford, Oxfordshire
-  description: A picturesque stay near the centre of Oxford
-  price: 135
-  price-description: per room per night
-  saved: 38
-  expires: 2018/01/23
-  link: https://www.secretescapes.com/oxford-spires-hotel-oxford-oxfordshire/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
-
-- category: staycations
-  title: The Vineyard
-  id: the-vineyard
-  location: Newbury, Berkshire
-  description: A prestigious five-star Berkshire hotel with 'Five Bubble' spa
-  price: 159
-  price-description: per room per night
-  saved: 64
-  expires: 2018/01/23
-  link: https://www.secretescapes.com/the-vineyard-newbury-berkshire/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 - category: staycations
   title: Champneys Forest Mere
@@ -485,7 +474,7 @@
   price: 214
   price-description: per room per night
   saved: 54
-  expires: 2018/01/23
+  expires: 2018/01/30
   link: https://www.secretescapes.com/champneys-forest-mere-liphook-hampshire/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 - category: staycations
@@ -496,7 +485,7 @@
   price: 69
   price-description: per room per night
   saved: 57
-  expires: 2018/01/23
+  expires: 2018/01/30
   link: https://www.secretescapes.com/new-place-hotel-shirrell-heath-southampton/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 - category: staycations
@@ -507,19 +496,8 @@
   price: 139
   price-description: per room per night
   saved: 40
-  expires: 2018/01/23
+  expires: 2018/01/30
   link: https://www.secretescapes.com/the-ickworth-hotel-bury-st-edmunds-suffolk/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
-
-- category: staycations
-  title: The Bell in Ticehurst
-  id: the-bell-in-ticehurst
-  location: Ticehurst, East Sussex
-  description: A rustic-chic stay at an award-winning East Sussex inn
-  price: 75
-  price-description: per room per night
-  saved: 45
-  expires: 2018/01/23
-  link: https://www.secretescapes.com/the-bell-in-ticehurst-ticehurst-east-sussex/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 - category: staycations
   title: De Vere Latimer Estate
@@ -529,7 +507,7 @@
   price: 139
   price-description: per room per night
   saved: 45
-  expires: 2018/01/23
+  expires: 2018/01/30
   link: https://www.secretescapes.com/de-vere-latimer-estate-chesham-buckinghamshire/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 - category: staycations
@@ -540,7 +518,7 @@
   price: 129
   price-description: per room per night
   saved: 41
-  expires: 2018/01/23
+  expires: 2018/01/30
   link: https://www.secretescapes.com/belsfield-hotel-bowness-on-windermere-lake-district/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 - category: staycations
@@ -551,19 +529,52 @@
   price: 159
   price-description: per room per night
   saved: 72
-  expires: 2018/01/23
+  expires: 2018/01/30
   link: https://www.secretescapes.com/carbis-bay-hotel-and-estate-st-ives-cornwall/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 - category: staycations
-  title: De Vere Tortworth Court
-  id: de-vere-tortworth-court
-  location: Gloucestershire, Cotswolds
-  description: A Cotswolds getaway to a Tudor-style mansion
-  price: 79
+  title: Alexander House Hotel & Utopia Spa
+  id: alexander-house-hotel-utopia-spa
+  location: East Grinstead, West Sussex
+  description: Five-star spa heaven at a West Sussex award-winner
+  price: 239
   price-description: per room per night
-  saved: 52
-  expires: 2018/01/23
-  link: https://www.secretescapes.com/de-vere-tortworth-court-gloucestershire-cotswolds/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+  saved: 33
+  expires: 2018/01/30
+  link: https://www.secretescapes.com/alexander-house-hotel-and-utopia-spa-east-grinstead-west-sussex/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+
+- category: staycations
+  title: Merchants Manor
+  id: merchants-manor
+  location: Falmouth, Cornwall
+  description: A Falmouth spa hotel in a former merchant’s abode
+  price: 85
+  price-description: per room per night
+  saved: 56
+  expires: 2018/01/30
+  link: https://www.secretescapes.com/merchants-manor-falmouth-cornwall/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+
+- category: staycations
+  title: Sir Christopher Wren Hotel & Spa
+  id: sir-christopher-wren-hotel-spa
+  location: Windsor, Berkshire
+  description: A riverside Windsor hotel in a Grade II listed building
+  price: 139
+  price-description: per room per night
+  saved: 35
+  expires: 2018/01/30
+  link: https://www.secretescapes.com/sir-christopher-wren-hotel-and-spa-windsor-berkshire/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+
+- category: staycations
+  title: Macdonald Bear Hotel
+  id: macdonald-bear-hotel
+  location: Woodstock, Cotswolds
+  description: A stylish boutique coaching inn within the Oxfordshire Cotswolds
+  price: 119
+  price-description: per room per night
+  saved: 61
+  expires: 2018/01/30
+  link: https://www.secretescapes.com/macdonald-bear-hotel-woodstock-cotswolds/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 
 
@@ -581,20 +592,20 @@
 
 - category: winter-wonderland
   top-pick: true
-  title: Thrilling Iceland Northern Lights hunt from a modern hotel
-  id: thrilling-iceland-northern-lights-hunt-from-a-modern-hotel
-  location: Nordurey Reykjavik Road hotel, Hafnarfjörður
-  description: Insanely stunning Iceland tours from a new hotel
-  description-long: Chase the Northern Lights on this bucket-list Iceland trip, with optional Blue Lagoon transfers and Golden Circle tour - flights and discounted whale museum entry included
+  title: Iceland Viking escape with Northern Lights & more
+  id: iceland-viking-escape-with-northern-lights-more
+  location: Hótel Viking, Hafnarfjörður
+  description: Northern Lights hunt, Viking-style interiors and more in Iceland
+  description-long: A fun-packed Iceland break at a quirky hotel brimming with Viking style, with a Northern Lights experience and optional tours - flights included
   description-list: >
-    <li>The chance to spot the Northern Lights in all their glistening beauty</li>
-    <li>Adding on transfers to the Blue Lagoon for a leisurely soak in thermal waters</li>
-    <li>Opting to enjoy an unforgettable Golden Circle tour </li>
-  price: 319
+    <li>Your hotel's enthusiastic Viking-like staff, who go out of their way to keep guests happy</li>
+    <li>Relaxing in the geothermal hot tub, Scandi-style</li>
+    <li>Heading out on a tour to see the magical Northern Lights</li>
+  price: 329
   price-description: per person for 3 nights
-  saved: 31
-  expires: 2018/01/23
-  link: https://www.secretescapes.com/thrilling-iceland-northern-lights-hunt-from-a-modern-hotel-nordurey-reykjavik-road-hotel-hafnarfjorur/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+  saved: 27
+  expires: 2018/01/30
+  link: https://www.secretescapes.com/viking-style-iceland-northern-lights-trip-with-optional-excursions-hotel-viking-hafnarfjorur/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 
 ################################################################################
@@ -602,20 +613,20 @@
 ################################################################################
 
 - category: winter-wonderland
-  title: Luxe chalet break to Le Grand Massif in the French Alps
-  id: luxe-chalet-break-to-le-grand-massif-in-the-french-alps
-  location: A choice between three chalet accommodations
-  description: A chic foodie escape to the French Alps, with a choice of chalets
-  description-long: A foodie week at one of three chic and unique Tasty Ski Company lodges in the French Alps, with typical chalet board and all travel
+  title: 5* Andorra ski break with passes & optional equipment
+  id: 5-andorra-ski-break-with-passes-optional-equipment
+  location: Hotel Plaza Andorra, Pyrenees
+  description: A five-star Andorra la Vella ski break with passes
+  description-long: Thrilling Pyrenees skiing with Grandvalira passes and a spa hotel in Andorra la Vella - includes optional ski equipment, half board, shuttle services and all travel
   description-list: >
-    <li>Dining on a creative gourmet four-course dinner in our chalet nearly every evening of our stay</li>
-    <li>Choosing between three gorgeous and unique chalets for an unforgettable stay catering to our own style and needs</li>
-    <li>Experiencing the breathtaking beauty and fun-filled activities of the French Alps </li>
-  price: 635
-  price-description: per person for 7 nights
-  saved: 20
-  expires: 2018/01/23
-  link: https://www.secretescapes.com/luxe-chalet-break-to-le-grand-massif-with-a-choice-between-three-stunning-chalet-accommodations/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+    <li>The contemporary design complete with Paul Smith rugs and oil paintings </li>
+    <li>Shopping at some of Andorra’s biggest shopping centres on your doorstep</li>
+    <li>Hitting the slopes with the included four- or six-day pass to Grandvalira ski resort </li>
+  price: 549
+  price-description: per person for 5 nights
+  saved: 23
+  expires: 2018/01/30
+  link: https://www.secretescapes.com/5-star-andorra-ski-break-with-passes-and-optional-equipment-hotel-plaza-andorra-pyrenees/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 
 ################################################################################
@@ -635,7 +646,7 @@
   price: 399
   price-description: per person for 3 nights
   saved: 43
-  expires: 2018/01/23
+  expires: 2018/01/30
   link: https://www.secretescapes.com/mesmerising-iceland-northern-lights-trip-with-epic-experiences-icelandair-hotel-reykjavik-marina-reykjavik/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 
@@ -651,19 +662,8 @@
   price: 106
   price-description: per person per night
   saved: 25
-  expires: 2018/01/23
+  expires: 2018/01/30
   link: https://www.secretescapes.com/tenne-lodges-racines-italy/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
-
-- category: winter-wonderland
-  title: Andorra ski holiday with optional equipment
-  id: andorra-ski-holiday-with-optional-equipment
-  location: Holiday Inn Andorra, Grandvalira
-  description: A fuss-free break with ski passes in Andorra
-  price: 519
-  price-description: per person for 5 nights
-  saved: 39
-  expires: 2018/01/23
-  link: https://www.secretescapes.com/andorra-ski-holiday-with-christmas-dates-and-optional-equipment-holiday-inn-andorra-grandvalira/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 - category: winter-wonderland
   title: Dazzling Iceland Northern Lights break with exceptional tours
@@ -673,7 +673,7 @@
   price: 699
   price-description: per person for 4 nights
   saved: 38
-  expires: 2018/01/23
+  expires: 2018/01/30
   link: https://www.secretescapes.com/dazzling-northern-lights-iceland-break-with-exceptional-tours-reykjavik-and-vik/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 - category: winter-wonderland
@@ -684,7 +684,7 @@
   price: 79
   price-description: per person per night
   saved: 38
-  expires: 2018/01/23
+  expires: 2018/01/30
   link: https://www.secretescapes.com/green-lake-hotel-weiher-bolzano-italy/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 - category: winter-wonderland
@@ -695,41 +695,8 @@
   price: 47
   price-description: per person per night
   saved: 31
-  expires: 2018/01/23
+  expires: 2018/01/30
   link: https://www.secretescapes.com/hotel-milano-alpen-resort-and-spa-bergamo-italy/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
-
-- category: winter-wonderland
-  title: Andorra ski holiday with optional equipment
-  id: andorra-ski-holiday-with-optional-equipment
-  location: Holiday Inn Andorra, Grandvalira
-  description: A fuss-free break with ski passes in Andorra
-  price: 519
-  price-description: per person for 5 nights
-  saved: 39
-  expires: 2018/01/23
-  link: https://www.secretescapes.com/andorra-ski-holiday-with-christmas-dates-and-optional-equipment-holiday-inn-andorra-grandvalira/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
-
-- category: winter-wonderland
-  title: 5* Bulgaria holiday at an award-winning resort
-  id: 5-bulgaria-holiday-at-an-award-winning-resort
-  location: Premier Luxury Mountain Resort, Bansko
-  description: A five-star break at a Bulgaria mountain resort
-  price: 399
-  price-description: per person for 5 nights
-  saved: 38
-  expires: 2018/01/23
-  link: https://www.secretescapes.com/5-star-bulgaria-ski-holiday-at-an-award-winning-resort-premier-luxury-mountain-resort-bansko/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
-
-- category: winter-wonderland
-  title: Breathtaking Oslo & Bergen break with scenic train journey
-  id: breathtaking-oslo-bergen-break-with-scenic-train-journey
-  location: Oslo, Norway
-  description: An epic Norwegian city-hop via a spectacular railway trip
-  price: 569
-  price-description: per person for 6 nights
-  saved: 36
-  expires: 2018/01/23
-  link: https://www.secretescapes.com/breathtaking-oslo-and-bergen-break-with-scenic-train-journey-oslo-norway/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 - category: winter-wonderland
   title: Avenue Lodge Hotel
@@ -739,5 +706,49 @@
   price: 276
   price-description: per room per night
   saved: 38
-  expires: 2018/01/23
+  expires: 2018/01/30
   link: https://www.secretescapes.com/hotel-avenue-lodge-a-five-star-val-disere-ski-base-in-france/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+
+- category: winter-wonderland
+  title: Fahrenheit Seven Courchevel
+  id: fahrenheit-seven-courchevel
+  location: Courchevel Moriond (1650), France
+  description: A hip design hotel in the French ski resort of Courchevel
+  price: 119
+  price-description: per person for 6 nights
+  saved: 33
+  expires: 2018/01/30
+  link: https://www.secretescapes.com/fahrenheit-seven-courchevel-courchevel-moriond-1650-france/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+
+- category: winter-wonderland
+  title: Ultra-affordable Andorra ski holiday with a quirky hotel stay
+  id: ultra-affordable-andorra-ski-holiday-with-a-quirky-hotel-stay
+  location: Mu Hotel, Pyrenees
+  description: Alpine Andorra adventures with quirky interiors and ski passes
+  price: 399
+  price-description: per person for 6 nights
+  saved: 34
+  expires: 2018/01/30
+  link: https://www.secretescapes.com/ultra-affordable-andorra-ski-holiday-with-a-quirky-hotel-stay-mu-hotel-pyrenees/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+
+- category: winter-wonderland
+  title: Swedish Lapland ice hotel break & overnight train journey
+  id: swedish-lapland-ice-hotel-break-overnight-train-journey
+  location: Stockholm & Jukkasjärvi, Sweden
+  description: Experience Sweden's famed Icehotel with an overnight rail journey
+  price: 689
+  price-description: per person for 6 nights
+  saved: 39
+  expires: 2018/01/30
+  link: https://www.secretescapes.com/swedish-lapland-break-with-ice-hotel-stay-and-overnight-train-journey-stockholm-and-jukkasjaervi-sweden/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+
+- category: winter-wonderland
+  title: Bulgaria mountain holiday with ski dates
+  id: bulgaria-mountain-holiday-with-ski-dates
+  location: The Balkan Jewel, Bankso
+  description: A thrilling Bulgaria mountain escape with ski dates
+  price: 239
+  price-description: per person for 6 nights
+  saved: 29
+  expires: 2018/01/30
+  link: https://www.secretescapes.com/bulgaria-mountain-holiday-with-ski-dates-the-balkan-jewel-bankso/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
