@@ -222,6 +222,17 @@
   expires: 2018/02/06
   link: https://www.secretescapes.com/hotel-opera-cadet-paris-france/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
+- category: city-breaks
+  title: Mondrian London at Sea Containers
+  id: mondrian-london-at-sea-containers
+  location: South Bank, Central London
+  description: A luxe design-led London hotel on the Thames riverbank
+  price: 165
+  price-description: per person per night
+  saved: 24
+  expires: 2018/02/07
+  link: https://www.secretescapes.com/mondrian-london-at-sea-containers-south-bank-central-london/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+
 
 
 
@@ -478,17 +489,6 @@
   link: https://www.secretescapes.com/champneys-forest-mere-liphook-hampshire/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 - category: staycations
-  title: New Place Hotel
-  id: new-place-hotel
-  location: Shirrell Heath, Southampton
-  description: A Grade I-listed manor house near the South Downs
-  price: 69
-  price-description: per room per night
-  saved: 57
-  expires: 2018/02/06
-  link: https://www.secretescapes.com/new-place-hotel-shirrell-heath-southampton/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
-
-- category: staycations
   title: The Ickworth Hotel
   id: the-ickworth-hotel
   location: Bury St Edmunds, Suffolk
@@ -522,28 +522,6 @@
   link: https://www.secretescapes.com/belsfield-hotel-bowness-on-windermere-lake-district/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 - category: staycations
-  title: Carbis Bay Hotel & Estate
-  id: carbis-bay-hotel-estate
-  location: St Ives, Cornwall
-  description: A plush stay at an award-winning St Ives beach hotel with spa
-  price: 159
-  price-description: per room per night
-  saved: 72
-  expires: 2018/02/06
-  link: https://www.secretescapes.com/carbis-bay-hotel-and-estate-st-ives-cornwall/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
-
-- category: staycations
-  title: Alexander House Hotel & Utopia Spa
-  id: alexander-house-hotel-utopia-spa
-  location: East Grinstead, West Sussex
-  description: Five-star spa heaven at a West Sussex award-winner
-  price: 239
-  price-description: per room per night
-  saved: 33
-  expires: 2018/02/06
-  link: https://www.secretescapes.com/alexander-house-hotel-and-utopia-spa-east-grinstead-west-sussex/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
-
-- category: staycations
   title: Merchants Manor
   id: merchants-manor
   location: Falmouth, Cornwall
@@ -575,6 +553,39 @@
   saved: 60
   expires: 2018/02/06
   link: https://www.secretescapes.com/the-gannet-inn-carbis-bay-cornwall/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+
+- category: staycations
+  title: The Crown Inn
+  id: the-crown-inn
+  location: Playhatch, Oxfordshire
+  description: A 16th-century Oxfordshire inn brimming with boutique style
+  price: 99
+  price-description: per room per night
+  saved: 58
+  expires: 2018/02/07
+  link: https://www.secretescapes.com/the-crown-inn-playhatch-oxfordshire/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+
+- category: staycations
+  title: The Packhorse Inn
+  id: the-packhorse-inn
+  location: Moulton, Suffolk
+  description: A five-star stay in Suffolk's serene countryside
+  price: 119
+  price-description: per room per night
+  saved: 58
+  expires: 2018/02/07
+  link: https://www.secretescapes.com/the-packhorse-inn-moulton-suffolk/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+
+- category: staycations
+  title: The Norfolk Mead Hotel
+  id: the-norfolk-mead-hotel
+  location: Norwich, Norfolk
+  description: A boutique stay with award-winning dining on the Norfolk Broads
+  price: 149
+  price-description: per room per night
+  saved: 33
+  expires: 2018/02/07
+  link: https://www.secretescapes.com/the-norfolk-mead-hotel-norwich-norfolk/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 
 
