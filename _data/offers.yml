@@ -164,7 +164,7 @@
   price: 165
   price-description: per person per night
   saved: 24
-  expires: 2018/02/07
+  expires: 2018/02/14
   link: https://www.secretescapes.com/mondrian-london-at-sea-containers-south-bank-central-london/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 - category: city-breaks
@@ -273,7 +273,7 @@
   price: 544
   price-description: per villa per night
   saved: 49
-  expires: 2018/02/06
+  expires: 2018/02/13
   link: https://www.secretescapes.com/finolhu-baa-atoll-maldives/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 
@@ -294,7 +294,7 @@
   price: 175
   price-description: per person for 7 nights
   saved: 51
-  expires: 2018/02/06
+  expires: 2018/02/13
   link: https://www.secretescapes.com/kore-tulum-retreat-and-spa-resort-tulum-mexico/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 
@@ -331,7 +331,7 @@
   price: 1099
   price-description: per person for 7 nights
   saved: 50
-  expires: 2018/02/06
+  expires: 2018/02/13
   link: https://www.secretescapes.com/luxury-all-inclusive-mexico-beach-holiday-now-sapphire-riviera-cancun-yucatan-peninsula/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 - category: winter-sun
@@ -342,7 +342,7 @@
   price: 1899
   price-description: per person for 14 nights
   saved: 47
-  expires: 2018/02/06
+  expires: 2018/02/13
   link: https://www.secretescapes.com/sensational-singapore-city-break-and-thailand-island-hop-singapore-koh-samui-and-koh-phangan/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 - category: winter-sun
@@ -353,7 +353,7 @@
   price: 1199
   price-description: per person for 7 nights
   saved: 55
-  expires: 2018/02/06
+  expires: 2018/02/09
   link: https://www.secretescapes.com/all-inclusive-jamaica-getaway-at-a-unique-treehouse-resort-sunset-at-the-palms-negril/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 - category: winter-sun
@@ -364,7 +364,7 @@
   price: 149
   price-description: per suite per night
   saved: 39
-  expires: 2018/02/06
+  expires: 2018/02/13
   link: https://www.secretescapes.com/the-royal-purnama-art-suites-and-villas-bali-indonesia/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 - category: winter-sun
@@ -450,88 +450,52 @@
   price: 99
   price-description: per room per night
   saved: 48
-  expires: 2018/02/07
+  expires: 2018/02/14
   link: https://www.secretescapes.com/de-vere-cotswold-water-park-near-cirencester-cotswolds/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 ################################################################################
   # Game offer - A cosy stay in the UK
 ################################################################################
-
 - category: staycations
-  title: The Lugger Hotel
-  id: the-lugger-hotel
-  location: Portloe, Cornwall
-  description: A former inn and smuggler haunt in a Cornish cove
-  description-long: A former 17th-century smuggler haunt tucked into the harbour of a fishing village in Cornwall - includes breakfast and three-course dinner
+  title: The Crown Inn
+  id: the-crown-inn
+  location: Playhatch, Oxfordshire
+  description: A 16th-century Oxfordshire inn brimming with boutique style
+  description-long: A boutique country hotel in Oxfordshire, with charming rooms and a gastropub-style restaurant – includes breakfast and three-course dinner
   description-list: >
-    <li>The charming location and pretty coastal views</li>
-    <li>Dining in the award-winning restaurant, which champions locally sourced food</li>
-    <li>Being close to famous attractions like The Eden Project, The National Maritime Museum and St Ives</li>
-  price: 134
+    <li>Exploring your beautiful green surrounds, making for the quintessential country escape</li>
+    <li>Relaxing in the seclusion and peace offered by the bedrooms </li>
+    <li>Tucking in to English country dining with a South African twist</li>
+  price: 99
   price-description: per room per night
-  saved: 41
-  expires: 2018/02/07
-  link: https://www.secretescapes.com/the-lugger-hotel-portloe-cornwall/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+  saved: 58
+  expires: 2018/02/14
+  link: https://www.secretescapes.com/the-crown-inn-playhatch-oxfordshire/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 
 ################################################################################
   # Game offer - A lavish spa break in the UK
 ################################################################################
-
 - category: staycations
-  title: Champneys Forest Mere
-  id: champneys-forest-mere
-  location: Liphook, Hampshire
-  description: A luxe Champneys spa break in the Hampshire countryside
-  description-long: An idyllic Champneys resort set within the South Downs National Park, including healthy meals and a thalassotherapy treatment
+  title: Lainston House
+  id: lainston-house
+  location: Sparsholt, Winchester
+  description: Five-star Winchester country house with stellar dining
+  description-long: A five-star Winchester country house with a raved-about restaurant and beautiful grounds – includes optional dinner
   description-list: >
-    <li>Disconnecting thanks to the dependable tranquillity of a Champneys spa break</li>
-    <li>Wandering the beautiful and peaceful grounds that form this historic estate</li>
-    <li>Enjoying guilt-free delicacies that are healthy, plentiful and absolutely delicious</li>
-    <li>Tuning out with a relaxing thalassotherapy treatment</li>
-  price: 214
-  price-description: per room per night
-  saved: 54
-  expires: 2018/02/07
-  link: https://www.secretescapes.com/champneys-forest-mere-liphook-hampshire/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+    <li>Exploring the 63 acres of parkland before cosying up with a hot toddy or two</li>
+    <li>Treating yourself to dinner at the acclaimed Avenue Restaurant</li>
+    <li>Taking a trip out to Winchester, Salisbury or Stonehenge</li>
+  price: 185
+  price-description: per suite per night
+  saved: 43
+  expires: 2018/02/14
+  link: https://www.secretescapes.com/lainston-house-sparsholt-winchester/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Feb2018
 
 
 ################################################################################
   # Normal Offers
 ################################################################################
-
-- category: staycations
-  title: The Ickworth Hotel
-  id: the-ickworth-hotel
-  location: Bury St Edmunds, Suffolk
-  description: A stately Suffolk retreat brimming with grandeur
-  price: 139
-  price-description: per room per night
-  saved: 40
-  expires: 2018/02/07
-  link: https://www.secretescapes.com/the-ickworth-hotel-bury-st-edmunds-suffolk/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
-
-- category: staycations
-  title: De Vere Latimer Estate
-  id: de-vere-latimer-estate
-  location: Chesham, Buckinghamshire
-  description: A completely refurbished country mansion in Bucks
-  price: 139
-  price-description: per room per night
-  saved: 45
-  expires: 2018/02/07
-  link: https://www.secretescapes.com/de-vere-latimer-estate-chesham-buckinghamshire/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
-
-- category: staycations
-  title: Belsfield Hotel
-  id: belsfield-hotel
-  location: Bowness-on-Windermere, Lake District
-  description: A grand Laura Ashley-owned Lake District hotel
-  price: 129
-  price-description: per room per night
-  saved: 41
-  expires: 2018/02/07
-  link: https://www.secretescapes.com/belsfield-hotel-bowness-on-windermere-lake-district/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 - category: staycations
   title: Merchants Manor
@@ -541,7 +505,7 @@
   price: 85
   price-description: per room per night
   saved: 56
-  expires: 2018/02/07
+  expires: 2018/02/14
   link: https://www.secretescapes.com/merchants-manor-falmouth-cornwall/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 - category: staycations
@@ -552,7 +516,7 @@
   price: 109
   price-description: per room per night
   saved: 61
-  expires: 2018/02/07
+  expires: 2018/02/14
   link: https://www.secretescapes.com/macdonald-bear-hotel-woodstock-cotswolds/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 - category: staycations
@@ -563,19 +527,8 @@
   price: 89
   price-description: per room per night
   saved: 60
-  expires: 2018/02/07
+  expires: 2018/02/14
   link: https://www.secretescapes.com/the-gannet-inn-carbis-bay-cornwall/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
-
-- category: staycations
-  title: The Crown Inn
-  id: the-crown-inn
-  location: Playhatch, Oxfordshire
-  description: A 16th-century Oxfordshire inn brimming with boutique style
-  price: 99
-  price-description: per room per night
-  saved: 58
-  expires: 2018/02/07
-  link: https://www.secretescapes.com/the-crown-inn-playhatch-oxfordshire/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 - category: staycations
   title: The Packhorse Inn
@@ -585,7 +538,7 @@
   price: 119
   price-description: per room per night
   saved: 58
-  expires: 2018/02/07
+  expires: 2018/02/14
   link: https://www.secretescapes.com/the-packhorse-inn-moulton-suffolk/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 - category: staycations
@@ -596,8 +549,52 @@
   price: 149
   price-description: per room per night
   saved: 33
-  expires: 2018/02/07
+  expires: 2018/02/14
   link: https://www.secretescapes.com/the-norfolk-mead-hotel-norwich-norfolk/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
+
+- category: staycations
+  title: Barnett Hill Country House Hotel
+  id: barnett-hill-country-house-hotel
+  location: Guildford, Surrey
+  description: A Surrey country house with double AA Rosette dining
+  price: 99
+  price-description: per room per night
+  saved: 46
+  expires: 2018/02/14
+  link: https://www.secretescapes.com/barnett-hill-country-house-hotel-guildford-surrey/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Feb2018
+
+- category: staycations
+  title: Beechfield House
+  id: beechfield-house
+  location: Beanacre, Wiltshire
+  description: An award-winning English country escape near Bath
+  price: 89
+  price-description: per room per night
+  saved: 63
+  expires: 2018/02/14
+  link: https://www.secretescapes.com/beechfield-house-beanacre-wiltshire/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Feb2018
+
+- category: staycations
+  title: Taplow House Hotel
+  id: taplow-house-hotel
+  location: Taplow, Buckinghamshire
+  description: Rural charm at a boutique Georgian hotel near Windsor
+  price: 149
+  price-description: per room per night
+  saved: 44
+  expires: 2018/02/14
+  link: https://www.secretescapes.com/taplow-house-hotel-taplow-buckinghamshire/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Feb2018
+
+- category: staycations
+  title: Grayshott Health Spa
+  id: grayshott-health-spa
+  location: Grayshott, Surrey
+  description: Classes, meals and spa at a world-class Surrey spa resort
+  price: 239
+  price-description: per room per night
+  saved: 51
+  expires: 2018/02/14
+  link: https://www.secretescapes.com/grayshott-health-spa-grayshott-surrey/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Feb2018
 
 
 
