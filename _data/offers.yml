@@ -113,17 +113,6 @@
 ################################################################################
 
 - category: city-breaks
-  title: Mondrian London at Sea Containers
-  id: mondrian-london-at-sea-containers
-  location: South Bank, Central London
-  description: A luxe design-led London hotel on the Thames riverbank
-  price: 165
-  price-description: per person per night
-  saved: 24
-  expires: 2018/02/14
-  link: https://www.secretescapes.com/mondrian-london-at-sea-containers-south-bank-central-london/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
-
-- category: city-breaks
   title: The Gregory
   id: the-gregory
   location: Midtown, New York
@@ -221,6 +210,20 @@
   saved: 67
   expires: 2018/02/20
   link: https://www.secretescapes.com/romanico-palace-hotel-and-spa-rome-italy147/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Feb2018
+
+- category: city-breaks
+  title: The Hoxton, Shoreditch
+  id: the-hoxton-shoreditch
+  location: Shoreditch, East London
+  description: A hip Hoxton hotel in the heart of London's Shoreditch
+  price: 69
+  price-description: per room per night
+  saved: 37
+  expires: 2018/02/21
+  link: https://www.secretescapes.com/the-hoxton-shoreditch-shoreditch-east-london/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Feb2018
+
+
+
 
 
 
@@ -428,7 +431,7 @@
   price: 99
   price-description: per room per night
   saved: 48
-  expires: 2018/02/14
+  expires: 2018/02/21
   link: https://www.secretescapes.com/de-vere-cotswold-water-park-near-cirencester-cotswolds/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 ################################################################################
@@ -447,7 +450,7 @@
   price: 99
   price-description: per room per night
   saved: 58
-  expires: 2018/02/14
+  expires: 2018/02/21
   link: https://www.secretescapes.com/the-crown-inn-playhatch-oxfordshire/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 
@@ -476,28 +479,6 @@
 ################################################################################
 
 - category: staycations
-  title: Merchants Manor
-  id: merchants-manor
-  location: Falmouth, Cornwall
-  description: A Falmouth spa hotel in a former merchant’s abode
-  price: 85
-  price-description: per room per night
-  saved: 56
-  expires: 2018/02/14
-  link: https://www.secretescapes.com/merchants-manor-falmouth-cornwall/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
-
-- category: staycations
-  title: Macdonald Bear Hotel
-  id: macdonald-bear-hotel
-  location: Woodstock, Cotswolds
-  description: A stylish boutique coaching inn within the Oxfordshire Cotswolds
-  price: 109
-  price-description: per room per night
-  saved: 61
-  expires: 2018/02/14
-  link: https://www.secretescapes.com/macdonald-bear-hotel-woodstock-cotswolds/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
-
-- category: staycations
   title: The Gannet Inn
   id: the-gannet-inn
   location: Carbis Bay, Cornwall
@@ -505,19 +486,8 @@
   price: 89
   price-description: per room per night
   saved: 60
-  expires: 2018/02/14
+  expires: 2018/02/17
   link: https://www.secretescapes.com/the-gannet-inn-carbis-bay-cornwall/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
-
-- category: staycations
-  title: The Packhorse Inn
-  id: the-packhorse-inn
-  location: Moulton, Suffolk
-  description: A five-star stay in Suffolk's serene countryside
-  price: 119
-  price-description: per room per night
-  saved: 58
-  expires: 2018/02/14
-  link: https://www.secretescapes.com/the-packhorse-inn-moulton-suffolk/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
 
 - category: staycations
   title: The Norfolk Mead Hotel
@@ -527,30 +497,8 @@
   price: 149
   price-description: per room per night
   saved: 33
-  expires: 2018/02/14
+  expires: 2018/02/21
   link: https://www.secretescapes.com/the-norfolk-mead-hotel-norwich-norfolk/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Jan2018
-
-- category: staycations
-  title: Barnett Hill Country House Hotel
-  id: barnett-hill-country-house-hotel
-  location: Guildford, Surrey
-  description: A Surrey country house with double AA Rosette dining
-  price: 99
-  price-description: per room per night
-  saved: 46
-  expires: 2018/02/14
-  link: https://www.secretescapes.com/barnett-hill-country-house-hotel-guildford-surrey/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Feb2018
-
-- category: staycations
-  title: Beechfield House
-  id: beechfield-house
-  location: Beanacre, Wiltshire
-  description: An award-winning English country escape near Bath
-  price: 89
-  price-description: per room per night
-  saved: 63
-  expires: 2018/02/14
-  link: https://www.secretescapes.com/beechfield-house-beanacre-wiltshire/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Feb2018
 
 - category: staycations
   title: Taplow House Hotel
@@ -560,7 +508,7 @@
   price: 149
   price-description: per room per night
   saved: 44
-  expires: 2018/02/14
+  expires: 2018/02/21
   link: https://www.secretescapes.com/taplow-house-hotel-taplow-buckinghamshire/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Feb2018
 
 - category: staycations
@@ -571,8 +519,63 @@
   price: 239
   price-description: per room per night
   saved: 51
-  expires: 2018/02/14
+  expires: 2018/02/21
   link: https://www.secretescapes.com/grayshott-health-spa-grayshott-surrey/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Feb2018
+
+- category: staycations
+  title: Stapleford Park
+  id: stapleford-park
+  location: Stapleford, Leicestershire
+  description: Award-winning spa and dining, plus championship golf in Leicestershire
+  price: 149
+  price-description: per room per night
+  saved: 59
+  expires: 2018/02/21
+  link: https://www.secretescapes.com/stapleford-park-stapleford-leicestershire/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Feb2018
+
+- category: staycations
+  title: The Beach at Bude
+  id: the-beach-at-bude
+  location: Bude, Cornwall
+  description: An acclaimed Cornish beachfront hotel for foodies
+  price: 189
+  price-description: per room per night
+  saved: 46
+  expires: 2018/02/21
+  link: https://www.secretescapes.com/the-beach-at-bude-bude-cornwall/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Feb2018
+
+- category: staycations
+  title: No Man's Fort
+  id: no-man-s-fort
+  location: Portsmouth, Hampshire
+  description: Stay in a converted Solent sea fort with top dining
+  price: 299
+  price-description: per room per night
+  saved: 42
+  expires: 2018/02/21
+  link: https://www.secretescapes.com/no-mans-fort-portsmouth-hampshire/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Feb2018
+
+- category: staycations
+  title: The Imperial Torquay
+  id: the-imperial-torquay
+  location: Torquay, Devon
+  description: A clifftop Victorian hotel overlooking the sea in Devon
+  price: 90
+  price-description: per room per night
+  saved: 54
+  expires: 2018/02/21
+  link: https://www.secretescapes.com/the-imperial-torquay-devon/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Feb2018
+
+- category: staycations
+  title: Stanwell House
+  id: stanwell-house
+  location: Lymington, Hampshire
+  description: A coastal boutique hotel in Lymington, near the New Forest
+  price: 89
+  price-description: per room per night
+  saved: 50
+  expires: 2018/02/21
+  link: https://www.secretescapes.com/stanwell-house-lymington-hampshire/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=AMEX_Feb2018
 
 
 
